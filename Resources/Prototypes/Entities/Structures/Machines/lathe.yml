@@ -602,6 +602,8 @@
     # Goobstation Packs
     - SharedBoards
     - ShuttleBoardsGoob
+    # Delta V Addition
+    - AdvancedMicrowaveMachineCircuitBoard
   - type: MaterialStorage
     whitelist:
       tags:
