@@ -1,0 +1,313 @@
+﻿# Head of Security
+
+- type: selectableSet
+  id: EnergyRevolverSet
+  name: EG-4 Energy Revolver Set
+  description: Includes an awesome energy revolver. Yeehaw, criminals!
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
+    state: icon
+  content:
+  - ClothingBeltHolsterFilledBlueshield
+  - ClothingHeadHatCowboyBountyHunter
+
+- type: selectableSet
+  id: MultiphaseSet
+  name: X-01 Multiphase Set
+  description: Includes a powerful energy pistol with three firemodes. Use it wisely.
+  sprite:
+    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
+    state: icon
+  content:
+  - WeaponEnergyGunMultiphase
+
+- type: selectableSet
+  id: LawbringerSet
+  name: Lawbringer Set
+  description: Includes the lawbringer, a marvel of criminal-stopping technology.
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
+    state: icon
+  content:
+  - WeaponEnergyGunLawbringer
+
+- type: selectableSet
+  id: NonlethalLauncherSet
+  name: GL-06 Riot Grenade Launcher Set
+  description: Includes a GL-06 grenade launcher and 40mm flash shells to supply it. An expert at crowd dispersion.
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Launchers/riotlauncher.rsi
+    state: base
+  content:
+  - WeaponLauncherNonLethal
+  - BoxGrenadesFlash
+
+# Warden
+
+- type: selectableSet
+  id: WardenEshotgunSet
+  name: Energy Shotgun Set
+  description: Contains a self-recharging energy shotgun with multiple firemodes.
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    state: icon
+  content:
+  - WeaponEnergyShotgun
+
+- type: selectableSet
+  id: KravMagaSet
+  name: Krav Maga Gloves Set
+  description: Contains gloves that let the user use krav maga, a powerful martial art. Gloves are not insulated.
+  sprite:
+    sprite: _Goobstation/Clothing/Hands/Gloves/kravgloves.rsi
+    state: icon
+  content:
+  - ClothingHandsGlovesKravMaga
+
+# Research Director
+
+- type: selectableSet
+  id: RDTeleporterKit
+  name: Handheld Teleporter Set
+  description: Includes a handheld teleporter capable of setting up two portals that allow travel between them.
+  sprite:
+    sprite: Objects/Devices/hand_teleporter.rsi
+    state: icon
+  content:
+  - HandTeleporter
+
+- type: selectableSet
+  id: RDGeminiKit
+  name: AX-32 Gemini Projector Set
+  description: Includes a gemini projector, which can produce a holographic clone to carry out your bidding.
+  sprite:
+    sprite: _Goobstation/Clothing/Belt/geminiprojector.rsi
+    state: icon
+  content:
+  - ClothingBeltGeminiHoloProjector
+
+- type: selectableSet
+  id: RDAnomKit
+  name: Anomaly Hunter Set
+  description: Includes a C.H.I.M.P Handcannon, turbo recharger, and anomaly scanner.
+  sprite:
+    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
+    state: base
+  content:
+  - WeaponPistolCHIMP
+  - AnomalyScanner
+  - TurboItemRechargerCircuitboard
+
+# Head of Personnel
+
+- type: selectableSet
+  id: HOPBotanySet
+  name: HOP Botany kit
+  description: Includes some exotic seeds and a cute straw hat.
+  sprite:
+    sprite: Clothing/Head/Hats/straw_hat.rsi
+    state: icon
+  content:
+  - CrateHydroponicsSeedsExotic
+  - ClothingHeadHatStrawHat
+  - HydroponicsTrayFlatpack
+  - HydroponicsTrayFlatpack
+
+- type: selectableSet
+  id: HOPMusicianSet
+  name: HOP Musician kit
+  description: Includes some instruments and a VERY nice coat, that is DEFINITELY real.
+  sprite:
+    sprite: Objects/Fun/Instruments/h_synthesizer.rsi
+    state: icon
+  content:
+  - ClothingOuterCoatMusicianFurCoat
+  - SaxophoneInstrument
+  - TrumpetInstrument
+  - ViolinInstrument
+  - SynthesizerInstrument
+  - HarmonicaInstrument
+
+- type: selectableSet
+  id: HOPIanSet
+  name: Ian Lover Set
+  description: Contains everything an aspiring HOP needs to worship the almighty Ian.
+  sprite:
+    sprite: Mobs/Pets/corgi.rsi
+    state: ian
+  content:
+  - ClothingOuterSuitIan
+  - ToyIan
+  - ClothingBackpackIan
+  - BedsheetIan
+
+- type: selectableSet
+  id: HOPClownSet
+  name: Clowning Kit
+  description: All the necessary clowning gear. This unfortunately does not relieve you of your duties.
+  sprite:
+    sprite: Clothing/Mask/clown.rsi
+    state: icon
+  content:
+  - ClothingMaskClown
+  - ClothingShoesClown
+  - BikeHorn
+  - FoodPieBananaCream
+  - FoodPieBananaCream
+  - FoodPieBananaCream
+
+# Chief Engineer
+
+- type: selectableSet
+  id: CERCDKit
+  name: Experimental RCD Kit
+  description: Includes an experimental RCD that recharges over time.
+  sprite:
+    sprite: Objects/Tools/rcd.rsi
+    state: icon
+  content:
+  - RCDRechargingCE
+
+- type: selectableSet
+  id: CENailgunKit
+  name: Tider Defense Kit
+  description: Includes a nailgun, some nails, and an armored hardhat to fend off the inevitable hoards of assistants.
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Nailgun/nailgun.rsi
+    state: icon
+  content:
+  - WeaponNailgun
+  - MagazineNailgun
+  - MagazineNailgun
+  - ClothingHeadHatHardhatArmored
+
+- type: selectableSet
+  id: SingoBusterCEKit
+  name: Singularity Buster Kit
+  description: Includes a singularity buster rocket launcher in case something goes wrong. Which it shouldn't.
+  sprite:
+    sprite: Objects/Weapons/Guns/Launchers/buster_rocket.rsi
+    state: base
+  content:
+  - WeaponLauncherSingularityBuster
+  - CartridgeRocketSingularityBuster
+  - CartridgeRocketSingularityBuster
+
+# Chief Medical Officer
+
+- type: selectableSet
+  id: CMOHypoKit
+  name: Hypospray Kit
+  description: Includes a hypospray that can administer medicine very quickly. This is the choice of many CMOs.
+  sprite:
+    sprite: Objects/Specific/Medical/hypospray.rsi
+    state: hypo
+  content:
+  - Hypospray
+
+- type: selectableSet
+  id: CMOSyringeGunKit
+  name: Rapid Syringe Gun Kit
+  description: Includes a rapid syringe gun and box of pax syringes.
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Cannons/rapid_syringe_gun.rsi
+    state: icon
+  content:
+  - RapidSyringeGun
+  - BoxSyringePax
+
+- type: selectableSet
+  id: CMOCloningKit
+  name: Cloning Equipment Kit
+  description: Includes everything you need to set up a cloning system.
+  sprite:
+    sprite: Structures/Machines/cloning.rsi
+    state: pod_0
+  content:
+  - BiomassReclaimerFlatpack
+  - CloningpodFlatpack
+  - ComputerCloningConsoleFlatpack
+  - MedicalScannerFlatpack
+  - Multitool
+  - MaterialBiomass
+
+# Quartermaster
+
+- type: selectableSet
+  id: QMKnuckleDusterKit
+  name: Knuckleduster Kit
+  description: Includes some knuckledusters to "encourage" trespassers to leave.
+  sprite:
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
+    state: goldenknuckleduster
+  content:
+  - ClothingHandsKnuckleDustersQM
+
+- type: selectableSet
+  id: QMHardsuitKit
+  name: Luxury Hardsuit Kit
+  description: Includes Nanotrasen's MOST comfortable hardsuit.
+  sprite:
+    sprite: Clothing/Head/Hardsuits/luxury.rsi
+    state: icon
+  content:
+  - ClothingOuterHardsuitLuxury
+  - OxygenTankFilled
+
+- type: selectableSet
+  id: QMGamblingKit
+  name: Gambler's Kit
+  description: Includes a slot machine, claw machine, and coin flipper. Just one more spin..
+  sprite:
+    sprite: _Goobstation/Structures/Machines/slotmachines/slotmachine.rsi
+    state: slotmachine
+  content:
+  - ClawMachineFlatPack
+  - SlotMachineFlatpack
+  - CoinFlipperFlatPack
+
+- type: selectableSet
+  id: QMShittleKit
+  name: Spare Shuttle Parts Kit
+  description: Includes 4 thrusters, a gyroscope, a shuttle console, and means to set up power. Shittles are not covered by nanotrasen insurance.
+  sprite:
+    sprite: Structures/Shuttles/thruster.rsi
+    state: base
+  content:
+  - ThrusterFlatpack
+  - ThrusterFlatpack
+  - ThrusterFlatpack
+  - ThrusterFlatpack
+  - ShuttleConsoleCircuitboard
+  - GyroscopeFlatpack
+  - WallmountGeneratorElectronics
+  - WallmountSubstationElectronics
+
+
+
+# Captain
+
+- type: selectableSet
+  id: AntiqueLaserSet
+  name: Antique Laser Set
+  description: Includes an antique laser pistol and fancy sabre. The classic.
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    state: icon
+  content:
+  - WeaponAntiqueLaser
+  - ClothingBeltSheathFilled
+
+- type: selectableSet
+  id: CaneBladeSet
+  name: Diplomacy Set
+  description: Includes a disguised cane blade and some lollypops to boost negotiations.
+  sprite:
+    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    state: icon
+  content:
+  - CaneSheathFilledNanotrasen
+  - FoodSnackLollypopWrappedCaptain
+  - FoodSnackLollypopWrappedCaptain
+  - FoodSnackLollypopWrappedCaptain
+  - FoodSnackLollypopWrappedCaptain

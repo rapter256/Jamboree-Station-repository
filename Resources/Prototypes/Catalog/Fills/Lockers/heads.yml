@@ -170,10 +170,11 @@
     - id: AstroNavCartridge
     - id: CargoTechFabCircuitboard # Goobstation - Cargo Techfab
     - id: MailTeleporterMachineCircuitboard # GoobStation port of DeltaV mail
-    - id: ClothingHandsKnuckleDustersQM # Goobstation - ROCK THAT MF!!
+#    - id: ClothingHandsKnuckleDustersQM # jamboree - available in gear selector
     - id: SalvageJobBoardComputerCircuitboard # Goobstation - This doesn't really have a use right now but it's there incase it ever gets use again
     - id: CargoMegaphone # goob - loudspeaker
     - id: SlotMachineHighRollerFlatPack # Goob - gambling
+    - id: QMUndeterminedWeapon # jamboree set selector
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -193,7 +194,7 @@
     - id: CaptainIDCard
     - id: CigarGoldCase
       prob: 0.25
-    - id: ClothingBeltSheathFilled
+#    - id: ClothingBeltSheathFilled # jamboree - available in gear selector
     - id: ClothingHeadsetAltCommand
     - id: ClothingOuterArmorCaptainCarapace
     - id: CommsComputerCircuitboard
@@ -207,6 +208,7 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
+    - id: CaptainUndeterminedWeapon
     - id: CommandMegaphone # Jamboree, cause why cap no get loud?
     - id: HeadSkeleton # A skull to accompany your skeleton crew
       conditions:
@@ -220,7 +222,7 @@
     children:
     - !type:NestedSelector
       tableId: LockerFillCaptainNoLaser
-    - id: WeaponAntiqueLaser
+#    - id: WeaponAntiqueLaser # jamboree - available in gear selector
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -284,8 +286,8 @@
       prob: 0.25
       # Fuck the HoP they don't deserve fucking cigars.
       # Yes they do fuck you.
-    - id: ClothingBackpackIan
-      prob: 0.5
+#    - id: ClothingBackpackIan # jamboree - available in gear selector
+#      prob: 0.5
     - id: ClothingHeadsetAltCommand # Goobstation
     - id: ClothingNeckGoldmedal
     - id: DoorRemoteService
@@ -297,6 +299,7 @@
     - id: RubberStampDenied
     - id: RubberStampHop
     - id: WeaponDisabler
+    - id: HOPUndeterminedWeapon
     - id: ClothingEyesHudCommand
     - id: ServiceTechFabCircuitboard # Goobstation - Service Techfab
     - id: CommandMegaphone # goob - loudspeakers
@@ -323,10 +326,11 @@
     - id: ClothingBeltChiefEngineerFilled
     - id: ClothingEyesGlassesMeson
     - id: ClothingHandsGlovesColorYellow
+    - id: CEUndeterminedWeapon
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
     - id: CargoRequestEngineeringComputerCircuitboard
-    # - id: RCD # Goobstation
+    - id: RCD
     - id: RCDAmmo
     - id: RPD
     - id: RCDAmmo
@@ -335,11 +339,11 @@
     # Goobstation V
     - id: BaseHandheldStationMapPowerCe
     - id: EngineeringTechFabCircuitboard
-    - id: CartridgeRocketSingularityBuster
-    - id: CartridgeRocketSingularityBuster
-    - id: WeaponLauncherSingularityBuster
+#    - id: CartridgeRocketSingularityBuster # jamboree - available in gear selector
+#    - id: CartridgeRocketSingularityBuster # jamboree - available in gear selector
+#    - id: WeaponLauncherSingularityBuster # jamboree - available in gear selector
     - id: MachinePowerTransmissionLaserFlatpack
-    - id: RCDRechargingCE
+#    - id: RCDRechargingCE # jamboree - available in gear selector
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -391,23 +395,24 @@
     - id: ClothingHandsGlovesNitrile
     - id: ClothingHeadHatBeretCmo
     - id: ClothingHeadsetAltMedical
+    - id: CMOUndeterminedWeapon
     - id: ClothingMaskSterile
     - id: DoorRemoteMedical
     # - id: HandheldCrewMonitor # Goobstation - in webbing
-    - id: Hypospray
+#    - id: Hypospray # jamboree - available in gear selector
     - id: MedicalTechFabCircuitboard
     - id: ComputerCargoRequestMedicalFlatpack # Goobstation
     - id: MedkitFilled
     - id: RubberStampCMO
     # Goobstation Start
-    - id: CloningpodFlatpack
-    - id: MedicalScannerFlatpack
-    - id: ComputerCloningConsoleFlatpack
-    - id: BiomassReclaimerFlatpack
-    - id: Multitool
+#    - id: CloningpodFlatpack # jamboree - available in gear selector
+#    - id: MedicalScannerFlatpack # jamboree - available in gear selector
+#    - id: ComputerCloningConsoleFlatpack # jamboree - available in gear selector
+#    - id: BiomassReclaimerFlatpack # jamboree - available in gear selector
+#    - id: Multitool # jamboree - available in gear selector
     - id: MedTekCartridge
-    - id: RapidSyringeGun
-    - id: BoxSyringePax
+#    - id: RapidSyringeGun # jamboree - available in gear selector
+#    - id: BoxSyringePax # jamboree - available in gear selector
     - id: ClothingBeltMilitaryWebbingCMOFilled
     - id: ClothingBackpackDuffelSurgeryFilled
     # Shitmed
@@ -461,7 +466,8 @@
     - id: ClothingBeltUtilityFilled
     - id: ClothingHeadsetAltScience
     - id: DoorRemoteResearch
-    - id: HandTeleporter
+    - id: RDUndeterminedWeapon
+#    - id: HandTeleporter # jamboree - available in gear selector
     #- id: ProtolatheMachineCircuitboard # Goobstation - Science Techfab
     - id: ResearchComputerCircuitboard
     - id: ComputerCargoRequestScienceFlatpack # Goobstation
@@ -471,7 +477,7 @@
     - id: CigarCase
       prob: 0.15 # GoobStation - RD needs cigs for uhh... science...
     - id: ScienceTechFabCircuitboard # Goobstation - Science Techfab
-    - id: ClothingBeltGeminiHoloProjector # Goobstation - Who better to do science with than yourself?
+#    - id: ClothingBeltGeminiHoloProjector # jamboree - available in gear selector
     - id: MMI # Goobstation
 
 # Hardsuit table, used for suit storage as well
@@ -525,6 +531,7 @@
     - id: ClothingHeadsetAltSecurity
     - id: ClothingMaskNeckGaiter
     - id: ClothingOuterCoatHoSTrench
+    - id: HOSUndeterminedWeapon
     - id: ClothingShoesBootsJack
     - id: DoorRemoteSecurity
     - id: HoloprojectorSecurity

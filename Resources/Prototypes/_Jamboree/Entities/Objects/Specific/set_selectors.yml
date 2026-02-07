@@ -1,0 +1,145 @@
+﻿# Captain
+
+- type: entity
+  id: CaptainUndeterminedWeapon
+  name: captain sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/captainundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - AntiqueLaserSet
+    - CaneBladeSet
+    maxSelectedSets: 1
+
+# Head of Security
+
+- type: entity
+  id: HOSUndeterminedWeapon
+  name: head of security sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/HOSundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - EnergyRevolverSet
+    - MultiphaseSet
+    - LawbringerSet
+    - NonlethalLauncherSet
+    maxSelectedSets: 1
+
+# Chief Medical Officer
+
+- type: entity
+  id: CMOUndeterminedWeapon
+  name: chief medical officer sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/CMOundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - CMOHypoKit
+    - CMOSyringeGunKit
+    - CMOCloningKit
+    maxSelectedSets: 2
+
+# Quartermaster
+
+- type: entity
+  id: QMUndeterminedWeapon
+  name: quartermaster sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/QMundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - QMKnuckleDusterKit
+    - QMHardsuitKit
+    - QMGamblingKit
+    - QMShittleKit
+    maxSelectedSets: 1
+
+#  Chief Engineer
+
+- type: entity
+  id: CEUndeterminedWeapon
+  name: chief engineer sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/CEundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - CERCDKit
+    - CENailgunKit
+    - SingoBusterCEKit
+    maxSelectedSets: 2
+
+# Research Director
+
+- type: entity
+  id: RDUndeterminedWeapon
+  name: research director sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/RDundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - RDTeleporterKit
+    - RDGeminiKit
+    - RDAnomKit
+    maxSelectedSets: 1
+
+# Head of Personnel
+
+- type: entity
+  id: HOPUndeterminedWeapon
+  name: head of personnel sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/HOPundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - HOPBotanySet
+    - HOPMusicianSet
+    - HOPIanSet
+    - HOPClownSet
+    maxSelectedSets: 1
+
+# Warden
+
+- type: entity
+  id: WardenUndeterminedWeapon
+  name: warden sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Security/wardenundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - WardenEshotgunSet
+    - KravMagaSet
+    maxSelectedSets: 1
+
