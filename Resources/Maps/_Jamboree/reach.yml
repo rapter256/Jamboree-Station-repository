@@ -16606,16 +16606,7 @@ entities:
     - type: Transform
       pos: 25.5,2.5
       parent: 2
-- proto: WeaponEnergyGunLawbringer
-  entities:
-  - uid: 2455
-    components:
-    - type: Transform
-      pos: 18.57877,-2.4324293
-      parent: 2
-    - type: ActiveListener
-      range: 2
-- proto: WeaponEnergyShotgun
+- proto: WardenUndeterminedWeapon
   entities:
   - uid: 2456
     components:
