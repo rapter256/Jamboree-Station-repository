@@ -37920,14 +37920,6 @@ entities:
     - type: Transform
       pos: -6.5,20.5
       parent: 2
-- proto: GlassBoxLawbringerFilled
-  entities:
-  - uid: 5631
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.5,22.5
-      parent: 2
 - proto: GravityGenerator
   entities:
   - uid: 5632

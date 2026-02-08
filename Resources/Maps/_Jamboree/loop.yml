@@ -70306,21 +70306,6 @@ entities:
     - type: Transform
       pos: -80.5,72.5
       parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 10491
-    components:
-    - type: Transform
-      pos: -16.5,70.5
-      parent: 2
-- proto: GlassBoxLawbringerFilled
-  entities:
-  - uid: 10492
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -38.5,40.5
-      parent: 2
 - proto: GravityGenerator
   entities:
   - uid: 10493
