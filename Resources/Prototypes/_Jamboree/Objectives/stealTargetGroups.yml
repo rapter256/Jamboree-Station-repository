@@ -27,15 +27,15 @@
     state: icon
 
 - type: stealTargetGroup
-  id: steal-target-groups-HOS
-  name: lawbringer, EG-04 equalizer, X-01 multiphase, or GL-06 riot grenade launcher
+  id: HOS
+  name: steal-target-groups-HOS
   sprite:
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
     state: icon
 
 - type: stealTargetGroup
-  id: steal-target-groups-Warden
-  name: krav maga gloves or energy shotgun
+  id: Warden
+  name: steal-target-groups-Warden
   sprite:
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
     state: icon
