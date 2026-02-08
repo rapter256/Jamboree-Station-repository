@@ -1,40 +1,40 @@
 ﻿- type: stealTargetGroup
   id: CMO
-  name: hypospray or rapid syringe gun
+  name: steal-target-groups-CMO
   sprite:
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/rapid_syringe_gun.rsi
     state: icon
 
 - type: stealTargetGroup
   id: RD
-  name: hand teleporter or AX-32 "Gemini" holoprojector
+  name: steal-target-groups-RD
   sprite:
     sprite: Objects/Devices/hand_teleporter.rsi
     state: icon
 
 - type: stealTargetGroup
   id: QM
-  name: engraved knuckle dusters
+  name: steal-target-groups-QM
   sprite:
     sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: goldenknuckleduster
 
 - type: stealTargetGroup
   id: Captain
-  name: cane blade or antique laser pistol
+  name: steal-target-groups-Captain
   sprite:
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
     state: icon
 
 - type: stealTargetGroup
-  id: HOS
+  id: steal-target-groups-HOS
   name: lawbringer, EG-04 equalizer, X-01 multiphase, or GL-06 riot grenade launcher
   sprite:
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
     state: icon
 
 - type: stealTargetGroup
-  id: Warden
+  id: steal-target-groups-Warden
   name: krav maga gloves or energy shotgun
   sprite:
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
