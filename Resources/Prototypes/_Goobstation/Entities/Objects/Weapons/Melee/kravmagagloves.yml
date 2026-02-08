@@ -28,3 +28,5 @@
   - type: GuideHelp
     guides:
     - KravMaga
+  - type: StealTarget
+    stealGroup: Warden

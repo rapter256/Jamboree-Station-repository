@@ -20,10 +20,10 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 65
-    attackRate: 1.25
+    attackRate: 1.35
     damage:
       types:
-        Slash: 10
+        Slash: 15
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -34,6 +34,8 @@
       - CaneBlade
   - type: DisarmMalus
   - type: Execution
+  - type: StealTarget
+    stealGroup: Captain
 
 - type: entity
   id: CaneSheathFilledNanotrasen

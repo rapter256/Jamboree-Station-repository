@@ -1,0 +1,58 @@
+﻿- type: entity
+  parent: BaseCMOStealObjective
+  id: CMOGeneralStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: CMO
+  - type: Objective
+
+- type: entity
+  parent: BaseRDStealObjective
+  id: RDGeneralStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: RD
+
+- type: entity
+  parent: BaseTraitorStealObjective
+  id: WardenGeneralStealObjective
+  components:
+  - type: Objective
+    # Warden will have this on them a lot of the time so..
+    difficulty: 3
+  - type: NotJobRequirement
+    job: Warden # Goob edit
+  - type: StealCondition
+    stealGroup: Warden
+    owner: job-name-warden # Goob edit
+
+- type: entity
+  parent: BaseTraitorStealObjective
+  id: HOSGeneralStealObjective
+  components:
+  - type: Objective
+    # HoS will have this on them a lot of the time so..
+    difficulty: 3
+  - type: NotJobRequirement
+    job: HeadOfSecurity
+  - type: StealCondition
+    stealGroup: HOS
+    owner: job-name-hos
+
+- type: entity
+  parent: BaseTraitorStealObjective
+  id: QMGeneralStealObjective
+  components:
+  - type: NotJobRequirement
+    job: Quartermaster
+  - type: StealCondition
+    stealGroup: QM
+    owner: job-name-qm
+
+- type: entity
+  parent: BaseCaptainObjective
+  id: CaptainGeneralStealObjective
+  components:
+  - type: StealCondition
+    stealGroup: Captain
+    owner: job-name-captain

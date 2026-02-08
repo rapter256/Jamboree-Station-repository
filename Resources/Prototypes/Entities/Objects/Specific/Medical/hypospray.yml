@@ -155,7 +155,7 @@
     tags:
     - HighRiskItem
   - type: StealTarget
-    stealGroup: Hypospray
+    stealGroup: CMO
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 6

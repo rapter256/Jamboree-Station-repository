@@ -33,6 +33,8 @@
         whitelist:
           tags:
             - NonLethalGrenade
+  - type: StealTarget
+    stealGroup: HOS
 
 - type: entity
   name: M172 LAW
