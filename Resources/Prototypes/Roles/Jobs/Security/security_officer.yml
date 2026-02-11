@@ -100,6 +100,9 @@
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  guides: # goobstation
+  - Security
+  - CorporateJudo
   goobcoins: 30 #Goob content
   access:
   - Security

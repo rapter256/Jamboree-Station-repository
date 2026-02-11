@@ -44,10 +44,10 @@
       time: 90000 # 25 hours
     - !type:AgeRequirement
       requiredAge: 21
-    #- !type:SpeciesRequirement # Goob - None Felinid
+    #- !type:SpeciesRequirement # jamboree - fuck specism # Goob - None Felinid
     #  inverted: true
     #  species:
-    #  - Felinid #jamboree- no felinid's in these roles is just... stupid? plus it doesn't make sense for jambo
+      #- Felinid
   goobcoins: 45
   weight: 20
   startingGear: BlueshieldOfficerGear

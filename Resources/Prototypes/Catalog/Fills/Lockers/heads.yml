@@ -410,6 +410,7 @@
 #    - id: ComputerCloningConsoleFlatpack # jamboree - available in gear selector
 #    - id: BiomassReclaimerFlatpack # jamboree - available in gear selector
 #    - id: Multitool # jamboree - available in gear selector
+    - id: ChemistryHotplateFlatPack
     - id: MedTekCartridge
 #    - id: RapidSyringeGun # jamboree - available in gear selector
 #    - id: BoxSyringePax # jamboree - available in gear selector
@@ -417,6 +418,9 @@
     - id: ClothingBackpackDuffelSurgeryFilled
     # Shitmed
     - id: MedicalBiofabricatorFlatpack
+    # Virology
+    - id: DiseaseDiagnoserFlatPack
+    - id: VaccinatorFlatPack
     # Goobstation End
 
 # Hardsuit table, used for suit storage as well
@@ -478,6 +482,7 @@
       prob: 0.15 # GoobStation - RD needs cigs for uhh... science...
     - id: ScienceTechFabCircuitboard # Goobstation - Science Techfab
 #    - id: ClothingBeltGeminiHoloProjector # jamboree - available in gear selector
+    - id: XenobiologyBountyComputerCircuitboard # Goobstation
     - id: MMI # Goobstation
 
 # Hardsuit table, used for suit storage as well
@@ -595,4 +600,3 @@
     - id: SpaceCash1000
     - id: BeachBall
     - id: BikeHorn
-

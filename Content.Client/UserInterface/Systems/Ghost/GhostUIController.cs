@@ -103,7 +103,7 @@ public sealed class GhostUIController : UIController, IOnSystemChanged<GhostSyst
         }
 
         Gui.Visible = _system?.IsGhost ?? false;
-        Gui.Update(_system?.AvailableGhostRoleCount, _system?.Player?.CanReturnToBody, _respawn?.RespawnResetTime, _cfg.GetCVar(NF14CVars.RespawnTime), _system?.Player?.CanEnterGhostBar, _system?.Player?.CanTakeGhostRoles); // Goob edit
+        Gui.Update(_system?.AvailableGhostRoleCount, _system?.Player?.CanReturnToBody, _respawn?.RespawnResetTime, _cfg.GetCVar(NF14CVars.RespawnTime), _system?.Player?.CanTakeGhostRoles); // Goob edit
     }
 
     private void OnPlayerRemoved(GhostComponent component)
@@ -164,8 +164,6 @@ public sealed class GhostUIController : UIController, IOnSystemChanged<GhostSyst
         Gui.RequestWarpsPressed += RequestWarps;
         Gui.ReturnToBodyPressed += ReturnToBody;
         Gui.GhostRolesPressed += GhostRolesPressed;
-        Gui.GhostBarPressed += GhostBarPressed; // Goobstation - Ghost Bar
-        Gui.GhostBarWindow.SpawnButtonPressed += GhostBarSpawnPressed; // Goobstation - Ghost Bar
         Gui.TargetWindow.WarpClicked += OnWarpClicked;
         Gui.TargetWindow.OnGhostnadoClicked += OnGhostnadoClicked;
         Gui.GhostRespawnPressed += GuiOnGhostRespawnPressed;
@@ -186,8 +184,6 @@ public sealed class GhostUIController : UIController, IOnSystemChanged<GhostSyst
         Gui.RequestWarpsPressed -= RequestWarps;
         Gui.ReturnToBodyPressed -= ReturnToBody;
         Gui.GhostRolesPressed -= GhostRolesPressed;
-        Gui.GhostBarPressed -= GhostBarPressed; // Goobstation - Ghost Bar
-        Gui.GhostBarWindow.SpawnButtonPressed -= GhostBarSpawnPressed; // Goobstation - Ghost Bar
         Gui.TargetWindow.WarpClicked -= OnWarpClicked;
 
         Gui.Hide();
@@ -210,19 +206,9 @@ public sealed class GhostUIController : UIController, IOnSystemChanged<GhostSyst
         _system?.OpenGhostRoles();
     }
 
-    private void GhostBarPressed() // Goobstation - Ghost Bar
-    {
-        Gui?.GhostBarWindow.OpenCentered();
-    }
-
     public void OnSystemLoaded(RespawnSystem system)
     {
         system.RespawnReseted += OnRespawnReseted;
-    }
-
-    private void GhostBarSpawnPressed() // Goobstation - Ghost Bar
-    {
-        _system?.GhostBarSpawn();
     }
 
     public void OnSystemUnloaded(RespawnSystem system)

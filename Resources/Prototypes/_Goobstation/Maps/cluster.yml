@@ -35,7 +35,7 @@
   id: Cluster
   mapName: 'Cluster'
   mapPath: /Maps/_Jamboree/cluster.yml # Jamboree
-  minPlayers: 10
+  minPlayers: 5
   maxPlayers: 35
   stations:
     Cluster:
@@ -74,6 +74,7 @@
             Chemist: [ 1, 1 ]
             MedicalDoctor: [ 2, 2 ]
             MedicalIntern: [ 2, 2 ]
+#            Virologist: [ 1, 1 ]  Jamboree TODO: Add spwan
             #science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 3, 3 ]
