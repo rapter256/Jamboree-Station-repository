@@ -121,7 +121,7 @@
   components:
   - type: Contraband
     allowedDepartments: [ Medical ]
-    allowedJobs: [ Brigmedic, BlueshieldOfficer ] # goob
+    allowedJobs: [ Brigmedic ] # Jamboree - was Brigmedic, BlueshieldOfficer
 
 - type: entity
   id: BaseCivilianContraband
