@@ -24,7 +24,7 @@
     tags:
     - HighRiskItem
   - type: StealTarget
-    stealGroup: RD
+    stealGroup: RD # Jamboree - was HandTeleporter
 
 - type: entity
   id: HandTeleporterAdmeme

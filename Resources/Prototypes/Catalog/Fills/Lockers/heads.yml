@@ -174,7 +174,7 @@
     - id: SalvageJobBoardComputerCircuitboard # Goobstation - This doesn't really have a use right now but it's there incase it ever gets use again
     - id: CargoMegaphone # goob - loudspeaker
     - id: SlotMachineHighRollerFlatPack # Goob - gambling
-    - id: QMUndeterminedWeapon # jamboree set selector
+    - id: QMUndeterminedWeapon # Jamboree - command gear selectors
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -208,7 +208,7 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
-    - id: CaptainUndeterminedWeapon
+    - id: CaptainUndeterminedWeapon # Jamboree - command gear selectors
     - id: CommandMegaphone # Jamboree, cause why cap no get loud?
     - id: HeadSkeleton # A skull to accompany your skeleton crew
       conditions:
@@ -299,7 +299,7 @@
     - id: RubberStampDenied
     - id: RubberStampHop
     - id: WeaponDisabler
-    - id: HOPUndeterminedWeapon
+    - id: HOPUndeterminedWeapon # Jamboree - command gear selectors
     - id: ClothingEyesHudCommand
     - id: ServiceTechFabCircuitboard # Goobstation - Service Techfab
     - id: CommandMegaphone # goob - loudspeakers
@@ -326,7 +326,7 @@
     - id: ClothingBeltChiefEngineerFilled
     - id: ClothingEyesGlassesMeson
     - id: ClothingHandsGlovesColorYellow
-    - id: CEUndeterminedWeapon
+    - id: CEUndeterminedWeapon # Jamboree - command gear selectors
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
     - id: CargoRequestEngineeringComputerCircuitboard
@@ -395,7 +395,7 @@
     - id: ClothingHandsGlovesNitrile
     - id: ClothingHeadHatBeretCmo
     - id: ClothingHeadsetAltMedical
-    - id: CMOUndeterminedWeapon
+    - id: CMOUndeterminedWeapon # Jamboree - command gear selectors
     - id: ClothingMaskSterile
     - id: DoorRemoteMedical
     # - id: HandheldCrewMonitor # Goobstation - in webbing
@@ -466,8 +466,8 @@
     - id: ClothingBeltUtilityFilled
     - id: ClothingHeadsetAltScience
     - id: DoorRemoteResearch
-    - id: RDUndeterminedWeapon
-#    - id: HandTeleporter # jamboree - available in gear selector
+    #- id: HandTeleporter # jamboree - available in gear selector
+    - id: RDUndeterminedWeapon # Jamboree - command gear selectors
     #- id: ProtolatheMachineCircuitboard # Goobstation - Science Techfab
     - id: ResearchComputerCircuitboard
     - id: ComputerCargoRequestScienceFlatpack # Goobstation
@@ -531,7 +531,7 @@
     - id: ClothingHeadsetAltSecurity
     - id: ClothingMaskNeckGaiter
     - id: ClothingOuterCoatHoSTrench
-    - id: HOSUndeterminedWeapon
+    - id: HOSUndeterminedWeapon # Jamboree - command gear selectors
     - id: ClothingShoesBootsJack
     - id: DoorRemoteSecurity
     - id: HoloprojectorSecurity

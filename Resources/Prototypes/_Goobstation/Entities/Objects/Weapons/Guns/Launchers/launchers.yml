@@ -33,7 +33,7 @@
         whitelist:
           tags:
             - NonLethalGrenade
-  - type: StealTarget
+  - type: StealTarget # Jamboree - cmd/steal gear tweak
     stealGroup: HOS
 
 - type: entity

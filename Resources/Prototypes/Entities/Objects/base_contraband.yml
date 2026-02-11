@@ -96,7 +96,7 @@
   components:
   - type: Contraband
     allowedDepartments: [ Security ]
-    allowedJobs: [ BlueshieldOfficer ] # Goob - effectively almost a sec member
+#    allowedJobs: [ BlueshieldOfficer ] # Jamboree - BSO disabled
 
 - type: entity
   id: BaseEngineeringContraband

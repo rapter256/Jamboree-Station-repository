@@ -4,7 +4,7 @@
   id: CaptainUndeterminedWeapon
   name: captain sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/captainundetermined.rsi
@@ -21,7 +21,7 @@
   id: HOSUndeterminedWeapon
   name: head of security sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/HOSundetermined.rsi
@@ -40,7 +40,7 @@
   id: CMOUndeterminedWeapon
   name: chief medical officer sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/CMOundetermined.rsi
@@ -58,7 +58,7 @@
   id: QMUndeterminedWeapon
   name: quartermaster sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/QMundetermined.rsi
@@ -77,7 +77,7 @@
   id: CEUndeterminedWeapon
   name: chief engineer sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/CEundetermined.rsi
@@ -95,7 +95,7 @@
   id: RDUndeterminedWeapon
   name: research director sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/RDundetermined.rsi
@@ -113,7 +113,7 @@
   id: HOPUndeterminedWeapon
   name: head of personnel sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Command/HOPundetermined.rsi
@@ -132,7 +132,7 @@
   id: WardenUndeterminedWeapon
   name: warden sets pack
   description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
-  parent: [ BaseItem, BaseSetSelector]
+  parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband]
   components:
   - type: Sprite
     sprite: _Jamboree/Objects/Specific/Security/wardenundetermined.rsi

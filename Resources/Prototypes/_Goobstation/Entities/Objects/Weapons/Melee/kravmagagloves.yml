@@ -28,5 +28,5 @@
   - type: GuideHelp
     guides:
     - KravMaga
-  - type: StealTarget
+  - type: StealTarget # cmd/steal gear tweak
     stealGroup: Warden

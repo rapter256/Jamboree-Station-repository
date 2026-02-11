@@ -416,7 +416,7 @@
     - WhitelistChameleon
     - HighRiskItem
   - type: StealTarget
-    stealGroup: QM
+    stealGroup: QM # Jamboree - was ClothingHandsKnuckleDustersQM
 
 - type: entity
   parent: [ClothingHandsKnuckleDustersBase, BaseCentcommContraband]
