@@ -98,6 +98,19 @@
   - AnomalyScanner
   - TurboItemRechargerCircuitboard
 
+- type: selectableSet
+  id: RDTetherKit
+  name: Manipulation Set
+  description: Includes tether and force guns, with one high-capacity cell for each.
+  sprite:
+    sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
+    state: base
+  content:
+  - WeaponTetherGun
+  - WeaponForceGun
+  - PowerCellHigh
+  - PowerCellHigh
+
 # Head of Personnel
 
 - type: selectableSet
@@ -311,3 +324,17 @@
   - FoodSnackLollypopWrappedCaptain
   - FoodSnackLollypopWrappedCaptain
   - FoodSnackLollypopWrappedCaptain
+
+- type: selectableSet
+  id: CapPirateSet
+  name: Buccaneer Set
+  description: Includes an energy cutlass and flintlock pistol. YARRGHHH!
+  sprite:
+    sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
+    state: icon
+  content:
+  - EnergyCutlassNT
+  - WeaponRevolverPirateNT
+  - MagazineBoxMagnum
+  - ClothingHeadHatCaptainTricorne
+  - ClothingEyesGlassesCaptaineyepatch

@@ -13,6 +13,7 @@
     possibleSets:
     - AntiqueLaserSet
     - CaneBladeSet
+    - CapPirateSet
     maxSelectedSets: 1
 
 # Head of Security
@@ -105,6 +106,7 @@
     - RDTeleporterKit
     - RDGeminiKit
     - RDAnomKit
+    - RDTetherKit
     maxSelectedSets: 1
 
 # Head of Personnel
