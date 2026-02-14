@@ -18,24 +18,26 @@
   - Monkey
   - Kobold
   - Abductor
-  #jamboree, fuck specism- Yowie
-  #jamboree, fuck specism- IPC
-  #jamboree, fuck specism- Diona
-  #jamboree, fuck specism- Harpy
+  #- Yowie # jamboree - fuck specism
+  #- IPC # jamboree - fuck specism
+  #- Diona # jamboree - fuck specism
+  #- Harpy # jamboree - fuck specism
   - Vox # Pasha
-  #jamboree, fuck specism - Tajaran # Specism.
+  #- Tajaran # jamboree - fuck specism # Specism.
   - Resomi # Sprites look shit on them.
   - Oni # Same as above, plus it fucks over ERTs.
   - Gingerbread # Soecusn
   - Plasmaman
-  #jamboree, fuck specism- Reptilian
-  #jamboree, fuck specism- Moth
-  #jamboree, fuck specism- Shadowkin # One flash is all it takes...
-  #jamboree, fuck specism- Arachnid
-  #jamboree, fuck specism- Vulpkanin
-  #jamboree, fuck specism- Rodentia
-  #jamboree, fuck specism- SlimePerson
-  #jamboree, fuck specism- Dwarf
+  #- Reptilian # jamboree - fuck specism
+  #- Moth # jamboree - fuck specism
+  #- Shadowkin # jamboree - fuck specism # One flash is all it takes...
+  #- Arachnid # jamboree - fuck specism
+  #- Vulpkanin # jamboree - fuck specism
+  #- Rodentia # jamboree - fuck specism
+  #- SlimePerson # jamboree - fuck specism
+  #- Dwarf # jamboree - fuck specism
+  #- Feroxi # jamboree - fuck specism
+  #- Chitinid # jamboree - fuck specism
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false

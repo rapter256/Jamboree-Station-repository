@@ -150,6 +150,7 @@
     ClothingCostumeGingerbreadHead: 1 #goob
     ClothingOuterSuitHotDog: 1 # Goob
     ClothingOuterSuitPickle: 1
+    ClothingHeadHatTinfoilHat: 2 # Goobstation
   contrabandInventory:
     ClothingHeadHatRichard: 1
     ClothingHeadScaryMask: 1 #funky
@@ -169,3 +170,8 @@
     ClothingShoesResonant: 1 # Goobstation
     ClothingNeckCloakResonant: 1 # Goobstation
     ClothingUniformJumpsuitResonant: 1 # Goobstation
+    ClothingOuterArmorHereticCostume: 1 # Goobstation
+    ToyBladeEldritch: 1 # Goobstation
+  emaggedInventory: # goob
+    ClothingOuterPonchoClassicRobust: 1
+    ClothingHeadHatCowboyBrownRobust: 1

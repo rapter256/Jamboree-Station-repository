@@ -136,6 +136,8 @@
     StealSupermatterSliverObjective: 0.5 # Goobstation - supermatter
 #    LawbringerStealObjective: 0.5 # jamboree - merged steal objectives
 #    GeminiProjectorStealObjective: 0.5 # jamboree - merged steal objectives
+    ExecutiveBriefcaseStealObjective: 0.5 # Goobstation
+    JusticeStealObjective: 0.5 # Goobstation
 
 - type: weightedRandom
   id: TraitorObjectiveGroupKill
