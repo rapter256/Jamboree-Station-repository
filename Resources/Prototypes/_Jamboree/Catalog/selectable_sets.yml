@@ -338,3 +338,13 @@
   - MagazineBoxMagnum
   - ClothingHeadHatCaptainTricorne
   - ClothingEyesGlassesCaptaineyepatch
+
+- type: selectableSet
+  id: CapSupportSet
+  name: Station Leader Set
+  description: Includes a cane that can be used to heal surrounding crew.
+  sprite:
+    sprite: Objects/Weapons/Melee/cane.rsi
+    state: cane
+  content:
+  - CaptainCane

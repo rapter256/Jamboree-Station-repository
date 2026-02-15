@@ -1,0 +1,42 @@
+﻿- type: entity
+  parent: [ BaseItem, BaseCommandContraband ] # Jamboree - was BaseItem
+  id: CaptainCane
+  name: captain's cane
+  description: The captain's cane. Can be used to rally the crew, healing them in the process.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/cane.rsi
+    state: cane
+  - type: Item
+    size: Normal
+    sprite: Objects/Weapons/Melee/cane.rsi
+  - type: Appearance
+  - type: MeleeWeapon
+    animationRotation: -45 # WWDP
+    wideAnimationRotation: 45
+    damage:
+      types:
+        Blunt: 5
+  - type: StaminaDamageOnHit
+    damage: 5
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 3
+  - type: UseDelay
+    delay: 1
+  - type: MovementImpairedCorrection # Goobstation
+  - type: HealNearOnPray # Jamboree - captain heal cane
+    healing:
+      groups:
+        Brute: -15.0
+      types:
+        Heat: -5.0
+        Cold: -5.0
+        Shock: -5.0
+  - type: AlternatePrayable
+    repeatPrayer: true
+    requireBibleUser: false # Jamboree - captain is using this not chaplain
+  - type: StealTarget
+    stealGroup: Captain # Jamboree - gear steal tweak
