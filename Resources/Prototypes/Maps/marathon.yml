@@ -67,8 +67,8 @@
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
-            RadioHost: [ 1, 1 ] # Goobstation
-            Reporter: [ 1, 1 ] #Goobstation
+#            RadioHost: [ 1, 1 ] # Jamboree - spawnpoint not yet mapped
+#            Reporter: [ 1, 1 ] # Jamboree - spawnpoint not yet mapped
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 3, 3 ]
