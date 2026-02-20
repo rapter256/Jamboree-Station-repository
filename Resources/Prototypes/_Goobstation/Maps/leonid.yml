@@ -82,7 +82,7 @@
             MedicalDoctor: [ 6, 6 ]
             Paramedic: [ 2, 2 ]
             MedicalIntern: [ 6, 6 ]
-            Virologist: [ 2, 2 ]
+#            Virologist: [ 2, 2 ] # Jamboree - spawnpoint not yet mapped
             #science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 6, 6 ]
