@@ -2,24 +2,25 @@
 
 - type: selectableSet
   id: EnergyRevolverSet
-  name: EG-4 Energy Revolver Set
-  description: Includes an awesome energy revolver. Yeehaw, criminals!
+  name: EG-4 Energy Revolver Kit
+  description: Includes an awesome energy revolver and sanctioned holo-cigar. Yeehaw, criminals!
   sprite:
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
     state: icon
   content:
   - ClothingBeltHolsterFilledBlueshield
   - ClothingHeadHatCowboyBountyHunter
+  - ClothingNeckMantleBH
+  - HOSHoloCigar
 
-- type: selectableSet
-  id: MultiphaseSet
-  name: X-01 Multiphase Set
-  description: Includes a powerful energy pistol with three firemodes. Use it wisely.
-  sprite:
-    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
-    state: icon
-  content:
-  - WeaponEnergyGunMultiphase
+#- type: selectableSet
+#  id: HOSSniperKit
+#  name: Marksman Kit
+#  description: Includes the HB-92 "Kovalskyi" sniper rifle. Pick your targets wisely.
+#  sprite:
+#    sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
+#    state: icon
+#  content: # TODO - add HB-92 "Kovalskyi"
 
 - type: selectableSet
   id: LawbringerSet
@@ -31,60 +32,107 @@
   content:
   - WeaponEnergyGunLawbringer
 
+#- type: selectableSet
+#  id: HOSSolKit
+#  name: Sentinel Kit
+#  description: Includes the Sol Shield and matching glove. This shield will return to you when thrown.
+#  sprite:
+#    sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
+#    state: icon
+#  content: # TODO - add Sol Shield and Sol Shield Glove
+
 - type: selectableSet
   id: NonlethalLauncherSet
   name: GL-06 Riot Grenade Launcher Set
-  description: Includes a GL-06 grenade launcher and 40mm flash shells to supply it. An expert at crowd dispersion.
+  description: Includes a GL-06 grenade launcher and 40mm flash and baton shells to supply it. An expert at crowd dispersion.
   sprite:
     sprite: _Goobstation/Objects/Weapons/Guns/Launchers/riotlauncher.rsi
     state: base
   content:
   - WeaponLauncherNonLethal
   - BoxGrenadesFlash
+  - BoxGrenadesBaton
 
 # Warden
 
 - type: selectableSet
-  id: WardenEshotgunSet
-  name: Energy Shotgun Set
-  description: Contains a self-recharging energy shotgun with multiple firemodes.
+  id: WardenClassicSet
+  name: Classic Kit
+  description: Contains the energy shotgun and krav maga gloves.
   sprite:
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
     state: icon
   content:
   - WeaponEnergyShotgun
+  - ClothingHandsGlovesKravMaga
 
 - type: selectableSet
-  id: KravMagaSet
-  name: Krav Maga Gloves Set
-  description: Contains gloves that let the user use krav maga, a powerful martial art. Gloves are not insulated.
+  id: MultiphaseSet
+  name: Dispatcher Kit
+  description: Includes a powerful energy pistol with three firemodes and a portable camera tablet.
   sprite:
-    sprite: _Goobstation/Clothing/Hands/Gloves/kravgloves.rsi
+    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
     state: icon
   content:
-  - ClothingHandsGlovesKravMaga
+  - WeaponEnergyGunMultiphase
+  - CameraTablet
+
+- type: selectableSet
+  id: WardenGuardKit
+  name: Guardsman Kit
+  description: Contains a unique halberd and set of plate armor.
+  sprite:
+    sprite: _Jamboree/Objects/Weapons/Melee/wardenhalberd.rsi
+    state: icon
+  content:
+  - WardenHalberd
+  - ClothingHeadHatWardenArmor
+  - ClothingOuterArmorWardenGuard
+
+#- type: selectableSet
+#  id: WardenArmorKit
+#  name: Firepower Kit
+#  description: Includes a versatile and powerful suit of armor capable of defeating your foes.
+#  sprite:
+#    sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
+#    state: icon
+#  content: # TODO - add firepower armor
 
 # Research Director
 
 - type: selectableSet
-  id: RDTeleporterKit
-  name: Handheld Teleporter Set
-  description: Includes a handheld teleporter capable of setting up two portals that allow travel between them.
+  id: RDResonanceKit
+  name: Resonance Kit
+  description: Includes a handheld teleporter and physics guns.
   sprite:
     sprite: Objects/Devices/hand_teleporter.rsi
     state: icon
-  content:
+  content: # TODO - merge tether and force guns for a special RD one
   - HandTeleporter
+  - WeaponTetherGun
+  - WeaponForceGun
+  - PowerCellHigh
+  - PowerCellHigh
 
 - type: selectableSet
-  id: RDGeminiKit
-  name: AX-32 Gemini Projector Set
-  description: Includes a gemini projector, which can produce a holographic clone to carry out your bidding.
+  id: RDHologramKit
+  name: Holographics Kit
+  description: Includes a gemini projector and special forcefield projector.
   sprite:
-    sprite: _Goobstation/Clothing/Belt/geminiprojector.rsi
+    sprite: Structures/Holo/field.rsi
     state: icon
-  content:
+  content: # TODO - add RD forcefield projector
   - ClothingBeltGeminiHoloProjector
+  - HoloprojectorField
+
+#- type: selectableSet
+#  id: RDRenterKit
+#  name: Renter's Kit
+#  description: Includes a briefcase that functions as a pocket dimension.
+#  sprite:
+#    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+#    state: icon
+#  content: # TODO - add pocket dimension briefcase
 
 - type: selectableSet
   id: RDAnomKit
@@ -93,23 +141,10 @@
   sprite:
     sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
     state: base
-  content:
+  content: # TODO - add RD gorilla gauntlet MK2
   - WeaponPistolCHIMP
   - AnomalyScanner
   - TurboItemRechargerCircuitboard
-
-- type: selectableSet
-  id: RDTetherKit
-  name: Manipulation Set
-  description: Includes tether and force guns, with one high-capacity cell for each.
-  sprite:
-    sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
-    state: base
-  content:
-  - WeaponTetherGun
-  - WeaponForceGun
-  - PowerCellHigh
-  - PowerCellHigh
 
 # Head of Personnel
 
@@ -142,6 +177,35 @@
   - HarmonicaInstrument
 
 - type: selectableSet
+  id: HOPBureaucratKit
+  name: Bureaucrat Kit
+  description: Includes some paper supplies and a portable handheld holopad.
+  sprite:
+    sprite: _Jamboree/Objects/Devices/handheldholopad.rsi
+    state: icon
+  content:
+  - BriefcaseBrownFilled
+  - HandheldHolopad
+  - BoxFolderBlue
+  - BoxFolderBlue
+  - RubberStampApproved
+  - RubberStampDenied
+
+- type: selectableSet
+  id: HOPKitchenSet
+  name: Resturanteer Kit
+  description: Includes some kitchen supplies and a very nice frying pan.
+  sprite:
+    sprite: _Jamboree/Objects/Weapons/Melee/fryingpan.rsi
+    state: icon
+  content:
+  - ClothingHeadHatChef
+  - FryingPan
+  - DrinkShaker
+  - CustomDrinkJug
+  - RagItem
+
+- type: selectableSet
   id: HOPIanSet
   name: Ian Lover Set
   description: Contains everything an aspiring HOP needs to worship the almighty Ian.
@@ -150,13 +214,13 @@
     state: ian
   content:
   - ClothingOuterSuitIan
+  - PinpointerIan
   - ToyIan
-  - ClothingBackpackIan
   - BedsheetIan
 
 - type: selectableSet
   id: HOPClownSet
-  name: Clowning Kit
+  name: Chicannery Kit
   description: All the necessary clowning gear. This unfortunately does not relieve you of your duties.
   sprite:
     sprite: Clothing/Mask/clown.rsi
@@ -164,7 +228,7 @@
   content:
   - ClothingMaskClown
   - ClothingShoesClown
-  - BikeHorn
+  - PushHorn
   - FoodPieBananaCream
   - FoodPieBananaCream
   - FoodPieBananaCream
@@ -173,13 +237,14 @@
 
 - type: selectableSet
   id: CERCDKit
-  name: Experimental RCD Kit
-  description: Includes an experimental RCD that recharges over time.
+  name: Builder's Kit
+  description: Includes an experimental RCD and RPD that recharge over time.
   sprite:
     sprite: Objects/Tools/rcd.rsi
     state: icon
   content:
   - RCDRechargingCE
+  - RPDRecharging
 
 - type: selectableSet
   id: CENailgunKit
@@ -189,43 +254,66 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Nailgun/nailgun.rsi
     state: icon
   content:
-  - WeaponNailgun
+  - WeaponNailgun # TODO - make industrial nail gun
   - MagazineNailgun
+  - MagazineBoxNail
   - MagazineNailgun
   - ClothingHeadHatHardhatArmored
+  - Sledgehammer # TODO - make CE's sledgehammer
+
+#- type: selectableSet
+#  id: SingoBusterCEKit
+#  name: Singularity Buster Kit
+#  description: Includes a singularity buster rocket launcher in case something goes wrong. Which it shouldn't.
+#  sprite:
+#    sprite: Objects/Weapons/Guns/Launchers/buster_rocket.rsi
+#    state: base
+#  content:
+#  - WeaponLauncherSingularityBuster
+#  - CartridgeRocketSingularityBuster
+#  - CartridgeRocketSingularityBuster
+
+#- type: selectableSet
+#  id: CEPowerKit
+#  name: Electrician Kit
+#  description: Includes a portable microgenerator and antique power cell.
+#  sprite:
+#    sprite: Objects/Tools/rcd.rsi
+#    state: icon
+#  content: # TODO - add portable microgenerator
+#  - PowerCellAntiqueProto
 
 - type: selectableSet
-  id: SingoBusterCEKit
-  name: Singularity Buster Kit
-  description: Includes a singularity buster rocket launcher in case something goes wrong. Which it shouldn't.
+  id: CESurvivalKit
+  name: Survivalist Kit
+  description: Includes a spanish army knife, which will serve as most of your tools in a small knife.
   sprite:
-    sprite: Objects/Weapons/Guns/Launchers/buster_rocket.rsi
-    state: base
-  content:
-  - WeaponLauncherSingularityBuster
-  - CartridgeRocketSingularityBuster
-  - CartridgeRocketSingularityBuster
+    sprite: Objects/Tools/debug.rsi
+    state: icon
+  content: # TODO - add MRE fabricator
+  - ToolDebug
+  - BoxMRE
+
+#- type: selectableSet
+#  id: CEAtmosKit
+#  name: Atmospherics Kit
+#  description: Includes speciality goggles, which can see the temperature and presence of gas.
+#  sprite:
+#    sprite: Objects/Tools/rcd.rsi
+#    state: icon
+#  content: # TODO - add atmospheric goggles
 
 # Chief Medical Officer
 
 - type: selectableSet
-  id: CMOHypoKit
-  name: Hypospray Kit
-  description: Includes a hypospray that can administer medicine very quickly. This is the choice of many CMOs.
+  id: CMOInjectionKit
+  name: Injection Kit
+  description: Includes a hypospray and syringe gun that can administer medicine very quickly. This is the choice of many CMOs.
   sprite:
     sprite: Objects/Specific/Medical/hypospray.rsi
     state: hypo
   content:
   - Hypospray
-
-- type: selectableSet
-  id: CMOSyringeGunKit
-  name: Rapid Syringe Gun Kit
-  description: Includes a rapid syringe gun and box of pax syringes.
-  sprite:
-    sprite: _Goobstation/Objects/Weapons/Guns/Cannons/rapid_syringe_gun.rsi
-    state: icon
-  content:
   - RapidSyringeGun
   - BoxSyringePax
 
@@ -244,28 +332,50 @@
   - Multitool
   - MaterialBiomass
 
+#- type: selectableSet
+#  id: CMOReviveKit
+#  name: Resuscitation Kit
+#  description: Includes the CMO's specialty defibrillator gloves and some resuscitation supplies.
+#  sprite:
+#    sprite: Objects/Specific/Medical/hypospray.rsi
+#    state: hypo
+#  content: # TODO - add defibrillator gloves
+#  - ChemistryBottleFormaldehyde
+#  - ChemistryBottleEpinephrine
+#  - ChemistryBottleEpinephrine
+
+#- type: selectableSet
+#  id: CMOMindKit
+#  name: Psychiatric Kit
+#  description: Includes a mindbunker implant and personality analyzer. The implant can be used as an upgraded mindshield.
+#  sprite:
+#    sprite: Objects/Specific/Medical/hypospray.rsi
+#    state: hypo
+#  content: # TODO - add personality analyzer, mindbunker implant, and box of mindbreaker needles
+
+- type: selectableSet
+  id: CMODoktorKit
+  name: Doktor Kit
+  description: Includes a medigun and backpack to roleplay a certainly mentally stable medic.
+  sprite:
+    sprite: _Jamboree/Objects/Specific/Medical/cmomedigun.rsi
+    state: icon
+  content:
+  - CMOMedigunBackpack
+
 # Quartermaster
 
 - type: selectableSet
-  id: QMKnuckleDusterKit
-  name: Knuckleduster Kit
+  id: QMMafiaKit
+  name: Mafiosa Kit
   description: Includes some knuckledusters to "encourage" trespassers to leave.
   sprite:
     sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: goldenknuckleduster
-  content:
+  content: # TODO - add quarter cannon
   - ClothingHandsKnuckleDustersQM
-
-- type: selectableSet
-  id: QMHardsuitKit
-  name: Luxury Hardsuit Kit
-  description: Includes Nanotrasen's MOST comfortable hardsuit.
-  sprite:
-    sprite: Clothing/Head/Hardsuits/luxury.rsi
-    state: icon
-  content:
-  - ClothingOuterHardsuitLuxury
-  - OxygenTankFilled
+  - CigarGoldCase
+  - FlippoEngravedLighter
 
 - type: selectableSet
   id: QMGamblingKit
@@ -296,13 +406,31 @@
   - WallmountGeneratorElectronics
   - WallmountSubstationElectronics
 
+#- type: selectableSet
+#  id: QMCouponKit
+#  name: Big Spender Kit
+#  description: Includes a coupon book, cashiers beware.
+#  sprite:
+#    sprite: _Goobstation/Structures/Machines/slotmachines/slotmachine.rsi
+#    state: slotmachine
+#  content: # TODO - add coupon book and deal slicers
 
+#- type: selectableSet
+# id: QMTraderKit
+#  name: Wallstreet Kit
+#  description: Includes a stock trading cartridge and cool hardsuit.
+#  sprite:
+#    sprite: _Goobstation/Structures/Machines/slotmachines/slotmachine.rsi
+#    state: slotmachine
+#  content: # TODO - port stock trading from deltaV
+#  - BrokerSuit
+#  - OxygenTankFilled
 
 # Captain
 
 - type: selectableSet
   id: AntiqueLaserSet
-  name: Antique Laser Set
+  name: Classic Set
   description: Includes an antique laser pistol and fancy sabre. The classic.
   sprite:
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
@@ -339,12 +467,21 @@
   - ClothingHeadHatCaptainTricorne
   - ClothingEyesGlassesCaptaineyepatch
 
-- type: selectableSet
-  id: CapSupportSet
-  name: Station Leader Set
-  description: Includes a cane that can be used to heal surrounding crew.
-  sprite:
-    sprite: Objects/Weapons/Melee/cane.rsi
-    state: cane
-  content:
-  - CaptainCane
+#- type: selectableSet
+#  id: CapSupportSet
+#  name: Station Leader Set
+#  description: Includes a flag that can rally your crew, healing them in the process.
+#  sprite:
+#    sprite: Objects/Weapons/Melee/cane.rsi
+#    state: cane
+#  content: # TODO - make a flag and give a new component, similar to healonpray but captain specific
+
+#- type: selectableSet
+#  id: CapBerserkerSet
+#  name: Berserker Set
+#  description: Includes a really big fucking sword.
+#  sprite:
+#    sprite: Objects/Weapons/Melee/cane.rsi
+#    state: cane
+#  content:
+#  - HyperEutacticBlade # TODO - balance this weapon and fix some sprites

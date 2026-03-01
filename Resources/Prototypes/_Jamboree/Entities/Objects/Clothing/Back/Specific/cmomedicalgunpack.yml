@@ -1,0 +1,39 @@
+﻿- type: entity
+  parent: [ Clothing, BaseCommandContraband ]
+  id: CMOMedigunBackpack
+  name: cmo's medigun backpack
+  description: Let's go practice medicine.
+  components:
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: Sprite
+    sprite: _Jamboree/Clothing/Back/Specific/cmomedicalgunpack.rsi
+    state: icon
+  - type: Item
+    size: Ginormous
+  - type: Clothing
+    slots: [ BACK, SUITSTORAGE ]
+    sprite: Clothing/Back/Backpacks/atmosbackpacktank.rsi
+  - type: ItemSlots
+    slots:
+      charger_slot:
+        name: CMOMedicalBeamGun
+        startingItem: CMOMedicalBeamGun
+        whitelist:
+          components:
+          - MediGun
+  - type: ContainerContainer
+    containers:
+      charger_slot: !type:ContainerSlot
+  - type: Charger
+    slotId: charger_slot
+    portable: true
+    chargeRate: 2.5
+    whitelist:
+      components:
+      - MediGun
+  - type: ApcPowerReceiver
+    needsPower: false
+    powerLoad: 0
+

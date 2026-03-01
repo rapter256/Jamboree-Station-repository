@@ -1,0 +1,36 @@
+﻿- type: entity
+  parent: [ BaseItem, BaseCommandContraband ]
+  id: FryingPan
+  name: fighting pan
+  description: An expensive frying pan lined with carbon fiber for maximum heat transfer to food. Or your enemies' heads.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Weapons/Melee/fryingpan.rsi
+    layers:
+    - state: icon
+  - type: Item
+    size: Large
+    sprite: _Jamboree/Objects/Weapons/Melee/fryingpan.rsi
+  - type: Appearance
+  - type: MeleeWeapon
+    attackRate: 1
+    animationRotation: -220
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 15
+    soundHit:
+      path: /Audio/Weapons/smash.ogg
+  - type: StaminaDamageOnHit
+    damage: 5
+  - type: StaticPrice
+    price: 12000
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 10
+  - type: StaminaDamageOnCollide
+    damage: 15
+  - type: Boomerang
+    maxHops: 6
+

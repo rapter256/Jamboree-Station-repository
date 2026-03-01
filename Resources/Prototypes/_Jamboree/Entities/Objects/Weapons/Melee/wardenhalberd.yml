@@ -1,0 +1,51 @@
+﻿- type: entity
+  parent: [ BaseItem, BaseSecurityContraband ]
+  id: WardenHalberd
+  name: warden's halberd
+  description: The warden's halberd. Execute people illegally and look awesome doing it.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Weapons/Melee/wardenhalberd.rsi
+    layers:
+    - state: icon
+  - type: Item
+    size: Ginormous
+    sprite: _Jamboree/Objects/Weapons/Melee/wardenhalberd.rsi
+  - type: Appearance
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 0.75
+    animationRotation: -135
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Slash: 20
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: StaminaDamageOnHit
+    damage: 15
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Slash: 15
+        Structural: 15
+  - type: UseDelay
+    delay: 1
+  - type: StaticPrice
+    price: 15000
+  - type: Sharp
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+    clothingVisuals:
+        back:
+        - state: equipped-BACKPACK
+        suitstorage:
+        - state: equipped-BACKPACK
+  - type: Execution
+    doAfterDuration: 2.5
+  - type: StealTarget # # Jamboree - cmd/steal gear tweak
+    stealGroup: Warden

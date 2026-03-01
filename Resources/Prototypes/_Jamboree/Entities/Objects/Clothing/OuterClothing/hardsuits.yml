@@ -1,0 +1,35 @@
+﻿- type: entity
+  parent: [ ClothingOuterHardsuitBase, BaseCommandContraband ]
+  id: ClothingOuterHardsuitBroker
+  name: stock broker hardsuit
+  description: A heavily modified luxury hardsuit, used by aspiring quartermasters dabbling in stock trading.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Clothing/OuterClothing/Hardsuits/QMBrokerSuit.rsi
+  - type: Clothing
+    sprite: _Jamboree/Clothing/OuterClothing/Hardsuits/QMBrokerSuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.65
+        Radiation: 0.1
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitBroker
+  - type: ModifyDelayedKnockdown
+    delayDelta: 2
+    knockdownTimeDelta: -2
+  - type: StaminaResistance
+    damageCoefficient: 0.7

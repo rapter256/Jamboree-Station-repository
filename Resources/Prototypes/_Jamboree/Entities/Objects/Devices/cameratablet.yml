@@ -1,0 +1,28 @@
+﻿- type: entity
+  id: CameraTablet
+  parent: [ BaseItem, BaseSecurityContraband ]
+  name: camera tablet
+  description: A portable camera-viewing device that is definitely NOT a repurposed camera bug.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Devices/cameratablet.rsi
+    layers:
+    - state: icon
+  - type: Item
+    sprite: _Jamboree/Objects/Devices/cameratablet.rsi
+  - type: ActivatableUI
+    requireActiveHand: false
+    inHandsOnly: true
+    key: enum.SurveillanceCameraMonitorUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SurveillanceCameraMonitorUiKey.Key:
+        type: SurveillanceCameraMonitorBoundUserInterface
+  - type: DeviceNetwork
+    deviceNetId: Wired
+    receiveFrequencyId: SurveillanceCamera
+    transmitFrequencyId: SurveillanceCamera
+  - type: WiredNetworkConnection
+  - type: SurveillanceCameraMonitor
+  - type: StaticPrice
+    price: 4000

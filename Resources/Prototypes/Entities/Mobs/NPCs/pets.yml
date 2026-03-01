@@ -197,6 +197,7 @@
     understands:
     - Dog
     - TauCetiBasic
+  - type: Ian
 
 - type: entity
   name: Old Ian

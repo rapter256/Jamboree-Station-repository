@@ -18,7 +18,6 @@
   id: WardenGeneralStealObjective
   components:
   - type: Objective
-    # Warden will have this on them a lot of the time so..
     difficulty: 3
   - type: NotJobRequirement
     job: Warden # Goob edit
@@ -31,7 +30,6 @@
   id: HOSGeneralStealObjective
   components:
   - type: Objective
-    # HoS will have this on them a lot of the time so..
     difficulty: 3
   - type: NotJobRequirement
     job: HeadOfSecurity

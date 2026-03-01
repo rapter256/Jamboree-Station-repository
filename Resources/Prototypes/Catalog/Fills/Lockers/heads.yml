@@ -286,7 +286,7 @@
       prob: 0.25
       # Fuck the HoP they don't deserve fucking cigars.
       # Yes they do fuck you.
-#    - id: ClothingBackpackIan # jamboree - available in gear selector
+    - id: ClothingBackpackIan
 #      prob: 0.5
     - id: ClothingHeadsetAltCommand # Goobstation
     - id: ClothingNeckGoldmedal
@@ -295,8 +295,8 @@
     - id: IDComputerCircuitboard
     - id: ComputerFundingAllocationFlatpack # Goobstation
     - id: ComputerCargoRequestServiceFlatpack # Goobstation
-    - id: RubberStampApproved
-    - id: RubberStampDenied
+  #  - id: RubberStampApproved # jamboree - available in gear selector
+  #  - id: RubberStampDenied # jamboree - available in gear selector
     - id: RubberStampHop
     - id: WeaponDisabler
     - id: HOPUndeterminedWeapon # Jamboree - command gear selectors
@@ -339,9 +339,9 @@
     # Goobstation V
     - id: BaseHandheldStationMapPowerCe
     - id: EngineeringTechFabCircuitboard
-#    - id: CartridgeRocketSingularityBuster # jamboree - available in gear selector
-#    - id: CartridgeRocketSingularityBuster # jamboree - available in gear selector
-#    - id: WeaponLauncherSingularityBuster # jamboree - available in gear selector
+    - id: CartridgeRocketSingularityBuster
+    - id: CartridgeRocketSingularityBuster
+    - id: WeaponLauncherSingularityBuster
     - id: MachinePowerTransmissionLaserFlatpack
 #    - id: RCDRechargingCE # jamboree - available in gear selector
 
@@ -409,7 +409,7 @@
 #    - id: MedicalScannerFlatpack # jamboree - available in gear selector
 #    - id: ComputerCloningConsoleFlatpack # jamboree - available in gear selector
 #    - id: BiomassReclaimerFlatpack # jamboree - available in gear selector
-#    - id: Multitool # jamboree - available in gear selector
+    - id: Multitool
     - id: ChemistryHotplateFlatPack
     - id: MedTekCartridge
 #    - id: RapidSyringeGun # jamboree - available in gear selector

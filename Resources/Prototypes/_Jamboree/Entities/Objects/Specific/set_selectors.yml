@@ -14,7 +14,7 @@
     - AntiqueLaserSet
     - CaneBladeSet
     - CapPirateSet
-    - CapSupportSet
+#    - CapSupportSet # TODO - finish this
     maxSelectedSets: 1
 
 # Head of Security
@@ -31,7 +31,8 @@
   - type: SetSelector
     possibleSets:
     - EnergyRevolverSet
-    - MultiphaseSet
+#    - HOSSniperKit # TODO - finish this
+#    - HOSSolKit # TODO - finish this
     - LawbringerSet
     - NonlethalLauncherSet
     maxSelectedSets: 1
@@ -49,9 +50,10 @@
     state: icon
   - type: SetSelector
     possibleSets:
-    - CMOHypoKit
-    - CMOSyringeGunKit
-    - CMOCloningKit
+    - CMOInjectionKit
+    - CMOReviveKit
+#    - CMOMindKit # TODO - finish this
+#    - CMOCloningKit
     maxSelectedSets: 2
 
 # Quartermaster
@@ -67,10 +69,11 @@
     state: icon
   - type: SetSelector
     possibleSets:
-    - QMKnuckleDusterKit
-    - QMHardsuitKit
+    - QMMafiaKit
     - QMGamblingKit
     - QMShittleKit
+#    - QMCouponKit # TODO - finish this
+    - QMTraderKit
     maxSelectedSets: 1
 
 #  Chief Engineer
@@ -88,7 +91,8 @@
     possibleSets:
     - CERCDKit
     - CENailgunKit
-    - SingoBusterCEKit
+#    - SingoBusterCEKit
+    - CESurvivalKit
     maxSelectedSets: 2
 
 # Research Director
@@ -104,10 +108,10 @@
     state: icon
   - type: SetSelector
     possibleSets:
-    - RDTeleporterKit
-    - RDGeminiKit
+    - RDResonanceKit
+    - RDHologramKit
     - RDAnomKit
-    - RDTetherKit
+#    - RDRenterKit # TODO - finish this
     maxSelectedSets: 1
 
 # Head of Personnel
@@ -123,10 +127,12 @@
     state: icon
   - type: SetSelector
     possibleSets:
-    - HOPBotanySet
-    - HOPMusicianSet
     - HOPIanSet
+    - HOPBureaucratKit
+    - HOPKitchenSet
     - HOPClownSet
+#    - HOPBotanySet
+#    - HOPMusicianSet
     maxSelectedSets: 1
 
 # Warden
@@ -142,7 +148,9 @@
     state: icon
   - type: SetSelector
     possibleSets:
-    - WardenEshotgunSet
-    - KravMagaSet
+    - WardenClassicSet
+    - MultiphaseSet
+    - WardenGuardKit
+#    - WardenArmorKit # TODO - finish this
     maxSelectedSets: 1
 
