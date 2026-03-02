@@ -14,7 +14,7 @@
     size: Ginormous
   - type: Clothing
     slots: [ BACK, SUITSTORAGE ]
-    sprite: Clothing/Back/Backpacks/atmosbackpacktank.rsi
+    sprite: Resources/Textures/_Jamboree/Clothing/Back/Specific/cmomedicalgunpack.rsi
   - type: ItemSlots
     slots:
       charger_slot:

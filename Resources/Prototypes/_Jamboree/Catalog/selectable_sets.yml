@@ -415,16 +415,17 @@
 #    state: slotmachine
 #  content: # TODO - add coupon book and deal slicers
 
-#- type: selectableSet
-# id: QMTraderKit
-#  name: Wallstreet Kit
-#  description: Includes a stock trading cartridge and cool hardsuit.
-#  sprite:
-#    sprite: _Goobstation/Structures/Machines/slotmachines/slotmachine.rsi
-#    state: slotmachine
-#  content: # TODO - port stock trading from deltaV
-#  - BrokerSuit
-#  - OxygenTankFilled
+- type: selectableSet
+  id: QMTraderKit
+  name: Wallstreet Kit
+  description: Includes a stock trading cartridge and cool hardsuit.
+  sprite:
+    sprite: _DV/Objects/Devices/cartridge.rsi
+    state: cart-stonk
+  content:
+  - ClothingOuterHardsuitBroker
+  - OxygenTankFilled
+  - StockTradingCartridge
 
 # Captain
 
