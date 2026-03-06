@@ -123,9 +123,9 @@
   - type: GuideHelp
     guides:
     - Science
-  - type: ResearchPointSource # Goobstation
+  - type: ResearchPointSource # Jamboree - No points per second
     pointspersecond: 15
-    active: true
+    active: false
 
 - type: entity
   id: BaseResearchAndDevelopmentPointSource
