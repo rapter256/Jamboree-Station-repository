@@ -24,3 +24,5 @@
       params:
         volume: -5
         loop: true
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: HOS

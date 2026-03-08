@@ -119,11 +119,11 @@
   name: Holographics Kit
   description: Includes a gemini projector and special forcefield projector.
   sprite:
-    sprite: Structures/Holo/field.rsi
+    sprite: _Jamboree/Structures/Holo/RDfield.rsi
     state: icon
-  content: # TODO - add RD forcefield projector
+  content:
   - ClothingBeltGeminiHoloProjector
-  - HoloprojectorField
+  - RDHoloprojectorField
 
 #- type: selectableSet
 #  id: RDRenterKit
@@ -137,34 +137,35 @@
 - type: selectableSet
   id: RDAnomKit
   name: Anomaly Hunter Set
-  description: Includes a C.H.I.M.P Handcannon, turbo recharger, and anomaly scanner.
+  description: Includes a C.H.I.M.P Handcannon, turbo recharger, special gorilla gauntlet, and anomaly scanner.
   sprite:
-    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
-    state: base
-  content: # TODO - add RD gorilla gauntlet MK2
+    sprite: _Jamboree/Objects/Weapons/Melee/gorillamk2.rsi
+    state: icon
+  content:
   - WeaponPistolCHIMP
   - AnomalyScanner
   - TurboItemRechargerCircuitboard
+  - WeaponGauntletGorillaMk2
 
 # Head of Personnel
 
-- type: selectableSet
-  id: HOPBotanySet
-  name: HOP Botany kit
-  description: Includes some exotic seeds and a cute straw hat.
-  sprite:
-    sprite: Clothing/Head/Hats/straw_hat.rsi
-    state: icon
-  content:
-  - CrateHydroponicsSeedsExotic
-  - ClothingHeadHatStrawHat
-  - HydroponicsTrayFlatpack
-  - HydroponicsTrayFlatpack
+#- type: selectableSet # disabled for now
+#  id: HOPBotanySet
+#  name: HOP Botany kit
+#  description: Includes some exotic seeds and a cute straw hat.
+#  sprite:
+#    sprite: Clothing/Head/Hats/straw_hat.rsi
+#    state: icon
+#  content:
+#  - CrateHydroponicsSeedsExotic
+#  - ClothingHeadHatStrawHat
+#  - HydroponicsTrayFlatpack
+#  - HydroponicsTrayFlatpack
 
 - type: selectableSet
   id: HOPMusicianSet
   name: HOP Musician kit
-  description: Includes some instruments and a VERY nice coat, that is DEFINITELY real.
+  description: Includes some instruments and a VERY nice coat, that is DEFINITELY authentic.
   sprite:
     sprite: Objects/Fun/Instruments/h_synthesizer.rsi
     state: icon
@@ -193,7 +194,7 @@
 
 - type: selectableSet
   id: HOPKitchenSet
-  name: Resturanteer Kit
+  name: Restauranteer Kit
   description: Includes some kitchen supplies and a very nice frying pan.
   sprite:
     sprite: _Jamboree/Objects/Weapons/Melee/fryingpan.rsi
@@ -208,7 +209,7 @@
 - type: selectableSet
   id: HOPIanSet
   name: Ian Lover Set
-  description: Contains everything an aspiring HOP needs to worship the almighty Ian.
+  description: Contains everything an aspiring HOP needs to worship the almighty Ian, including an Ian pinpointer.
   sprite:
     sprite: Mobs/Pets/corgi.rsi
     state: ian
@@ -249,17 +250,16 @@
 - type: selectableSet
   id: CENailgunKit
   name: Tider Defense Kit
-  description: Includes a nailgun, some nails, and an armored hardhat to fend off the inevitable hoards of assistants.
+  description: Includes an "industrial" nailgun, modified sledgehammer, and an armored hardhat to fend off the inevitable hoards of assistants.
   sprite:
-    sprite: _Goobstation/Objects/Weapons/Guns/Nailgun/nailgun.rsi
+    sprite: _Jamboree/Objects/Weapons/Guns/Nailgun/CEnailgun.rsi
     state: icon
   content:
-  - WeaponNailgun # TODO - make industrial nail gun
+  - IndustrialNailgun
   - MagazineNailgun
   - MagazineBoxNail
-  - MagazineNailgun
   - ClothingHeadHatHardhatArmored
-  - Sledgehammer # TODO - make CE's sledgehammer
+  - CESledgehammer
 
 #- type: selectableSet
 #  id: SingoBusterCEKit
@@ -273,26 +273,28 @@
 #  - CartridgeRocketSingularityBuster
 #  - CartridgeRocketSingularityBuster
 
-#- type: selectableSet
-#  id: CEPowerKit
-#  name: Electrician Kit
-#  description: Includes a portable microgenerator and antique power cell.
-#  sprite:
-#    sprite: Objects/Tools/rcd.rsi
-#    state: icon
-#  content: # TODO - add portable microgenerator
-#  - PowerCellAntiqueProto
+- type: selectableSet
+  id: CEPowerKit
+  name: Electrician Kit
+  description: Includes a portable microgenerator and antique power cell.
+  sprite:
+    sprite: Objects/Power/power_cells.rsi
+    state: antique
+  content:
+  - PowerCellAntiqueProto
+  - GeneratorMicro
 
 - type: selectableSet
   id: CESurvivalKit
   name: Survivalist Kit
-  description: Includes a spanish army knife, which will serve as most of your tools in a small knife.
+  description: Includes a spanish army knife and MRE fabricator.
   sprite:
     sprite: Objects/Tools/debug.rsi
     state: icon
-  content: # TODO - add MRE fabricator
+  content:
   - ToolDebug
   - BoxMRE
+  - MREFabMachineBoard # TODO: make MREFab sprite
 
 #- type: selectableSet
 #  id: CEAtmosKit
@@ -308,7 +310,7 @@
 - type: selectableSet
   id: CMOInjectionKit
   name: Injection Kit
-  description: Includes a hypospray and syringe gun that can administer medicine very quickly. This is the choice of many CMOs.
+  description: Includes a hypospray and syringe gun that can administer medicine very quickly. This is the choice of most CMOs.
   sprite:
     sprite: Objects/Specific/Medical/hypospray.rsi
     state: hypo
@@ -317,32 +319,33 @@
   - RapidSyringeGun
   - BoxSyringePax
 
-- type: selectableSet
-  id: CMOCloningKit
-  name: Cloning Equipment Kit
-  description: Includes everything you need to set up a cloning system.
-  sprite:
-    sprite: Structures/Machines/cloning.rsi
-    state: pod_0
-  content:
-  - BiomassReclaimerFlatpack
-  - CloningpodFlatpack
-  - ComputerCloningConsoleFlatpack
-  - MedicalScannerFlatpack
-  - Multitool
-  - MaterialBiomass
-
-#- type: selectableSet
-#  id: CMOReviveKit
-#  name: Resuscitation Kit
-#  description: Includes the CMO's specialty defibrillator gloves and some resuscitation supplies.
+#- type: selectableSet # disabled for now
+#  id: CMOCloningKit
+#  name: Cloning Equipment Kit
+#  description: Includes everything you need to set up a cloning system.
 #  sprite:
-#    sprite: Objects/Specific/Medical/hypospray.rsi
-#    state: hypo
-#  content: # TODO - add defibrillator gloves
-#  - ChemistryBottleFormaldehyde
-#  - ChemistryBottleEpinephrine
-#  - ChemistryBottleEpinephrine
+#    sprite: Structures/Machines/cloning.rsi
+#    state: pod_0
+#  content:
+#  - BiomassReclaimerFlatpack
+#  - CloningpodFlatpack
+#  - ComputerCloningConsoleFlatpack
+#  - MedicalScannerFlatpack
+#  - Multitool
+#  - MaterialBiomass
+
+- type: selectableSet
+  id: CMOReviveKit
+  name: Resuscitation Kit
+  description: Includes the CMO's specialty defibrillator gloves and some resuscitation and preservation supplies.
+  sprite:
+    sprite: _Jamboree/Clothing/Hands/Gloves/defibgloves.rsi
+    state: icon
+  content:
+  - ChemistryBottleFormaldehyde
+  - ChemistryBottleEpinephrine
+  - ChemistryBottleEpinephrine
+  - ClothingHandsGlovesCMODefib # TODO: make it able to defib while being equipped
 
 #- type: selectableSet
 #  id: CMOMindKit
@@ -380,7 +383,7 @@
 - type: selectableSet
   id: QMGamblingKit
   name: Gambler's Kit
-  description: Includes a slot machine, claw machine, and coin flipper. Just one more spin..
+  description: Includes a high roller slot machine, slot machine, claw machine, and coin flipper. Just one more spin..
   sprite:
     sprite: _Goobstation/Structures/Machines/slotmachines/slotmachine.rsi
     state: slotmachine
@@ -388,6 +391,7 @@
   - ClawMachineFlatPack
   - SlotMachineFlatpack
   - CoinFlipperFlatPack
+  - SlotMachineHighRollerFlatPack
 
 - type: selectableSet
   id: QMShittleKit
@@ -442,13 +446,13 @@
 
 - type: selectableSet
   id: CaneBladeSet
-  name: Diplomacy Set
+  name: Diplomat Set
   description: Includes a disguised cane blade and some lollypops to boost negotiations.
   sprite:
     sprite: Objects/Weapons/Melee/cane_blade.rsi
     state: icon
   content:
-  - CaneSheathFilledNanotrasen
+  - CaneSheathFilledCaptain
   - FoodSnackLollypopWrappedCaptain
   - FoodSnackLollypopWrappedCaptain
   - FoodSnackLollypopWrappedCaptain
@@ -468,6 +472,18 @@
   - ClothingHeadHatCaptainTricorne
   - ClothingEyesGlassesCaptaineyepatch
 
+- type: selectableSet
+  id: CapLordSet
+  name: Lordship Set
+  description: Includes an ornate set of plate armor and zweihander.
+  sprite:
+    sprite: _Jamboree/Objects/Weapons/Melee/captainzweihander.rsi
+    state: icon
+  content:
+  - CaptainZweihander
+  - ClothingOuterArmorCaptainPlate
+  - ClothingHeadHatCaptainPlate
+
 #- type: selectableSet
 #  id: CapSupportSet
 #  name: Station Leader Set
@@ -475,7 +491,7 @@
 #  sprite:
 #    sprite: Objects/Weapons/Melee/cane.rsi
 #    state: cane
-#  content: # TODO - make a flag and give a new component, similar to healonpray but captain specific
+#  content: # TODO - make a flag and give a new component, similar to healnearonpray but captain specific
 
 #- type: selectableSet
 #  id: CapBerserkerSet

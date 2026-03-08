@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: ClothingHeadBase
+  parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadHatWardenArmor
   name: warden's plate helmet
   description: You can barely see in or out of this.
@@ -52,3 +52,35 @@
         Piercing: 0.8
         Radiation: 0.1
         Caustic: 0.7
+
+- type: entity
+  parent: [ClothingHeadBase, BaseCommandContraband]
+  id: ClothingHeadHatCaptainPlate
+  name: captain's plate helmet
+  description: The inside is made of an expensive, delicate padding.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Clothing/Head/Armor/captainplatehelmet.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Jamboree/Clothing/Head/Armor/captainplatehelmet.rsi
+  - type: Armor
+    coverage:
+    - Head
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.4
+        Piercing: 0.8
+        Caustic: 0.7
+        Heat: 0.8
+  - type: Tag
+    tags:
+    - HidesHair
+  - type: FireProtection
+    reduction: 0.2
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
+      HeadTop: HEAD
+      HeadSide: HEAD

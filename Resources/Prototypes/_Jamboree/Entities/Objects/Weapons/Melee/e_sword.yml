@@ -29,3 +29,6 @@
         volume: -2
   - type: StealTarget # Jamboree - cmd/steal gear tweak
     stealGroup: Captain
+  - type: EnergySword
+    colorOptions:
+    - "#2E67F8" # can only be blue

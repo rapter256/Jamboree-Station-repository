@@ -173,7 +173,7 @@
 #    - id: ClothingHandsKnuckleDustersQM # jamboree - available in gear selector
     - id: SalvageJobBoardComputerCircuitboard # Goobstation - This doesn't really have a use right now but it's there incase it ever gets use again
     - id: CargoMegaphone # goob - loudspeaker
-    - id: SlotMachineHighRollerFlatPack # Goob - gambling
+#    - id: SlotMachineHighRollerFlatPack # Jamboree - available in gear selector
     - id: QMUndeterminedWeapon # Jamboree - command gear selectors
 
 - type: entity
@@ -405,10 +405,10 @@
     - id: MedkitFilled
     - id: RubberStampCMO
     # Goobstation Start
-#    - id: CloningpodFlatpack # jamboree - available in gear selector
-#    - id: MedicalScannerFlatpack # jamboree - available in gear selector
-#    - id: ComputerCloningConsoleFlatpack # jamboree - available in gear selector
-#    - id: BiomassReclaimerFlatpack # jamboree - available in gear selector
+    - id: CloningpodFlatpack
+    - id: MedicalScannerFlatpack
+    - id: ComputerCloningConsoleFlatpack
+    - id: BiomassReclaimerFlatpack
     - id: Multitool
     - id: ChemistryHotplateFlatPack
     - id: MedTekCartridge

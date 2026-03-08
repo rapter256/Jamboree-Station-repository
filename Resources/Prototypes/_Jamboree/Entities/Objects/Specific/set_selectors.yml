@@ -14,6 +14,7 @@
     - AntiqueLaserSet
     - CaneBladeSet
     - CapPirateSet
+    - CapLordSet
 #    - CapSupportSet # TODO - finish this
     maxSelectedSets: 1
 
@@ -52,9 +53,10 @@
     possibleSets:
     - CMOInjectionKit
     - CMOReviveKit
+    - CMODoktorKit
 #    - CMOMindKit # TODO - finish this
-#    - CMOCloningKit
-    maxSelectedSets: 2
+#    - CMOCloningKit # disabled for now, available in CMO's locker at roundstart
+    maxSelectedSets: 1
 
 # Quartermaster
 
@@ -90,10 +92,11 @@
   - type: SetSelector
     possibleSets:
     - CERCDKit
+    - CEPowerKit
     - CENailgunKit
-#    - SingoBusterCEKit
+#    - SingoBusterCEKit # disabled for now, available in CE's locker roundstart
     - CESurvivalKit
-    maxSelectedSets: 2
+    maxSelectedSets: 1
 
 # Research Director
 
@@ -131,8 +134,8 @@
     - HOPBureaucratKit
     - HOPKitchenSet
     - HOPClownSet
-#    - HOPBotanySet
-#    - HOPMusicianSet
+#    - HOPBotanySet # disabled for now
+    - HOPMusicianSet
     maxSelectedSets: 1
 
 # Warden

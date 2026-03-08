@@ -33,3 +33,5 @@
     knockdownTimeDelta: -2
   - type: StaminaResistance
     damageCoefficient: 0.7
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: QM

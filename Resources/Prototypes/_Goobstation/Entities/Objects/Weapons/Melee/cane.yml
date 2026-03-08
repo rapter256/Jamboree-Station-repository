@@ -10,7 +10,7 @@
 - type: entity
   name: cane blade
   suffix: Nanotrasen
-  parent: [ BaseItem, BaseCommandContraband] # Jamboree - was BaseItem
+  parent: [BaseItem]
   id: CaneBladeNanotrasen
   description: A sharp blade with a cane shaped hilt, a Nanotrasen logo is engraved on the blade.
   components:
@@ -20,10 +20,10 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 65
-    attackRate: 1.35 # Jamboree - was 1.25
+    attackRate: 1.25
     damage:
       types:
-        Slash: 15 # Jamboree - was 10
+        Slash: 10
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -34,8 +34,6 @@
       - CaneBlade
   - type: DisarmMalus
   - type: Execution
-  - type: StealTarget # cmd/steal gear tweak
-    stealGroup: Captain
 
 - type: entity
   id: CaneSheathFilledNanotrasen

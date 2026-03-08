@@ -165,6 +165,8 @@
     bigWinChance: 0
     jackPotWinChance: .10
     godPotWinChance: .001
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: QM
 
 - type: entity
   id: CoinFlipper

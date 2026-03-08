@@ -18,7 +18,7 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 15
+        Blunt: 10
     soundHit:
       path: /Audio/Weapons/smash.ogg
   - type: StaminaDamageOnHit
@@ -28,9 +28,9 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Blunt: 10
+        Blunt: 5
   - type: StaminaDamageOnCollide
-    damage: 15
-  - type: Boomerang
+    damage: 5
+  - type: Boomerang # boomerang because it's really freaking awesome
     maxHops: 6
 

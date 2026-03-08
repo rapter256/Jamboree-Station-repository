@@ -47,5 +47,5 @@
         - state: equipped-BACKPACK
   - type: Execution
     doAfterDuration: 2.5
-  - type: StealTarget # # Jamboree - cmd/steal gear tweak
+  - type: StealTarget # Jamboree - cmd/steal gear tweak
     stealGroup: Warden
