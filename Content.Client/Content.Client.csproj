@@ -63,6 +63,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   </ItemGroup>
   <ItemGroup>
     <Folder Include="_NF\UserInterface\Systems\Ghost\Controls\" />
+    <Folder Include="_Shitcode\UserInterface\Systems\Ghost\Controls\" />
   </ItemGroup>
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />
   <Import Project="..\RobustToolbox\MSBuild\XamlIL.targets" />
