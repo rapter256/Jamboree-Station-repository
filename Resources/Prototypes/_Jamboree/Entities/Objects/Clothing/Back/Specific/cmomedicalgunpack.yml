@@ -13,8 +13,16 @@
   - type: Item
     size: Ginormous
   - type: Clothing
-    slots: [ BACK, SUITSTORAGE ]
-    sprite: Resources/Textures/_Jamboree/Clothing/Back/Specific/cmomedicalgunpack.rsi
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+    clothingVisuals:
+      back:
+      - state: equipped-BACKPACK
+      suitstorage:
+      - state: equipped-BACKPACK
+    sprite: _Jamboree/Clothing/Back/Specific/cmomedicalgunpack.rsi
   - type: ItemSlots
     slots:
       charger_slot:
