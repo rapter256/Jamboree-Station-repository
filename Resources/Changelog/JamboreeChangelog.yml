@@ -662,3 +662,24 @@ Entries:
         heart's content!
   id: 75
   time: '2026-02-25T08:30:11.0000000+00:00'
+- author: Gorse1, Bibble-B-Boop, MilonPL
+  changes:
+    - type: Add
+      message: Added command gear selectors for each head, and the warden!
+    - type: Add
+      message: Ported stock trading from DeltaV!
+    - type: Add
+      message: >-
+        Added some new items, weapons, armors, and clothings that can be found
+        exclusively in the gear selectors
+    - type: Tweak
+      message: >-
+        Syndicate steal objectives now count any one of the head's important
+        items as the objective, I.E the hypo and rapid syringe gun both count
+        for the cmo's steal objective
+    - type: Remove
+      message: >-
+        Removed mapped antique lasers and lawbringers, they are now in the HOS
+        and captain's gear selectors!
+  id: 76
+  time: '2026-03-08T05:39:13.0000000+00:00'
