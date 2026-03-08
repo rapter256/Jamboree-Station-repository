@@ -33,6 +33,8 @@
         whitelist:
           tags:
             - NonLethalGrenade
+  - type: StealTarget # Jamboree - cmd/steal gear tweak
+    stealGroup: HOS
 
 - type: entity
   name: M172 LAW

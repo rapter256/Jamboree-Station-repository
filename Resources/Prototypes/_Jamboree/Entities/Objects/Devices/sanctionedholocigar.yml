@@ -1,0 +1,28 @@
+﻿- type: entity
+  parent: [ BaseItem, BaseSecurityContraband ]
+  id: HOSHoloCigar
+  name: sanctioned holo-cigar
+  description: A luxury electronic cigar. It has been stripped of it's unsanctioned counterpart's features.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Devices/sanctionedholocigar.rsi
+    state: icon
+    scale: 0.8, 0.8
+  - type: Clothing
+    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    slots: [ mask ]
+    equippedPrefix: unlit
+  - type: Item
+    size: Tiny
+    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    heldPrefix: unlit
+  - type: Appearance
+  - type: BurnStateVisuals
+  - type: HoloCigar
+    music:
+      path: /Audio/_Goobstation/Music/cowboy_western_background.ogg
+      params:
+        volume: -5
+        loop: true
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: HOS

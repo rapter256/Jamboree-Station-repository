@@ -197,6 +197,8 @@
   components:
   - type: Flatpack
     entity: SlotMachineHighRoller
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: QM
 
 - type: entity
   parent: BaseFlatpack

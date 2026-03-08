@@ -126000,20 +126000,6 @@ entities:
     - type: Transform
       pos: -42.5,47.5
       parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 14546
-    components:
-    - type: Transform
-      pos: 39.5,11.5
-      parent: 2
-- proto: GlassBoxLawbringerFilled
-  entities:
-  - uid: 14547
-    components:
-    - type: Transform
-      pos: 37.5,-39.5
-      parent: 2
 - proto: GlowstickYellow
   entities:
   - uid: 28187

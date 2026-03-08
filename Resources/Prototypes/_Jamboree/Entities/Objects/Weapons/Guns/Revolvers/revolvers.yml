@@ -1,0 +1,21 @@
+﻿- type: entity
+  name: nanotrasen pirate revolver
+  parent: [BaseWeaponRevolver, BaseCommandContraband]
+  id: WeaponRevolverPirateNT
+  description: A crude single-action revolver handmade by a space pirate. It has been refurbished to be suitable for use by a station captain. Loads 5 rounds of .45 magnum.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi
+  - type: Gun
+    fireRate: 1
+  - type: ContainerContainer
+    containers:
+      revolver-ammo: !type:Container
+  - type: RevolverAmmoProvider
+    capacity: 5
+    chambers: [ True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null ]
+  - type: StealTarget
+    stealGroup: Captain # Jamboree - cmd/steal gear tweaks

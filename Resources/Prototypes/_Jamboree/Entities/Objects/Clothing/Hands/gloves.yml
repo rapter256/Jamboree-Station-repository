@@ -1,0 +1,29 @@
+﻿- type: entity
+  parent: [ClothingHandsBase, BaseCommandContraband]
+  id: ClothingHandsGlovesCMODefib
+  name: cmo's defibrillator gloves
+  description: Incredibly advanced medical technology, a defibrillator literally at your fingertips. You will need to remove the glove from your hand to use it.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Clothing/Hands/Gloves/defibgloves.rsi
+  - type: Clothing
+    sprite: _Jamboree/Clothing/Hands/Gloves/defibgloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-latex
+  - type: FingerprintMask
+  - type: Speech
+    speechVerb: Robotic
+  - type: LanguageSpeaker # Einstein Engines - Language
+  - type: LanguageKnowledge # Einstein Engines - Language
+    speaks:
+    - TauCetiBasic
+    understands:
+    - TauCetiBasic
+  - type: Defibrillator
+    zapHeal:
+      types:
+        Asphyxiation: -40
+  - type: DoAfter
+  - type: UseDelay
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: CMO

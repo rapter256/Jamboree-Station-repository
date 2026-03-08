@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Timfa, plus edits by portfiend, cart-chat made by kushbreth (discord)",
+    "copyright": "Timfa, plus edits by portfiend, cart-chat made by kushbreth (discord), cart-stonk made by Monotheonist (github)",
     "size": {
         "x": 32,
         "y": 32
@@ -15,6 +15,9 @@
         },
         {
             "name": "cart-chat"
+        },
+        {
+            "name": "cart-stonk"
         }
     ]
 }

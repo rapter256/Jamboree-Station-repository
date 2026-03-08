@@ -1,0 +1,41 @@
+﻿- type: stealTargetGroup
+  id: CMO
+  name: steal-target-groups-CMO
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Cannons/rapid_syringe_gun.rsi
+    state: icon
+
+- type: stealTargetGroup
+  id: RD
+  name: steal-target-groups-RD
+  sprite:
+    sprite: Objects/Devices/hand_teleporter.rsi
+    state: icon
+
+- type: stealTargetGroup
+  id: QM
+  name: steal-target-groups-QM
+  sprite:
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
+    state: goldenknuckleduster
+
+- type: stealTargetGroup
+  id: Captain
+  name: steal-target-groups-Captain
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    state: icon
+
+- type: stealTargetGroup
+  id: HOS
+  name: steal-target-groups-HOS
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/lawbringer.rsi
+    state: icon
+
+- type: stealTargetGroup
+  id: Warden
+  name: steal-target-groups-Warden
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    state: icon

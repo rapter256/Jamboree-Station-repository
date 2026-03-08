@@ -100050,13 +100050,6 @@ entities:
     - type: Transform
       pos: 5.5,-91.5
       parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 13999
-    components:
-    - type: Transform
-      pos: -26.5,-55.5
-      parent: 2
 - proto: GoldRingDiamond
   entities:
   - uid: 14000

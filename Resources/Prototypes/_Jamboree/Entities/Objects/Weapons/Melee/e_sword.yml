@@ -1,0 +1,34 @@
+﻿- type: entity
+  name: nanotrasen energy cutlass
+  parent: [BaseMeleeWeaponEnergy, BaseCommandContraband]
+  id: EnergyCutlassNT
+  description: An exotic energy weapon. It has "NT" engraved on it's hilt.
+  components:
+  - type: ItemToggleMeleeWeapon
+    activatedDamage:
+      types:
+        Slash: 10
+        Heat: 12
+    deactivatedSecret: true
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/e_cutlass.rsi
+    layers:
+    - state: e_cutlass
+    - state: e_cutlass_blade
+      color: "#e95151"
+      visible: false
+      shader: unshaded
+      map: [ "blade" ]
+  - type: Item
+    sprite: Objects/Weapons/Melee/e_cutlass.rsi
+  - type: ThrowableBlocker # Goobstation
+    blockSound:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+        volume: -2
+  - type: StealTarget # Jamboree - cmd/steal gear tweak
+    stealGroup: Captain
+  - type: EnergySword
+    colorOptions:
+    - "#2E67F8" # can only be blue

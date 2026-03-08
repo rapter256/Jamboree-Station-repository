@@ -1,0 +1,42 @@
+﻿- type: entity
+  id: RDHolosignForcefield
+  parent: HolosignWetFloor
+  name: holographic force field
+  description: An impassable field, produced by the RD's holoprojector. It can take more of a beating.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Physics
+    bodyType: Static
+    canCollide: true
+  - type: Sprite
+    sprite: _Jamboree/Structures/Holo/RDfield.rsi
+    state: icon
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: TimedDespawn
+    lifetime: 45
+  - type: PointLight
+    enabled: true
+    radius: 3
+    color: purple
+  - type: Clickable
+  - type: ContainmentField
+    throwForce: 0
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 80 # Goob edit
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Penetratable # Goobstation - Better snipers
+    penetrateDamage: 10

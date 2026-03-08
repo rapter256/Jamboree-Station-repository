@@ -114,22 +114,28 @@
   id: TraitorObjectiveGroupSteal
   weights:
     CaptainIDStealObjective: 1
-    CMOHyposprayStealObjective: 1
+#    CMOHyposprayStealObjective: 1 # jamboree - merged steal objectives
     # CMOCrewMonitorStealObjective: 1 # Goobstation
-    CMORapidSyringeGunStealObjective: 1
+#    CMORapidSyringeGunStealObjective: 1 # jamboree - merged steal objectives
     RDHardsuitStealObjective: 1
     NukeDiskStealObjective: 1
+    RDGeneralStealObjective: 1 # jamboree - merged steal objectives
+    WardenGeneralStealObjective: 0.5 # jamboree - merged steal objectives
+    HOSGeneralStealObjective: 0.5 # jamboree - merged steal objectives
+    QMGeneralStealObjective: 1 # jamboree - merged steal objectives
+    CaptainGeneralStealObjective: 0.5 # jamboree - merged steal objectives
+    CMOGeneralStealObjective: 1 # jamboree - merged steal objectives
     MagbootsStealObjective: 1
     # CERocketLauncherStealObjective: 1
     CorgiMeatStealObjective: 1
     ClipboardStealObjective: 1
-    CaptainGunStealObjective: 0.5
+#    CaptainGunStealObjective: 0.5 #jamboree - merged steal objectives
     CaptainJetpackStealObjective: 0.5
-    HandTeleporterStealObjective: 0.5
-    EnergyShotgunStealObjective: 0.5
+#    HandTeleporterStealObjective: 0.5 # jamboree - merged steal objectives
+#    EnergyShotgunStealObjective: 0.5 # jamboree - merged steal objectives
     StealSupermatterSliverObjective: 0.5 # Goobstation - supermatter
-    LawbringerStealObjective: 0.5 # Goobstation
-    GeminiProjectorStealObjective: 0.5 # Goobstation
+#    LawbringerStealObjective: 0.5 # jamboree - merged steal objectives
+#    GeminiProjectorStealObjective: 0.5 # jamboree - merged steal objectives
     ExecutiveBriefcaseStealObjective: 0.5 # Goobstation
     JusticeStealObjective: 0.5 # Goobstation
 

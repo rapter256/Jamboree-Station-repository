@@ -140,7 +140,7 @@
   - type: Clothing
     sprite: _Goobstation/Clothing/Belt/geminiprojector.rsi
   - type: StealTarget
-    stealGroup: ClothingBeltGeminiHoloProjector
+    stealGroup: RD # Jamboree - was ClothingBeltGeminiHoloProjector
   - type: CloneProjector
     clonedItemBlacklist:
       components:

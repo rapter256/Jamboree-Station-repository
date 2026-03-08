@@ -1,0 +1,29 @@
+﻿- type: latheRecipe
+  id: DrinkMREFlask
+  result: DrinkMREFlask
+  materials:
+    Biomass: 7
+
+- type: latheRecipe
+  id: FoodSnackMREBrownie
+  result: FoodSnackMREBrownie
+  materials:
+    Biomass: 5
+
+- type: latheRecipe
+  id: FoodSnackNutribrick
+  result: FoodSnackNutribrick
+  materials:
+    Biomass: 9
+
+- type: latheRecipe
+  id: FoodCondimentPacketKetchup
+  result: FoodCondimentPacketKetchup
+  materials:
+    Biomass: 2
+
+- type: latheRecipe
+  id: FoodCondimentPacketMustard
+  result: FoodCondimentPacketMustard
+  materials:
+    Biomass: 2
