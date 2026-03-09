@@ -271,13 +271,13 @@
 - type: lobbyBackground
   id: honk-tv
   background: /Textures/LobbyScreens/honktv.webp
-  name: Honk TV
+  name: Honk TV!!!
   artist: Bibble
 
 - type: lobbyBackground
   id: honk-exe
   background: /Textures/LobbyScreens/honkexe.webp
-  name: Honk_exe
+  name: Honk.EXE
   artist: Bibble
 
 - type: lobbyBackground
