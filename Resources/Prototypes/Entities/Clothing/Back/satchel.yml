@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelClown
-  name: clown satchel
-  description: For fast running from security.
+  name: chuckie mcboof #changed from "clown satchel"
+  description: It's a satchel made by Honk! Co. # changed from For fast running from security.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/clown.rsi
