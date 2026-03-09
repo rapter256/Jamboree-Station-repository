@@ -709,3 +709,17 @@ Entries:
         loadout!
   id: 79
   time: '2026-03-09T07:21:37.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added Honk TV by Bibble as a lobby art! Tune on in!
+    - type: Add
+      message: >-
+        Added Not the Pleebnar by YoruMidnight as a lobby art! PLEASE STOP
+        KILLING THEM I AM BEGGING YOU!!!!
+    - type: Add
+      message: >-
+        Added Honk.EXE by Bibble as a lobby art... There is something creepy
+        about this pasta....
+  id: 80
+  time: '2026-03-09T07:31:03.0000000+00:00'
