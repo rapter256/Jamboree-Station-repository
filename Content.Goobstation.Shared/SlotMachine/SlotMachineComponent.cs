@@ -53,7 +53,7 @@ public sealed partial class SlotMachineComponent : Component
     #endregion
 
     [DataField, AutoNetworkedField]
-    public EntProtoId GodPotPrize = "WeaponShotgunHeavy";
+    public EntProtoId GodPotPrize = "PilkChalice"; // Jamboree - was WeaponShotgunHeavy
 
     [DataField, AutoNetworkedField]
     public bool Emagged;
