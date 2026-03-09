@@ -3492,6 +3492,7 @@
   - type: Grammar
     attributes:
       gender: epicene
+  - type: Ian
 
 - type: entity
   name: cat

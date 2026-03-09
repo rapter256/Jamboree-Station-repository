@@ -7,7 +7,7 @@
   - type: Sprite
     sprite: _Jamboree/Objects/Weapons/Melee/captainzweihander.rsi
   - type: MeleeWeapon
-    attackRate: 0.6
+    attackRate: 0.45 # slow, heavy hitting weapon
     animationRotation: 140
     damage:
       types:

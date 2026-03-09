@@ -18,20 +18,26 @@
   - type: MediGun
     healing:
       types:
-        Blunt: -2
-        Slash: -2
-        Piercing: -2
-        Heat: -2
+        Blunt: -1
+        Slash: -1
+        Piercing: -1
+        Heat: -1
     uberHealing:
       types:
-        Blunt: -4
-        Slash: -4
-        Piercing: -4
-        Heat: -4
+        Blunt: -3
+        Slash: -3
+        Piercing: -3
+        Heat: -3
     soundOnTarget:
       path: /Audio/_Goobstation/Weapons/Effects/energy_reload.ogg
       params:
         volume: 6
+    healAbleWhitelist:
+      requireAll: true
+      components:
+      - Damageable
+      - MobState
+      - Respirator # medigun will not heal silicons
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -49,7 +55,7 @@
   - type: UseDelay
     delay: 1.0
   - type: Battery
-    maxCharge: 35 # Jamboree - up from 20 because it's the CMO's cool one
+    maxCharge: 35 # Jamboree - up from 20 because it's the CMO's cool one, exchanged for less healing
     startingCharge: 35
   - type: RechargeableBlocking
     chargedRechargeRate: 0
