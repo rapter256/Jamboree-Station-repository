@@ -683,3 +683,11 @@ Entries:
         and captain's gear selectors!
   id: 76
   time: '2026-03-08T05:39:13.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: >-
+        Santa Claus is now on life support in the North Pole, so he won't be
+        coming to the Jamboree Sector until next year!
+  id: 77
+  time: '2026-03-09T00:38:31.0000000+00:00'
