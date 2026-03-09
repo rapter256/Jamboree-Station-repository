@@ -1,0 +1,31 @@
+﻿- type: entity
+  id: Meowl # jamboree - shitposting era real
+  name: meowl
+  suffix: Admeme
+  description: what are YOU looking at?
+  parent: [BaseItem, BasePlushie]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Fun/meowl.rsi
+    state: icon
+    scale: 0.2, 0.2
+  - type: EmitSoundOnUse
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnLand
+    sound:
+      collection: FelinidScreams
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FelinidScreams
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      collection: FelinidMeows
+  - type: Boomerang # wheeeeeeeee
