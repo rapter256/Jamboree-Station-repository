@@ -1,0 +1,44 @@
+# Head
+- type: loadout
+  id: WearyClownHat
+  equipment:
+    head: TP14ClothingHeadHatWearyClownHat
+
+# Mask
+- type: loadout
+  id: WearyClownMask
+  equipment:
+    mask: TP14ClothingMaskWearyClown
+
+# Jumpsuit
+- type: loadout
+  id: WearyOveralls
+  equipment:
+    jumpsuit: TP14ClothingUniformJumpsuitWearyClownOveralls
+
+
+# Back
+- type: loadout
+  id: ClownBindle
+  equipment:
+    back: TP14ClothingBackpackClownBindle
+
+# Neck
+- type: loadout
+  id: RedBowtie
+  equipment:
+    neck: TP14ClothingNeckRedBowtie
+
+# Shoes
+- type: loadout
+  id: WearyClownShoes
+  equipment:
+    shoes: TP14ClothingShoesWearyClown
+
+
+# Outer clothing
+- type: loadout
+  id: WearyClownCoat
+  equipment:
+    outerClothing: TP14ClothingOuterWearyClownCoat
+

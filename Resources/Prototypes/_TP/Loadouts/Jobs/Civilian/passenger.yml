@@ -1,0 +1,6 @@
+
+# Head
+- type: loadout
+  id: GreyBucket
+  equipment:
+    head: TP14ClothingHeadCivilianBucket

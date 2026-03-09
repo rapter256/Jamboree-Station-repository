@@ -1,0 +1,27 @@
+# Head
+- type: loadout
+  id: PierrotHat
+  equipment:
+    head: TP14ClothingHeadHatPierrot
+
+# Mask
+- type: loadout
+  id: PierrotMask
+  equipment:
+    mask: TP14ClothingMaskPierrot
+
+
+# Jumpsuit
+- type: loadout
+  id: PierrotJumpsuit
+  equipment:
+    jumpsuit: TP14ClothingUniformPierrot
+
+
+# Shoes
+- type: loadout
+  id: PierrotShoes
+  equipment:
+    shoes: TP14ClothingShoesPierrot
+
+

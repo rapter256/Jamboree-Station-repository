@@ -113,10 +113,12 @@ loadout-group-clown-shoes = Clown shoes
 
 loadout-group-mime-head = Mime head
 loadout-group-mime-mask = Mime mask
+loadout-group-mime-neck = Mime neck
 loadout-group-mime-jumpsuit = Mime jumpsuit
 loadout-group-mime-backpack = Mime backpack
 loadout-group-mime-outerclothing = Mime outer clothing
 loadout-group-mime-belt = Mime belt
+loadout-group-mime-shoes = Mime shoes
 
 loadout-group-musician-head = Musician head
 loadout-group-musician-neck = Musician neck

@@ -1,0 +1,5 @@
+# Head
+- type: loadout
+  id: MedicalBucket
+  equipment:
+    head: TP14ClothingHeadMedicalBucket

@@ -1,0 +1,5 @@
+# Head
+- type: loadout
+  id: ScienceBucket
+  equipment:
+    head: TP14ClothingHeadScienceBucket

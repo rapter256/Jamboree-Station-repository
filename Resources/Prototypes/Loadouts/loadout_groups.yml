@@ -444,6 +444,7 @@
   minLimit: 0
   loadouts:
   - GreyHat # Jamboree
+  - GreyBucket #TP
   - BlackHat # Jamboree
   - RedHat # Jamboree
   - BlueHat # Jamboree
@@ -942,6 +943,7 @@
   loadouts:
   - BotanistHead
   - BotanistBandana
+  - BotanyBucket #TP
   - BotanistBeret # Goobstation
 
 - type: loadoutGroup
@@ -980,6 +982,7 @@
   - JesterAltHat
   - EvilJesterHat #imp
   - CircusClownHat #imp
+  - WearyClownHat #TB
 
 - type: loadoutGroup
   id: ClownMask
@@ -990,6 +993,7 @@
   - ClownDevil #funky
   - ClownGamble #funky
   - ClownJuggle #funky
+  - WearyClownMask #TB
   - ClownNose #imp
 
 - type: loadoutGroup
@@ -998,6 +1002,7 @@
   minLimit: 0
   loadouts:
   - NeckRuffle #imp
+  - RedBowtie #TB
 
 - type: loadoutGroup
   id: ClownJumpsuit
@@ -1010,6 +1015,7 @@
   - EvilJesterSuit #imp
   - CircusClownSuit #imp
   - JokesterSuit #imp
+  - WearyOveralls #TB
 
 - type: loadoutGroup
   id: ClownBackpack
@@ -1019,6 +1025,7 @@
   - ClownSatchel
   - ClownDuffel
   - ClownMessenger # Frontier
+  - ClownBindle # TB
 
 - type: loadoutGroup
   id: ClownOuterClothing
@@ -1028,6 +1035,7 @@
   - ClownRobes
   - ClownWintercoat
   - JokesterOuterCoat #imp
+  - WearyClownCoat #TB
 
 - type: loadoutGroup
   id: ClownShoes
@@ -1038,6 +1046,7 @@
   - EvilJesterShoes #imp
   - CircusClownShoes #imp
   - JokesterShoes #imp
+  - WearyClownShoes #TB
 
 - type: loadoutGroup
   id: SurvivalClown
@@ -1061,6 +1070,14 @@
   - MimeHead
   - MimeFrenchBeret
   - MimeCap
+  - PierrotHat #TB
+
+- type: loadoutGroup
+  id: MimeNeck
+  name: loadout-group-mime-neck
+  minLimit: 0
+  loadouts:
+  - NeckRuffle #imp
 
 - type: loadoutGroup
   id: MimeMask
@@ -1070,6 +1087,7 @@
   - MimeMaskSad
   - MimeMaskScared
   - MimeMaskOdd #funky
+  - PierrotMask #TB
 
 - type: loadoutGroup
   id: MimeJumpsuit
@@ -1077,6 +1095,7 @@
   loadouts:
   - MimeJumpsuit
   - MimeJumpskirt
+  - PierrotJumpsuit #TB
 
 - type: loadoutGroup
   id: MimeBackpack
@@ -1100,6 +1119,14 @@
   loadouts:
   - MimeSuspendersRed
   - MimeSuspendersBlack
+
+- type: loadoutGroup
+  id: MimeShoes
+  name: loadout-group-mime-shoes
+  loadouts:
+  - BlackShoes
+  - WhiteShoes
+  - PierrotShoes #TB
 
 - type: loadoutGroup
   id: SurvivalMime
@@ -1527,6 +1554,7 @@
   - RoboticistCap #reenabled, jamboree
   - SkullBandana # reenabled, jamboree
   - ScientificBeret
+  - ScienceBucket #TP
 
 - type: loadoutGroup
   id: ScientistNeck
@@ -1613,6 +1641,7 @@
   - HeadofSecurityBeret
   - HeadofSecuritySpecialBeret # Goobstation
   - HoSCowboy #Delta V
+  - HOSBucket #TP
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit

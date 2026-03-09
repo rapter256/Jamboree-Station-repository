@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingOuterWinterCoat #changed from base
+  id: TP14ClothingOuterWearyClownCoat
+  suffix: Trieste, Coat, Clown
+  name: weary clown coat
+  description: Sometimes life gets you down, keep clowning around.
+  components:
+  - type: Sprite
+    sprite: _TP/Clothing/OuterClothing/Coats/weary_coat.rsi
+  - type: Clothing
+    sprite: _TP/Clothing/OuterClothing/Coats/weary_coat.rsi
+# removed a buncha stuff
