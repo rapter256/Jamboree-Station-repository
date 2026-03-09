@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
@@ -53,7 +57,7 @@ public sealed partial class SlotMachineComponent : Component
     #endregion
 
     [DataField, AutoNetworkedField]
-    public EntProtoId GodPotPrize = "WeaponShotgunHeavy";
+    public EntProtoId GodPotPrize = "PilkChalice"; // Jamboree - was WeaponShotgunHeavy
 
     [DataField, AutoNetworkedField]
     public bool Emagged;

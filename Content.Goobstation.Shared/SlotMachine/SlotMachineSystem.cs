@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Content.Shared.DoAfter;
 using Content.Shared.Popups;
@@ -61,14 +65,14 @@ namespace Content.Goobstation.Shared.SlotMachine
             comp.JackPotWinChance  = _random.NextFloat(0, 0.1f);
             comp.GodPotWinChance =  _random.NextFloat(0, 0.05f);
 
-            // lord have mercy...
+        /* // Jamboree - kill slot machine godpot randomization // lord have mercy...
             var allProtos = _proto.EnumeratePrototypes<EntityPrototype>().ToList();
 
             if (allProtos.Count > 0)
             {
                 var randomProto = _random.Pick(allProtos);
                 comp.GodPotPrize = randomProto.ID;
-            }
+            } */
         }
 
         /// <summary>

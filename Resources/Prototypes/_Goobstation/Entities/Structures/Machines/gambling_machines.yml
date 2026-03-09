@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Goob Station Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   id: BaseSlotMachine
   parent: BaseMachinePowered
@@ -159,7 +163,7 @@
     mediumPrizeAmount: 0
     bigPrizeAmount: 0
     jackPotPrizeAmount: 1000000
-    godPotPrize: Throngler
+    godPotPrize: PilkChalice
     smallWinChance: 0
     mediumWinChance: 0
     bigWinChance: 0
