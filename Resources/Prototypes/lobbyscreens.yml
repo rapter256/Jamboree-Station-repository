@@ -267,3 +267,21 @@
   background: /Textures/LobbyScreens/clowntown.webp
   name: Perfect Trap
   artist: Bibble
+
+- type: lobbyBackground
+  id: honk-tv
+  background: /Textures/LobbyScreens/honktv.webp
+  name: Honk TV
+  artist: Bibble
+
+- type: lobbyBackground
+  id: honk-exe
+  background: /Textures/LobbyScreens/honkexe.webp
+  name: Honk_exe
+  artist: Bibble
+
+- type: lobbyBackground
+  id: not-the-pleeb
+  background: /Textures/LobbyScreens/notthepleeb.webp
+  name: Not the Pleeb
+  artist: YoruMidnight
