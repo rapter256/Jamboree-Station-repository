@@ -683,3 +683,43 @@ Entries:
         and captain's gear selectors!
   id: 76
   time: '2026-03-08T05:39:13.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: >-
+        Santa Claus is now on life support in the North Pole, so he won't be
+        coming to the Jamboree Sector until next year!
+  id: 77
+  time: '2026-03-09T00:38:31.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Add
+      message: A new soul is approaching.
+  id: 78
+  time: '2026-03-09T05:32:03.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added several pieces of Trieste Clothing! Check out your loadout menu!
+    - type: Add
+      message: 'Radio Host now has new clothing! Still no mapped spots though :( '
+    - type: Tweak
+      message: >-
+        Fixed Parity with new roles by adding Drip & Animal menus to their
+        loadout!
+  id: 79
+  time: '2026-03-09T07:21:37.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added Honk TV by Bibble as a lobby art! Tune on in!
+    - type: Add
+      message: >-
+        Added Not the Pleebnar by YoruMidnight as a lobby art! PLEASE STOP
+        KILLING THEM I AM BEGGING YOU!!!!
+    - type: Add
+      message: >-
+        Added Honk.EXE by Bibble as a lobby art... There is something creepy
+        about this pasta....
+  id: 80
+  time: '2026-03-09T07:31:03.0000000+00:00'
