@@ -165,7 +165,7 @@
 - type: selectableSet
   id: HOPMusicianSet
   name: HOP Musician kit
-  description: Includes some instruments and a VERY nice coat, that is DEFINITELY authentic.
+  description: Includes some instruments, including a super synth, and a VERY nice coat, that is DEFINITELY authentic.
   sprite:
     sprite: Objects/Fun/Instruments/h_synthesizer.rsi
     state: icon
