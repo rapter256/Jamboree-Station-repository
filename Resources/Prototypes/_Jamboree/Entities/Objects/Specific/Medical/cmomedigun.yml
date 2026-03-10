@@ -1,4 +1,8 @@
-﻿- type: entity
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
   name: cmo's medical beam gun
   parent: [ BaseItem, BaseCommandContraband ]
   description: An older but ornate version of the standard medical beam gun. This "quick fix" will need to recharge itself periodically in it's matching backpack.
