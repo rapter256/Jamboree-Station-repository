@@ -3492,7 +3492,7 @@
   - type: Grammar
     attributes:
       gender: epicene
-  - type: Ian
+#  - type: Ian # # cmd selector fixes - this one is NOT ian!!!!!
 
 - type: entity
   name: cat

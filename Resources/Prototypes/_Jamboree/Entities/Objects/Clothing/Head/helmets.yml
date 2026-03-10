@@ -31,7 +31,7 @@
       HeadSide: HEAD
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, BaseCommandContraband ]
+  parent: [ ClothingHeadHardsuitWithLightBase, BaseCommandContraband ] # cmd selector fixes - was ClothingHeadHardsuitBase, BaseCommandContraband
   id: ClothingHeadHelmetHardsuitBroker
   name: stock broker hardsuit helmet
   categories: [ HideSpawnMenu ]

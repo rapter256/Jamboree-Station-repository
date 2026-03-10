@@ -307,6 +307,7 @@
     understands:
     - Dog
     - TauCetiBasic
+  - type: Ian # cmd selector fixes - this one doesnt parent off ian so needs the component
 
 - type: entity
   name: Aves

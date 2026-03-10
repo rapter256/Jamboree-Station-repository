@@ -16,13 +16,13 @@
     sprite: _Jamboree/Objects/Specific/Medical/cmomedigun.rsi
     size: Large
   - type: MediGun
-    healing:
+    healing: # cmd selector fixes - values were -2
       types:
         Blunt: -1
         Slash: -1
         Piercing: -1
         Heat: -1
-    uberHealing:
+    uberHealing: # cmd selector fixes - values were -4
       types:
         Blunt: -3
         Slash: -3
@@ -37,7 +37,7 @@
       components:
       - Damageable
       - MobState
-      - Respirator # medigun will not heal silicons
+      - Respirator # cmd selector fixes - medigun will not heal silicons
   - type: ItemToggle
     predictable: false
     soundActivate:

@@ -174,7 +174,8 @@
   - SaxophoneInstrument
   - TrumpetInstrument
   - ViolinInstrument
-  - SynthesizerInstrument
+#  - SynthesizerInstrument # cmd selector fixes
+  - SuperSynthesizerInstrument # cmd selector fixes
   - HarmonicaInstrument
 
 - type: selectableSet
