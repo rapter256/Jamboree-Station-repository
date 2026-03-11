@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingUniformBase
+  id: TP14ClothingUniformJumpsuitWearyClownOveralls
+  suffix: Trieste, Uniform, Clown
+  name: weary clown overalls
+  description: Honk....
+  components:
+  - type: Sprite
+    sprite: _TP/Clothing/Uniforms/Jumpsuit/weary_overalls.rsi
+  - type: Clothing
+    sprite: _TP/Clothing/Uniforms/Jumpsuit/weary_overalls.rsi
+  - type: Tag
+    tags:
+    - ClownSuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingUniformBase
+  id: TP14ClothingUniformPierrot
+  suffix: Trieste, Uniform, Mime
+  name: pierrot jumpsuit
+  description: A tragic figure's uniform, indicative of heartbreak.
+  components:
+  - type: Sprite
+    sprite: _TP/Clothing/Uniforms/Jumpsuit/pierrot.rsi
+  - type: Clothing
+    sprite: _TP/Clothing/Uniforms/Jumpsuit/pierrot.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon

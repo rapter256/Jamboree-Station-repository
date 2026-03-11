@@ -1,0 +1,8 @@
+﻿- type: latheRecipePack
+  id: MREStatic
+  recipes:
+  - DrinkMREFlask
+  - FoodSnackMREBrownie
+  - FoodSnackNutribrick
+  - FoodCondimentPacketKetchup
+  - FoodCondimentPacketMustard

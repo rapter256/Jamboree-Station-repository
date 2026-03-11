@@ -1,0 +1,29 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: DrinkBase
+  id: PilkChalice
+  name: The God Pot
+  description: Is that... pilk?
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Consumable/Drinks/pilkchalice.rsi
+    state: icon
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Pilk
+          Quantity: 30
+  - type: SolutionRegeneration
+    solution: drink
+    duration: 10
+    generated:
+      reagents:
+      - ReagentId: Pilk
+        Quantity: 5
+  - type: StaticPrice
+    price: 40000

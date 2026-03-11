@@ -1,0 +1,15 @@
+﻿- type: entity
+  name: ian pinpointer
+  id: PinpointerIan
+  parent: [ PinpointerBase, BaseCommandContraband ]
+  components:
+  - type: Pinpointer
+    whitelist:
+      components:
+      - Ian
+    targetName: ian
+  - type: Sprite
+    noRot: True
+    sprite: _Jamboree/Objects/Devices/ianpinpointer.rsi
+    layers:
+    - state: pinpointer-ian

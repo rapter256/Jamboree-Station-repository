@@ -1,0 +1,38 @@
+﻿- type: entity
+  name: captain's cane blade
+  parent: [ BaseItem, BaseCommandContraband ]
+  id: CaneBladeCaptain
+  description: A sharp blade with a cane shaped hilt, the captain's insignia is engraved on the base of the blade.
+  components:
+  - type: Sharp
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: 65
+    attackRate: 1.25
+    damage:
+      types:
+        Slash: 15
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    size: Normal
+    sprite: Objects/Weapons/Melee/cane_blade.rsi
+  - type: Tag
+    tags:
+    - CaneBlade
+  - type: DisarmMalus
+  - type: Execution
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: Captain
+
+- type: entity
+  id: CaneSheathFilledCaptain
+  parent: CaneSheath
+  suffix: Filled, Captain
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - CaneBladeCaptain

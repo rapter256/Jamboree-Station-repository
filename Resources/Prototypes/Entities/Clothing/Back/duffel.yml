@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelClown
-  name: clown duffel bag
-  description: A large duffel bag for holding extra honk goods.
+  name: guffaw le'duff #changed from just being "clown duffel bag"
+  description: It's a duffel bag made by Honk! Co. #changed from "A large duffel bag for holding extra clown related goods."
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/clown.rsi

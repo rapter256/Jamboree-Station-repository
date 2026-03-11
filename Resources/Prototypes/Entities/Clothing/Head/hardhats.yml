@@ -187,7 +187,7 @@
     sprite: Clothing/Head/Hardhats/dark_yellow.rsi
 
 - type: entity
-  parent: ClothingHeadHatHardhatBase
+  parent: [ ClothingHeadHatHardhatBase, BaseCommandContraband ] # Jamboree - was ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatArmored
   name: armored hard hat
   description: An armored hard hat. Provides the best of both worlds in both protection & utility - perfect for the engineer on the frontlines.

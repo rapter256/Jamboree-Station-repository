@@ -1,0 +1,35 @@
+﻿- type: entity
+  parent: [BaseGenerator, BaseItem, BaseCommandContraband]
+  id: GeneratorMicro
+  name: micro-fission generator
+  description: This generator does not require fuel, and can be somewhat easily picked up. It provides 5 kW of power.
+  suffix: Item, 5.0kW
+  components:
+  - type: PowerSupplier
+    supplyRate: 5000
+  - type: Item # this item's whole gimmick
+    size: Huge
+  - type: Transform
+    anchored: False
+  - type: Physics
+    bodyType: Dynamic
+  - type: Appearance
+  - type: Sprite
+    sprite: _Jamboree/Structures/Power/Generation/microgenerator.rsi
+    noRot: true
+    layers:
+    - state: icon
+      map: [ "enum.GeneratorVisualLayers.Body" ]
+    - state: microgenon_unlit
+      map: [ "enum.GeneratorVisualLayers.Unlit" ]
+      shader: unshaded
+      visible: false
+  - type: GenericVisualizer
+    visuals:
+      enum.GeneratorVisuals.Running:
+        enum.GeneratorVisualLayers.Body:
+          True: { state: microgenon }
+          False: { state: icon }
+        enum.GeneratorVisualLayers.Unlit:
+          True: { visible: true }
+          False: { visible: false }

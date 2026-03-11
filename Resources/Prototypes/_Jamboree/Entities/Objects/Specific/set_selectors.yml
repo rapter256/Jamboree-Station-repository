@@ -1,0 +1,159 @@
+﻿# Captain
+
+- type: entity
+  id: CaptainUndeterminedWeapon
+  name: captain sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/captainundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - AntiqueLaserSet
+    - CaneBladeSet
+    - CapPirateSet
+    - CapLordSet
+#    - CapSupportSet # TODO - finish this
+    maxSelectedSets: 1
+
+# Head of Security
+
+- type: entity
+  id: HOSUndeterminedWeapon
+  name: head of security sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/HOSundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - EnergyRevolverSet
+#    - HOSSniperKit # TODO - finish this
+#    - HOSSolKit # TODO - finish this
+    - LawbringerSet
+    - NonlethalLauncherSet
+    maxSelectedSets: 1
+
+# Chief Medical Officer
+
+- type: entity
+  id: CMOUndeterminedWeapon
+  name: chief medical officer sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/CMOundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - CMOInjectionKit
+    - CMOReviveKit
+    - CMODoktorKit
+#    - CMOMindKit # TODO - finish this
+#    - CMOCloningKit # disabled for now, available in CMO's locker at roundstart
+    maxSelectedSets: 1
+
+# Quartermaster
+
+- type: entity
+  id: QMUndeterminedWeapon
+  name: quartermaster sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/QMundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - QMMafiaKit
+    - QMGamblingKit
+    - QMShittleKit
+#    - QMCouponKit # TODO - finish this
+    - QMTraderKit
+    maxSelectedSets: 1
+
+#  Chief Engineer
+
+- type: entity
+  id: CEUndeterminedWeapon
+  name: chief engineer sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/CEundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - CERCDKit
+    - CEPowerKit
+    - CENailgunKit
+#    - SingoBusterCEKit # disabled for now, available in CE's locker roundstart
+    - CESurvivalKit
+    maxSelectedSets: 1
+
+# Research Director
+
+- type: entity
+  id: RDUndeterminedWeapon
+  name: research director sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/RDundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - RDResonanceKit
+    - RDHologramKit
+    - RDAnomKit
+#    - RDRenterKit # TODO - finish this
+    maxSelectedSets: 1
+
+# Head of Personnel
+
+- type: entity
+  id: HOPUndeterminedWeapon
+  name: head of personnel sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCommandContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Command/HOPundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - HOPIanSet
+    - HOPBureaucratKit
+    - HOPKitchenSet
+    - HOPClownSet
+#    - HOPBotanySet # disabled for now
+    - HOPMusicianSet
+    maxSelectedSets: 1
+
+# Warden
+
+- type: entity
+  id: WardenUndeterminedWeapon
+  name: warden sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Specific/Security/wardenundetermined.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - WardenClassicSet
+    - MultiphaseSet
+    - WardenGuardKit
+#    - WardenArmorKit # TODO - finish this
+    maxSelectedSets: 1
+

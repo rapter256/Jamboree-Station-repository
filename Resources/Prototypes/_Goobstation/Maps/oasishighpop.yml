@@ -63,7 +63,7 @@
             ServiceWorker: [ 4, 4 ]
             Zookeeper: [ 2, 2 ]
             Reporter: [ 3, 3 ]
-            RadioHost: [ 1, 1 ]
+#            RadioHost: [ 1, 1 ] # Jamboree - spawnpoint not yet mapped
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 5, 5 ]
@@ -76,7 +76,7 @@
             Paramedic: [ 3, 3 ]
             MedicalIntern: [ -1, -1 ]
             Psychologist: [ 2, 2 ]
-            Virologist: [ 1, 1 ]
+#            Virologist: [ 1, 1 ] # Jamboree - spawnpoint not yet mapped
             #science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 10, 10 ]

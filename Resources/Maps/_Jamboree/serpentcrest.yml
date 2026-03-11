@@ -111695,21 +111695,6 @@ entities:
     - type: Transform
       pos: -62.5,17.5
       parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 16570
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,38.5
-      parent: 2
-- proto: GlassBoxLawbringerFilled
-  entities:
-  - uid: 16571
-    components:
-    - type: Transform
-      pos: -15.5,11.5
-      parent: 2
 - proto: GoldRingDiamond
   entities:
   - uid: 16572

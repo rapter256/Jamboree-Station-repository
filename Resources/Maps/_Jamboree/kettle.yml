@@ -107639,14 +107639,6 @@ entities:
     - type: Transform
       pos: 40.5,52.5
       parent: 2
-- proto: GlassBoxLawbringerFilled
-  entities:
-  - uid: 15984
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 58.5,-11.5
-      parent: 2
 - proto: GlowstickBase
   entities:
   - uid: 15985

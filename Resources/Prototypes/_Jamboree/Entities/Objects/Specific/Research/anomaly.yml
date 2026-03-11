@@ -1,0 +1,57 @@
+﻿- type: entity
+  name: G.O.R.I.L.L.A. gauntlet MK2
+  parent: [ BaseItem, ClothingHandsBase, BaseCommandContraband ]
+  id: WeaponGauntletGorillaMk2
+  description: A modified gorilla gauntlet, fitted to sit on the hand comfortably.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Weapons/Melee/gorillamk2.rsi
+    state: icon
+  - type: Item
+    size: Large
+    storedSprite:
+      state: storage
+      sprite: _Jamboree/Objects/Weapons/Melee/gorillamk2.rsi
+  - type: MeleeWeapon
+    attackRate: 0.5
+    angle: 0
+    animation: WeaponArcFist
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 20
+    soundHit:
+      path: "/Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg"
+  - type: Clothing
+    sprite: _Jamboree/Objects/Weapons/Melee/gorillamk2.rsi
+  - type: CorePoweredThrower
+  - type: MeleeThrowOnHit
+    unanchorOnHit: true
+  - type: ItemSlots
+    slots:
+      core_slot:
+        name: anomaly-gorilla-core-slot-name
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        whitelist:
+          components:
+          - AnomalyCore
+  - type: ContainerContainer
+    containers:
+      core_slot: !type:ContainerSlot
+  - type: DamageOnAttackedProtection
+    damageProtection:
+      flatReductions:
+        Heat: 20
+        Cold: 20
+        Radiation: 90
+    slots: GLOVES
+  - type: PhysicalComposition #Goobstation - Recycle update
+    materialComposition:
+      Steel: 375
+      Plastic: 75
+      Glass: 125
+      Plasma: 125
+      Silver: 62
+  - type: StealTarget # Jamboree - cmd/steal target tweaks
+    stealGroup: RD

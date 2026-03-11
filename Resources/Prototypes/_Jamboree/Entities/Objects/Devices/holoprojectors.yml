@@ -1,0 +1,39 @@
+﻿- type: entity
+  parent: [ BaseItem, BaseCommandContraband ]
+  id: RDHoloprojectorField
+  name: rd's field projector
+  description: An overtuned field projector, it will produce forcefields that can take more damage, but last shorter.
+  components:
+  - type: Item
+    storedRotation: -90
+  - type: HolosignProjector
+    signProto: RDHolosignForcefield
+    chargeUse: 240
+  - type: UseDelay
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot { }
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMicroreactor
+        disableEject: true
+        swap: false
+  - type: Sprite
+    sprite: _Jamboree/Objects/Devices/Holoprojectors/rdfieldprojector.rsi
+    state: icon
+  - type: Tag
+    tags:
+    - HolosignProjector
+    - HolofanProjector
+  - type: PhysicalComposition #Goobstation - Recycle update
+    materialComposition:
+      Plastic: 62
+      Glass: 37
+  - type: StaticPrice
+    price: 2000
+  - type: StealTarget # Jamboree - cmd/steal gear tweaks
+    stealGroup: RD

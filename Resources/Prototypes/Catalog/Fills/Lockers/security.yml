@@ -116,14 +116,15 @@
     - id: RubberStampWarden
     - id: DoorRemoteArmory
     - id: HoloprojectorSecurity
+    - id: WardenUndeterminedWeapon # jamboree gear selector
     - id: BookSpaceLaw
     - id: ClothingBackpackElectropack
       amount: 2
     - id: RemoteSignaller
       amount: 2
     - id: Binoculars
-    - id: WeaponEnergyShotgun # Goobstation
-    - id: ClothingHandsGlovesKravMaga # Goobstation - Martial Arts
+#    - id: WeaponEnergyShotgun # jamboree, available in gear selector
+#    - id: ClothingHandsGlovesKravMaga # jamboree, available in gear selector
     - id: BoxLethalInjection # Goobstation
     - id: ClothingHeadsetAltWarden # Goobstation
     - id: Multitool # Goobstation
