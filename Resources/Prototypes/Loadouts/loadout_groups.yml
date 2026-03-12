@@ -1352,7 +1352,7 @@
 
 - type: loadoutGroup
   id: QuartermasterGloves
-  name: loadout-group-quartermaster-gloves
+  name: loadout-group-quartermaster-hands
   minLimit: 0
   loadouts:
   - WhiteGloves

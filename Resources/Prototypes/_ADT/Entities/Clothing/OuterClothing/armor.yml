@@ -45,29 +45,6 @@
     damageCoefficient: 0.15
   - type: ExplosionResistance
     damageCoefficient: 0.80
-  - type: MeleeWeapon
-    attackRate: 1
-    damage:
-      types:
-        Blunt: 12
-        Structural: 20
-    soundHit:
-      collection: Punch
-    angle: 0
-    animation: ADTWeaponArcRedCrash
-    wideAnimation: ADTWeaponArcRedCrash
-    customWideAnim: true
-    clickDamageModifier: 1.5
-  - type: ClothingSpeedModifier
-    walkModifier: 0.75
-    sprintModifier: 0.75
-  - type: ActionGrant #changed from muscle jump cause don't have that
-    actions:
-    - ActionGravityJump
-  - type: ItemActionGrant
-    actions:
-    - ActionGravityJump
-    activeIfWorn: true
 
 - type: entity
   parent: ClothingOuterArmorBasic
