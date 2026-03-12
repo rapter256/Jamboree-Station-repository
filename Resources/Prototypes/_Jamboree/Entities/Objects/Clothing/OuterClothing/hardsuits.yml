@@ -1,4 +1,8 @@
-﻿- type: entity
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
   parent: [ ClothingOuterHardsuitBase, BaseCommandContraband ]
   id: ClothingOuterHardsuitBroker
   name: stock broker hardsuit
@@ -16,13 +20,13 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.65
+        Blunt: 0.6 # cmd selector fixes - was 0.5
+        Slash: 0.6 # cmd selector fixes - was 0.5
+        Piercing: 0.7 # cmd selector fixes - was 0.65
         Radiation: 0.1
         Caustic: 0.7
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
+    walkModifier: 0.8 # cmd selector fixes - was 0.9
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing

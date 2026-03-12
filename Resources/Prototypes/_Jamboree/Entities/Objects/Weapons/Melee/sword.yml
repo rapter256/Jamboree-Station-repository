@@ -1,4 +1,8 @@
-﻿- type: entity
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
   name: captain's zweihander
   parent: [ BaseSword, BaseCommandContraband ]
   id: CaptainZweihander
@@ -7,7 +11,7 @@
   - type: Sprite
     sprite: _Jamboree/Objects/Weapons/Melee/captainzweihander.rsi
   - type: MeleeWeapon
-    attackRate: 0.6
+    attackRate: 0.45 # slow, heavy hitting weapon
     animationRotation: 140
     damage:
       types:

@@ -1,4 +1,8 @@
-﻿- type: entity
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadHatWardenArmor
   name: warden's plate helmet
@@ -31,7 +35,7 @@
       HeadSide: HEAD
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, BaseCommandContraband ]
+  parent: [ ClothingHeadHardsuitWithLightBase, BaseCommandContraband ] # cmd selector fixes - was ClothingHeadHardsuitBase, BaseCommandContraband
   id: ClothingHeadHelmetHardsuitBroker
   name: stock broker hardsuit helmet
   categories: [ HideSpawnMenu ]

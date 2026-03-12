@@ -1,4 +1,8 @@
-﻿# Head of Security
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Head of Security
 
 - type: selectableSet
   id: EnergyRevolverSet
@@ -165,7 +169,7 @@
 - type: selectableSet
   id: HOPMusicianSet
   name: HOP Musician kit
-  description: Includes some instruments and a VERY nice coat, that is DEFINITELY authentic.
+  description: Includes some instruments, including a super synth, and a VERY nice coat, that is DEFINITELY authentic.
   sprite:
     sprite: Objects/Fun/Instruments/h_synthesizer.rsi
     state: icon
@@ -174,7 +178,8 @@
   - SaxophoneInstrument
   - TrumpetInstrument
   - ViolinInstrument
-  - SynthesizerInstrument
+#  - SynthesizerInstrument # cmd selector fixes
+  - SuperSynthesizerInstrument # cmd selector fixes
   - HarmonicaInstrument
 
 - type: selectableSet
