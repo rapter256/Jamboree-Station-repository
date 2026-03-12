@@ -46,12 +46,12 @@
         Cold: 20
         Radiation: 90
     slots: GLOVES
-  - type: PhysicalComposition #Goobstation - Recycle update
-    materialComposition:
-      Steel: 375
-      Plastic: 75
-      Glass: 125
-      Plasma: 125
-      Silver: 62
+#  - type: PhysicalComposition # Jamboree - cmd selector fixes
+#    materialComposition:
+#      Steel: 375
+#      Plastic: 75
+#      Glass: 125
+#      Plasma: 125
+#      Silver: 62
   - type: StealTarget # Jamboree - cmd/steal target tweaks
     stealGroup: RD
