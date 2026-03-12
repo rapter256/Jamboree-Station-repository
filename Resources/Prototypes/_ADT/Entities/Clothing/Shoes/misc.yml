@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ADTEmpressOfLightShoes
+  name: empress shoes #changed name
+  description: A replica of the shoes worn by the empress of a far off star. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Shoes/Misc/empress_of_light_shoes.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Shoes/Misc/empress_of_light_shoes.rsi

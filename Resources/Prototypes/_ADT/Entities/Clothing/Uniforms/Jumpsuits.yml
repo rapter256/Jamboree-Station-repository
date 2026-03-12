@@ -1,0 +1,522 @@
+# Centcom Consultant
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitConsultantCentcom
+  name: nanotrasen representative's consultant jumpsuit #changed name
+  description: This fashionable suit screams "I AM HERE TO ADVISE!!!" #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/ccc_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/ccc_suit.rsi
+
+- type: entity
+  parent: [ BaseCentcommContraband , ClothingUniformSkirtBase ] #changed
+  id: ADTClothingUniformJumpsuitCCCFormal
+  name: centcomm official's formal jumpsuit #changed name
+  description: This gilded jumpsuit is the height of corporate fashion on several worlds. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/ccc_formal.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/ccc_formal.rsi
+
+#Стильномат
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitAnarchyTshirt
+  name: anarchy t-shirt #changed name
+  description: "NANOTRASEN IS UNFAIR! MR.BURGER IS IN THERE! STANDING AT THE CONCESSION! PLOTTING HIS OPPRESSION!" #changed description, also yooo, first Barry Burger reference
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_anarchy.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_anarchy.rsi
+  - type: StaticPrice
+    price: 20
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitDenimPants
+  name: jeans #changed name
+  description: How did you get approved to wear JUST pants?!?! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/denim_pants.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/denim_pants.rsi
+  - type: StaticPrice
+    price: 40
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitBlackShorts
+  name: black boxer shorts #changed name
+  description: I wonder if these are boxers or shorts for boxers... #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_shorts.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_shorts.rsi
+  - type: StaticPrice
+    price: 40
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitWhiteShorts
+  name: white boxer shorts #changed name
+  description: I wonder if these are boxers or shorts for boxers... #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/white_shorts.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/white_shorts.rsi
+  - type: StaticPrice
+    price: 40
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitCamouflageTshirt
+  name: camouflauge suit
+  description: Where'd you go? #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/camo_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/camo_suit.rsi
+  - type: StaticPrice
+    price: 40
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitCamouflageTshirtDesert
+  name: desert camouflauge suit
+  description: Did you... did you think you were going to a desert... what... you are on a space station? There is no sand anywhere... #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/desert_camo_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/desert_camo_suit.rsi
+  - type: StaticPrice
+    price: 40
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitBlackShirt
+  name: black shirt
+  description: An normal black shirt. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_shirt.rsi #спрайты от prazat911
+  - type: StaticPrice
+    price: 45
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitBlueShirt
+  name: blue shirt
+  description: An typical blue shirt with brown pants. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/blue_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/blue_shirt.rsi #спрайты от prazat911
+  - type: StaticPrice
+    price: 45
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitPurpleShirt
+  name: purple shirt
+  description: An typical purple shirt. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/purple_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/purple_shirt.rsi #спрайты от prazat911
+  - type: StaticPrice
+    price: 45
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitRedShirt
+  name: red shirt
+  description: An typical red shirt. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/red_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/red_shirt.rsi #спрайты от prazat911
+  - type: StaticPrice
+    price: 45
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitWhiteShirt
+  name: white shirt
+  description: An typical white shirt. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/white_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/white_shirt.rsi #спрайты от prazat911, респрайт от orange6775
+  - type: StaticPrice
+    price: 45
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitHawaiiShirt
+  name: business casual hawaiian shirt #changed name
+  description: An ideal variant for those, who wants to look serious, but still lively as a cricket.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/hawaiian_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/hawaiian_shirt.rsi #спрайты от prazat911
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitGothicAttire
+  name: gothic attire
+  description: For those, who don't like bright colors.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/gothic_attire.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/gothic_attire.rsi #спрайты от dion_clawed
+  - type: StaticPrice
+    price: 55
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitOldGreySuit
+  name: old grey suit
+  description: The suit is new, but the design is outdated. Pretty suprising, that this suit still on sale. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/grey_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/grey_suit.rsi #спрайты от prazat911
+  - type: StaticPrice
+    price: 55
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitRedVictorianSuit
+  name: red victorian suit
+  description: A Victorian-style costume for true connoisseurs.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/victorian_red_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/victorian_red_suit.rsi #rhetajrkah взял с сервера Orehum Project
+  - type: StaticPrice
+    price: 55
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitBlackVictorianSuit
+  name: black victorian suit
+  description: A Victorian-style costume for true connoisseurs.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/victorian_black_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/victorian_black_suit.rsi #rhetajrkah взял с сервера Orehum Project
+  - type: StaticPrice
+    price: 55
+
+#Комбинезон следователя
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformInvestigatorSuit
+  name: investigator suit
+  description: The suit of the one who will get to the bottom of all the secrets. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformBlackWeddingSuit
+  name: black wedding suit #changed name
+  description: A black suit for a significant event.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_wedding_suit_male.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_wedding_suit_male.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformBlueWeddingSuit
+  name: blue wedding suit
+  description: A blue suit for a significant event.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/blue_wedding_suit_male.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/blue_wedding_suit_male.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformBrownWeddingSuit
+  name: brown wedding suit
+  description: A brown suit for a significant event.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/brown_wedding_suit_male.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/brown_wedding_suit_male.rsi
+
+#Luna
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformWhiteWeddingWomenSuit
+  name: white casual wedding suit #changed name to be gender neutral
+  description: A suit for the more casual approach to a significant life event. You are quite nonchalant! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/white_wedding_women_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/white_wedding_women_suit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformBlackWeddingWomenSuit
+  name: black casual wedding suit #changed name to be gender neutral
+  description: A suit for the more casual approach to a significant life event. You are quite nonchalant! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_wedding_women_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/black_wedding_women_suit.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformCyberSun
+  name: interdyne jumpsuit
+  description: Simple and style.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/cybersun.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/cybersun.rsi
+
+# Униформа надзирателя
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformCorrectionsOfficer
+  name: corrections officer uniform #changed name, it was backwards for some reason
+  description: A suit for all forms of corrections, from behavior to spelling. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/corrections_officer.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/corrections_officer.rsi
+
+# ТСФ
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitTrader
+  name: trader jumpsuit
+  description: A standard issue jumpsuit given to members of the Trader's Guild. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/trader.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/trader.rsi
+
+# Med
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitCMOHike
+  name: chief medical officer's hiking uniform
+  description: Shirt and baggy pants. Perfect for working in and out of medical departament.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/hike_uniform_cmo.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/hike_uniform_cmo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingRomanShirt
+  name: roman shirt #changed name
+  description: The usual tunic of a Roman civilian. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/roman_shirt.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/roman_shirt.rsi
+
+# Dutch jumpsuit
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitDutch
+  name: head of security's cowboy suit #changed name
+  description: The perfect suit to have a plan in. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/dutch_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/dutch_suit.rsi
+
+# Парикмахер
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitBarber
+  name: barber suit #changed name
+  description: Snip snip! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/barber_fancy_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/barber_fancy_suit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitBarberBrown
+  name: barista suit #changed name
+  description: One venti mocha cookie frappuccino with 2%, 6 pumps mocha, ex caramel and mocha drizzle, extra whip, extra cookie crumble, extra praline topping, extra dark chocolate curls, 2 pumps toasted white mocha, extra sugar cookie topping, 4 pumps dark caramel, extra caramel crunch, light apple drizzle, 3 pumps frap roast, 9 java chip scoops double blended and cinnamon powder please! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/barber_fancy_suit_brown.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/barber_fancy_suit_brown.rsi
+
+# Зеленый костюм АВД
+- type: entity
+  parent: [ BaseCentcommContraband , ClothingUniformBase ]
+  id: ADTClothingUniformJumpsuitGreenSuitLawyer
+  name: centcomm lawyer's suit #changed name
+  description: OBJECTION!!! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/lawyer_green_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/lawyer_green_suit.rsi
+# Полевой комбез парамедика
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingJumpsuitParamedicFieldSuit
+  name: paramedic field suit
+  description: A suit designed specifically for the comfort of the paramedic wearing it. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/paramedic_field_suit.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/paramedic_field_suit.rsi
+
+# Костюм дриады
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingJumpsuitDryadCoverings
+  name: dryad coverings
+  description: These coverings are said to be made in reverence to a long forgotten goddess of nature. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/dryad.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/dryad.rsi
+
+# Клоун
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitClownAbyss
+  name: abyssal clown suit #changed name
+  description: HONK! HONK! HONK! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/clown_abyss.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/clown_abyss.rsi
+  - type: Tag
+    tags:
+    - ClownSuit
+    - WhitelistChameleon
+
+# Смокинги
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitTuxedo
+  name: tuxedo
+  description: A classic tuxedo. Perfect for a wedding, a funeral, or a couple martinis in the bar. #changed description.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitTuxedoWhite
+  name: white tuxedo
+  description: A white tuxedo. Perfect for the aspiring spy. # changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo_white.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo_white.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitTuxedoRed
+  name: red tuxedo
+  description: A red tuxedo. Perfect for when you are thinking about getting festive. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo_red.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo_red.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTClothingUniformJumpsuitTuxedoHell
+  name: hell tuxedo
+  description: A hellish tuxedo. Perfect for cutting deals and sewing villainy. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo_hell.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/tuxedo_hell.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTHalloweenEmpressOfLightSuitYellow
+  name: empress under suit #changed name
+  description: This suit is a replica of the one worn by a far off empress of a powerful spacefaring nation. #changed description
+  suffix: Halloween
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/empress_of_light_yellow.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/empress_of_light_yellow.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ADTHalloweenLethalCompanySuit
+  name: scavenger's suit #changed name
+  description: A contracted scavenger's suit. There's a lot of missing persons who have put this uniform on... #changed description
+  suffix: Halloween
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/lethal_company.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/lethal_company.rsi

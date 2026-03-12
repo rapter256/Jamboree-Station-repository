@@ -15,6 +15,9 @@
 - type: vendingMachineInventory
   id: CentDrobeInventory
   startingInventory:
+    ClothingBackpackCentcomm: 2 #jamboree addition, ADT sprite
+    ClothingBackpackSatchelCentcomm: 2 #jamboree addition, ADT sprite
+    ADTClothingBackpackDuffelCentcom: 2 #ADT
     ClothingBackpackMessengerCentcomm: 2 # Frontier
     ClothingShoesBootsLaceup: 3
     ClothingShoesBootsJack: 3
@@ -25,6 +28,8 @@
     ClothingUniformJumpsuitCentcomAgent: 3
     ClothingUniformJumpsuitCentcomFormal: 3
     ClothingUniformJumpskirtCentcomFormalDress: 3
+    ADTClothingUniformJumpsuitCCCFormal: 3 #ADT
+    ADTClothingUniformJumpskirtCCCFormal: 3 #ADT
     ClothingUniformJumpsuitCasualCentcom: 3 # Goobstation
     ClothingHeadHatCentcom: 3
     ClothingHeadHatCentcomcap: 3
@@ -34,6 +39,7 @@
     ClothingOuterWinterCentcom: 3
     ClothingOuterWinterCCWarden: 3 #DV
     ClothingOuterCoatExpensive: 1
+    ADTClothingBackpackWinRAR: 1 #ADT
     ClothingNeckScarfStripedCentcom: 3
     ClothingNeckCloakCentcom: 3
     ClothingNeckMantleCentcom: 3 #DV

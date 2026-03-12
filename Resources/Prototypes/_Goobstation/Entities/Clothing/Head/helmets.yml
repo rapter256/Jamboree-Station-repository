@@ -190,9 +190,10 @@
     - Head
     modifiers:
       coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.9
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.8
   - type: Tag
     tags:
     - HidesHair
@@ -238,25 +239,25 @@
   - type: Clothing
     sprite: _ShitChap/Clothing/Head/Misc/ancient.rsi
 
-- type: entity
-  parent: ClothingHeadHatHelmetTemplar
-  id: ClothingHeadHatHelmetWitchhunter
-  name: witchunter hat
-  description: This hat saw much use back in the day.
-  components:
-  - type: Sprite
-    sprite: _ShitChap/Clothing/Head/Misc/witchhunter.rsi
-    state: icon
-  - type: Clothing
-    sprite: _ShitChap/Clothing/Head/Misc/witchhunter.rsi
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-  - type: HideLayerClothing
-    layers: {}
+#- type: entity
+#  parent: ClothingHeadHatHelmetTemplar
+#  id: ClothingHeadHatHelmetWitchhunter
+#  name: witchunter hat
+#  description: This hat saw much use back in the day.
+#  components:
+#  - type: Sprite
+#    sprite: _ShitChap/Clothing/Head/Misc/witchhunter.rsi
+ #   state: icon
+ # - type: Clothing
+ #   sprite: _ShitChap/Clothing/Head/Misc/witchhunter.rsi  removed cause duplicate
+ # - type: Tag
+ #   tags:
+ #   - WhitelistChameleon
+ # - type: HideLayerClothing
+ #   layers: {}
 
 - type: entity
-  parent: ClothingHeadHatHelmetTemplar
+  parent: ClothingHeadBase #changed cause no longer armor
   id: ClothingHeadHatHelmetAdept
   name: adept hood
   description: Its only heretical when others do it.
@@ -280,7 +281,7 @@
     sprite: _ShitChap/Clothing/Head/Misc/clock.rsi
 
 - type: entity
-  parent: ClothingHeadHatHelmetTemplar
+  parent: ClothingHeadBase #changed cause no longer armor
   id: ClothingHeadHatHelmetMonk
   name: monk's hood
   description: For when a man wants to cover up his tonsure.
@@ -291,19 +292,19 @@
   - type: Clothing
     sprite: _ShitChap/Clothing/Head/Misc/monkhood.rsi
 
-- type: entity
-  parent: ClothingHeadHatHelmetTemplar
-  id: ClothingHeadHatHelmetBishop
-  name: bishop mitre
-  description: An opulent hat that functions as a radio to God. Or as a lightning rod, depending on who you ask.
-  components:
-  - type: Sprite
-    sprite: _ShitChap/Clothing/Head/Misc/bishop.rsi
-    state: icon
-  - type: Clothing
-    sprite: _ShitChap/Clothing/Head/Misc/bishop.rsi
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-  - type: HideLayerClothing
-    layers: {}
+#- type: entity
+ # parent: ClothingHeadHatHelmetTemplar
+  #id: ClothingHeadHatHelmetBishop
+#  name: bishop mitre
+ # description: An opulent hat that functions as a radio to God. Or as a lightning rod, depending on who you ask.
+#  components:
+#  - type: Sprite
+#    sprite: _ShitChap/Clothing/Head/Misc/bishop.rsi
+#    state: icon
+#  - type: Clothing
+#    sprite: _ShitChap/Clothing/Head/Misc/bishop.rsi
+#  - type: Tag
+#    tags:
+#    - WhitelistChameleon
+#  - type: HideLayerClothing
+#    layers: {}

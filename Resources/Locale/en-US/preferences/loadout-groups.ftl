@@ -48,12 +48,14 @@ loadout-group-captain-neck = Captain neck
 loadout-group-captain-backpack = Captain backpack
 loadout-group-captain-outerclothing = Captain outer clothing
 loadout-group-captain-gloves = Captain gloves
+loadout-group-captain-shoes = Captain shoes
 
 loadout-group-hop-head = Head of Personnel head
 loadout-group-hop-jumpsuit = Head of Personnel jumpsuit
 loadout-group-hop-neck = Head of Personnel neck
 loadout-group-hop-backpack = Head of Personnel backpack
 loadout-group-hop-outerclothing = Head of Personnel outer clothing
+loadout-group-hop-shoes = Head of Personnel shoes
 
 # Civilian
 loadout-group-passenger-head = Passenger head
@@ -131,6 +133,7 @@ loadout-group-musician-shoes = Musician shoes
 loadout-group-quartermaster-head = Quartermaster head
 loadout-group-quartermaster-jumpsuit = Quartermaster jumpsuit
 loadout-group-quartermaster-neck = Quartermaster neck
+loadout-group-quartermaster-hands = Quartermaster gloves
 loadout-group-quartermaster-outerclothing = Quartermaster outer clothing
 loadout-group-quartermaster-shoes = Quartermaster shoes
 
@@ -161,6 +164,7 @@ loadout-group-station-engineer-shoes = Station Engineer shoes
 loadout-group-station-engineer-id = Station Engineer ID
 
 loadout-group-atmospheric-technician-head = Atmospheric Technician head
+loadout-group-atmospheric-technician-neck = Atmospheric Technician cloak
 loadout-group-atmospheric-technician-jumpsuit = Atmospheric Technician jumpsuit
 loadout-group-atmospheric-technician-backpack = Atmospheric Technician backpack
 loadout-group-atmospheric-technician-outerclothing = Atmospheric Technician outer clothing

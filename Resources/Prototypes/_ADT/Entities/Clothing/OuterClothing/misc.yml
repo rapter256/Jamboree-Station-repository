@@ -1,0 +1,70 @@
+#Коробка с подтяжками (для клунь)
+
+- type: entity
+  parent: [ClothingOuterStorageBase]
+  id: ADTClothingOuterClothingBox
+  name: box vest #changed name
+  description: A box with cut out holes for your legs. It can't get worse than rock bottom... #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Misc/boxvest.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Misc/boxvest.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterApronBarber
+  name: barber's apron
+  description: Get the hair off the suit!
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Misc/barber_apron.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Misc/barber_apron.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterApronBarista
+  name: barista's apron #changed name
+  description: A brown apron designed for baristas. Be ready to recieve the longest drink order of your life! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Misc/apron_barista.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Misc/apron_barista.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterApronButcher
+  name: butcher's apron #changed name
+  description: Come here, little piggy...
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Misc/apron_butcher.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Misc/apron_butcher.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTHalloweenEmpressOfLightSuit
+  name: empress outer suit #changed name
+  description: This suit is a replica of the one worn by a far off empress of a powerful spacefaring nation. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/empress_of_light.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Uniforms/Jumpsuit/empress_of_light.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterEggman
+  name: rotund scientist's suit #changed name
+  description: A suit modeled after a famous mad scientist. You feel a master plan forming inside of you... #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Misc/eggman.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Misc/eggman.rsi
+  - type: ToggleableClothing #Jamboree
+    clothingPrototypes:
+      head: ADTClothingHeadRobotnikHead

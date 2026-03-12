@@ -1,0 +1,12 @@
+- type: entity
+  parent: ToyHammer
+  id: ADTToyHammerAbyss
+  name: abyssal rubber hammer #changed name
+  description: A brightly colored hammer made of rubber.
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Fun/rubber_hammer_abyss.rsi
+      state: icon
+    - type: Item
+      size: Small
+      sprite: ADT/Objects/Fun/rubber_hammer_abyss.rsi

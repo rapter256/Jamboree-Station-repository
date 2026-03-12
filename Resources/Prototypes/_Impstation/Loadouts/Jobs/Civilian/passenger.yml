@@ -20,3 +20,8 @@
   id: SailorCap
   equipment:
     head: ClothingHeadSailorCap
+
+- type: loadout
+  id: RedHeels
+  equipment:
+    shoes: ClothingShoesHeelsRed

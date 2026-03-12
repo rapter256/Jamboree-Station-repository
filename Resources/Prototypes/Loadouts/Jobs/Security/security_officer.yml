@@ -279,4 +279,24 @@
   equipment:
     mask: ClothingMaskNeckGaiter
 
+- type: loadout
+  id: SecClown
+  equipment:
+    mask: ClothingMaskClownSecurity
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 360000 #100 hrs
 
+- type: loadout
+  id: SecMime
+  equipment:
+    mask: ClothingMaskMimeSecurity
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobMime
+      time: 360000 #100 hrs

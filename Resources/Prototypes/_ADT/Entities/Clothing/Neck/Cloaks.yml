@@ -1,0 +1,56 @@
+- type: entity
+  parent: [ClothingNeckBase, BaseEngineeringContraband]
+  id: ClothingCloakAtmosian
+  name: atmosian's cloak
+  description: A cloak made from a banner of the planet of Atmosia. Smells like frezon. #changed description
+  components:
+    - type: Sprite
+      sprite: ADT/Clothing/Neck/Cloaks/atmosian.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ADTClothingNeckCloakKnight
+  name: knight's cloak #fixed name
+  description: For the honor of the crown! #changed description, removed filler
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Neck/Cloaks/knight_cloak.rsi #спрайты от floppo4ka
+
+- type: entity
+  parent: [ClothingNeckBase, BaseMinorContraband]
+  id: ADTClothingNeckCloakSyndicate
+  name: syndicate cloak
+  description: Antagonize with style!
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Neck/Cloaks/syndicate_cloak.rsi #спрайты от floppo4ka
+
+- type: entity
+  parent: [ClothingNeckBase, BaseMajorContraband]
+  id: ADTClothingNeckCloakNukeOps
+  name: nukies cloak #changed name
+  description: A replica of a cloak worn by a the star actor of the Nukies TV series. Surprisingly comfortable!
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Neck/Cloaks/nukeops_cloak.rsi #спрайты от floppo4ka
+
+# Captain
+
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ADTClothingCaptainShoulder
+  name: captain's veteran mantle #changed name
+  description: Theres not enough room for the two of us at this station...
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Neck/Cloaks/captain_neck.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ADTClothingCloakInvestigator
+  name: investigator's cloak
+  description: A stylish cloak that instills fear in even the most terrifying suspects. #changed description
+  components:
+    - type: Sprite
+      sprite: ADT/Clothing/Neck/Cloaks/investigator_cloak.rsi
+

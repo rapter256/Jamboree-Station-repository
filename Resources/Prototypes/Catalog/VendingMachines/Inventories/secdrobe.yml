@@ -51,6 +51,8 @@
     ClothingHeadBandRed: 3
     ClothingHeadHatSecurityTrooper: 3
     ClothingHeadPrisonGuard: 3 #Nyanotrasen
+    ADTClothingHeadHatsCorrectionsOfficerCap: 3 #ADT
+    ADTClothingHeadHelmetSecUshanka: 3 #ADT
     ClothingHeadHatBeretBrigmedic: 1 # Goobstation
     ClothingHeadHatBeretCorpsman: 1 #DV
     SurveillanceWirelessCameraBodySecurity: 5 # Goobstation
@@ -67,6 +69,8 @@
     ClothingUniformSecurityTrooper: 3
     ClothingUniformJumpsuitPrisonGuard: 3 #DV
     ClothingUniformJumpskirtPrisonGuard: 3 #DV
+    ADTClothingUniformCorrectionsOfficer: 3 #ADT
+    ADTClothingUniformJumpskirtCorrectionsOfficer: 3 #ADT
     ClothingUniformJumpsuitSecGuard: 3 #frontier
     ClothingUniformJumpskirtSecGuard: 3 #frontier
     ClothingUniformJumpsuitPrivateSec: 3 #frontier
@@ -79,6 +83,7 @@
     ClothingOuterWinterSec: 2
     ClothingOuterWinterSecArmored : 2 # Goobstation
     ClothingOuterArmorBasic: 2
+    ADTClothingOuterWinterRussianCoat: 2 #ADT
     ClothingOuterCoatAMG: 1 # Goobstation
     ClothingOuterCoatStasecCorpsman: 1 #DV
     ClothingNeckScarfStripedRed: 3

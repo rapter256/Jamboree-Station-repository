@@ -15,3 +15,49 @@
   - !type:SpeciesLoadoutEffect # Goobstation - EE Plasmeme Change.
     species:
     - Plasmaman
+
+#jamboree, putting here since it is just the stuff from the armament beacon put into the game
+- type: loadout
+  id: Templar
+  equipment:
+    outerClothing: ClothingOuterArmorTemplar
+
+- type: loadout
+  id: TemplarHelmet
+  equipment:
+    head: ClothingHeadHatHelmetTemplar
+
+- type: loadout
+  id: AncientArmor
+  equipment:
+    outerClothing: ClothingOuterArmorAncient
+
+- type: loadout
+  id: AncientHelmet
+  equipment:
+    head: ClothingHeadHatHelmetAncient
+
+- type: loadout
+  id: ClockArmor
+  equipment:
+    outerClothing: ClothingOuterArmorClock
+
+- type: loadout
+  id: ClockHelmet
+  equipment:
+    head: ClothingHeadHatHelmetClock
+
+- type: loadout
+  id: AdeptRobe
+  equipment:
+    outerClothing: ClothingOuterArmorAdept
+
+- type: loadout
+  id: StudentRobe
+  equipment:
+    outerClothing: ClothingOuterArmorStudent
+
+- type: loadout
+  id: MonkHabit
+  equipment:
+    outerClothing: ClothingOuterArmorMonk

@@ -20,7 +20,7 @@
   description: An expensive dark green satchel. Smells like fax machines.
   components:
   - type: Sprite
-    sprite: _Goobstation/Clothing/Back/Satchels/nanorep.rsi
+    sprite: ADT/Clothing/Back/centcom_satchel.rsi #sprite changed
 
 - type: entity
   parent: [ClothingBackpackSatchel, BaseCentcommContraband]

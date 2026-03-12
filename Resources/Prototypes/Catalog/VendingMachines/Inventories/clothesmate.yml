@@ -145,6 +145,12 @@
     ClothingOuterCoatNavalCoat: 2 #DV
     ClothingOuterDusterCoat: 2 #DV
     ClothingEyesGlasses: 6
+    ADTClothingEyesGlassesMonocle: 3 #ADT
+    ADTClothingUniformJumpsuitTuxedo: 6 #ADT
+    ADTClothingUniformJumpsuitTuxedoWhite: 4 #ADT
+    ADTClothingUniformJumpsuitTuxedoRed: 4 #ADT
+    ADTClothingUniformBlackElegantDress: 6 #ADT
+    ADTClothingUniformRedCocktailDress: 4 #ADT
     ClothingHandsGlovesColorBlack: 4
     ClothingHandsGlovesColorGray: 4
     ClothingHandsGlovesColorBrown: 2

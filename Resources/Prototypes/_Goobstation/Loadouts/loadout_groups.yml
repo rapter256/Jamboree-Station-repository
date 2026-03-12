@@ -903,6 +903,7 @@
   - NanotrasenRepresentativeMAA
   - SRCap #frontier
   - SRBeret #frontier
+  - ConsultantCap #ADT
 
 - type: loadoutGroup
   id: NanotrasenRepresentativeNeck
@@ -928,6 +929,7 @@
   minLimit: 0
   loadouts:
   - SRCoat #frontier
+  - ConsultantJacket #ADT
 
 - type: loadoutGroup
   id: NanotrasenRepresentativeJumpsuit
@@ -938,6 +940,8 @@
   - NanotrasenRepresentativeFancyJumpsuit
   - SRJumpsuit #frontier
   - SRJumpskirt #frontier
+  - ConsultantSuit #ADT
+  - ConsultantSkirt #ADT
 
 - type: loadoutGroup
   id: NanotrasenRepresentativeBelt
@@ -1317,7 +1321,7 @@
   loadouts:
   - MedicalBeret
   - SeniorPhysicianBeret
-  - ChemistUshanka # Da.
+  #- ChemistUshanka # Jamboree: disabling cause we already have it in drip
 
 - type: loadoutGroup
   id: ChemistEnvirohelm

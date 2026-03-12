@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTCentorionHemlet
+  name: centurion hemlet #changed name
+  description: A model made in the design of an Ancient Roman centurion's helmet. It is made of flimsy materials. #changed the description #Jamboree
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Helmets/centorion_hemlet.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Helmets/centorion_hemlet.rsi
+
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTLegionerHemlet
+  name: legion hemlet #changed name
+  description: A model made in the design of an Ancient Roman legionary's helmet. It is made of flimsy materials. #changed the description #Jamboree
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Helmets/legioner_hemlet.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Helmets/legioner_hemlet.rsi
+

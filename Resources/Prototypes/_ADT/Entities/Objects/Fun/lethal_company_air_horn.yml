@@ -1,0 +1,48 @@
+- type: entity
+  parent: BaseItem
+  id: LethalCompanyAirHorn
+  name: air horn #rebuilding this from scratch so gotta change everything. sorry gamer
+  description: A simple airhorn. It is said to be one of the main tools of the trade by Nanotrasen's contracted scavenger force, but nobody is a hundred percent sure...
+  components:
+  - type: Sprite
+    sprite: ADT/Objects/Fun/lethal_company_air_horn.rsi
+    state: icon
+  - type: Item
+    sprite: ADT/Objects/Fun/lethal_company_air_horn.rsi
+    size: Small
+  - type: UseDelay
+    delay: 20
+  - type: EmitSoundOnUse
+    sound:
+      collection: LethalCompanyAirHorn
+      params:
+        variation: 0.125
+  - type: EmitSoundOnLand
+    sound:
+      collection: LethalCompanyAirHorn
+      params:
+        variation: 0.125
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: LethalCompanyAirHorn
+      params:
+        variation: 0.125
+  - type: EmitSoundOnActivate
+    sound:
+      collection: LethalCompanyAirHorn
+      params:
+        variation: 0.125
+  - type: EmitSoundOnCollide
+    sound:
+      collection: LethalCompanyAirHorn
+      params:
+        variation: 0.125
+  - type: Tag
+    tags:
+    - Payload # yes, you can make re-usable prank grenades
+    - BikeHorn
+  - type: Tool
+    qualities:
+    - Honking
+    useSound:
+      collection: LethalCompanyAirHorn
