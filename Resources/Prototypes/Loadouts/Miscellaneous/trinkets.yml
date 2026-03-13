@@ -389,8 +389,7 @@
   storage:
     back:
     - ClothingNeckCloakTrans
-
-# Playing Cards (GoobStation)
+#ADT
 - type: loadout
   id: CardBoxBlack
   effects:
@@ -401,6 +400,19 @@
   storage:
     back:
     - CardBoxBlack
+
+# Playing Cards (GoobStation)
+- type: loadout
+  id: AirHorn
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 1800000 # 500hr
+  storage:
+    back:
+    - LethalCompanyAirHorn
 
 # Nanotrasen Variant
 - type: loadout

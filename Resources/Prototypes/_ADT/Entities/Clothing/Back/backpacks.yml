@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Winrar ; >
+
+- type: entity
+  parent: [ClothingBackpackSatchel]
+  id: ADTClothingBackpackWinRAR
+  name: archiver's satchel
+  description: Not a free backpack. After the 40-day trial period, you must either purchase a backpack license or refuse further use. #changed description to not mention Winrar
+  components:
+  - type: Sprite
+    sprite:  ADT/Clothing/Back/winrar.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

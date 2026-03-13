@@ -416,9 +416,10 @@
     - Foot
     modifiers:
       coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.9
+        Blunt: 0.55 #changed cause original is a bit too high
+        Slash: 0.55 #changed cause original is a bit too high
+        Piercing: 0.55 #changed cause original is a bit too high
+        Heat: 0.7 #changed cause original is a bit too high
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -428,7 +429,7 @@
     reduction: 0.6
 
 - type: entity
-  parent: ClothingOuterArmorTemplar
+  parent: ClothingOuterStorageBase # changed from ClothingOuterArmorTemplar because it is not gonna be armor
   id: ClothingOuterArmorStudent
   name: student robe
   description: The uniform of a bygone institute of learning.
@@ -438,16 +439,16 @@
   - type: Clothing
     sprite: _ShitChap/Clothing/OuterClothing/Misc/student.rsi
 
-- type: entity
-  parent: ClothingOuterArmorTemplar
-  id: ClothingOuterArmorWitchhunter
-  name: witch hunter garb
-  description: This worn outfit saw much use back in the day.
-  components:
-  - type: Sprite
-    sprite: _ShitChap/Clothing/OuterClothing/Misc/witchhunter.rsi
-  - type: Clothing
-    sprite: _ShitChap/Clothing/OuterClothing/Misc/witchhunter.rsi
+#- type: entity
+#  parent: ClothingOuterArmorTemplar
+#  id: ClothingOuterArmorWitchhunter
+#  name: witch hunter garb
+#  description: This worn outfit saw much use back in the day.
+#  components:
+#  - type: Sprite
+#    sprite: _ShitChap/Clothing/OuterClothing/Misc/witchhunter.rsi #changed cause we have this already, no duplicates
+#  - type: Clothing
+#    sprite: _ShitChap/Clothing/OuterClothing/Misc/witchhunter.rsi
 
 - type: entity
   parent: ClothingOuterArmorTemplar
@@ -461,7 +462,7 @@
     sprite: _ShitChap/Clothing/OuterClothing/Misc/ancient.rsi
 
 - type: entity
-  parent: [ClothingOuterArmorTemplar, ClothingOuterBaseToggleable]
+  parent: [ClothingOuterStorageBase, ClothingOuterBaseToggleable] #changed from ClothingOuterArmorTemplar because it is not gonna be armor
   id: ClothingOuterArmorAdept
   name: adept robes
   description: The ideal outfit for burning the unfaithful.
@@ -487,7 +488,7 @@
     sprite: _ShitChap/Clothing/OuterClothing/Misc/clock.rsi
 
 - type: entity
-  parent: [ClothingOuterArmorTemplar, ClothingOuterBaseToggleable]
+  parent: [ClothingOuterStorageBase, ClothingOuterBaseToggleable]
   id: ClothingOuterArmorMonk
   name: monk's habit
   description: A few steps above rended sackcloth.
@@ -501,13 +502,13 @@
     clothingPrototypes:
       head: ClothingHeadHatHelmetMonk
 
-- type: entity
-  parent: ClothingOuterArmorTemplar
-  id: ClothingOuterArmorBishop
-  name: bishop's robes
-  description: Glad to see the tithes you collected were well spent.
-  components:
-  - type: Sprite
-    sprite: _ShitChap/Clothing/OuterClothing/Misc/bishop.rsi
-  - type: Clothing
-    sprite: _ShitChap/Clothing/OuterClothing/Misc/bishop.rsi
+#- type: entity
+#  parent: ClothingOuterArmorTemplar
+ # id: ClothingOuterArmorBishop
+ # name: bishop's robes
+ # description: Glad to see the tithes you collected were well spent.
+ # components:
+ # - type: Sprite
+ #   sprite: _ShitChap/Clothing/OuterClothing/Misc/bishop.rsi
+ # - type: Clothing
+ #   sprite: _ShitChap/Clothing/OuterClothing/Misc/bishop.rsi

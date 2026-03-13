@@ -31,6 +31,8 @@
     CigPackBlue: 2
     CigPackBlack: 2
     CigPackMixed: 2
+    CigPackPurple: 2 #DV
+    CigPackCandy: 2 #DV
     CigarCase: 1
     SmokingPipeFilledTobacco: 1
     Vape: 1

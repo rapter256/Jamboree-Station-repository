@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingShoesClownBase
+  id: ADTClothingShoesClownAbyss
+  name: abyssal clown shoes #changed name
+  description: These shoes are made for optimal puddle stomping! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Shoes/Specific/clown_abyss.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Shoes/Specific/clown_abyss.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepClown
+      params:
+        variation: 0.17
+  # for H.O.N.K. construction
+  - type: Tag
+    tags:
+    - ClownShoes
+    - WhitelistChameleon
+

@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadTetoWig
+  name: red performer's wig #changed name
+  description: The tails on the sides look like drills.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Misc/teto-wig.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Misc/teto-wig.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadRobotnikHead
+  name: rotund scientist's head #changed name
+  description: A helmet made in design of a famous mad scientist's head. Perhaps this model's existence is all apart of the scientist's master plan? #changed the description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/Misc/eggman.rsi
+    layers:
+    - state: icon
+    - state: icon-unshade
+      shader: unshaded
+  - type: Clothing
+    sprite: ADT/Clothing/Head/Misc/eggman.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+      - state: equipped-HELMET-unshade
+        shader: unshaded
+  - type: HideLayerClothing
+    slots:
+    - Hair

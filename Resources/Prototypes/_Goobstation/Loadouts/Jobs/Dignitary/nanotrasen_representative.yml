@@ -142,7 +142,7 @@
 - type: loadout
   id: NanotrasenRepresentativeDuffel
   equipment:
-    back: ClothingBackpackDuffel
+    back: ADTClothingBackpackDuffelCentcom #small change, Jamboree & ADT
 
 - type: loadout
   id: NanotrasenRepresentativeSatchel

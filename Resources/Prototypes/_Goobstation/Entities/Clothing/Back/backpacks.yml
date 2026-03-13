@@ -15,7 +15,7 @@
   description: A luxurious backpack, smells like money.
   components:
   - type: Sprite
-    sprite: _Goobstation/Clothing/Back/Backpacks/centcom.rsi
+    sprite: ADT/Clothing/Back/centcom_backpack.rsi #sprite changed
 
 - type: entity
   parent: [ClothingBackpack, BaseCentcommContraband]

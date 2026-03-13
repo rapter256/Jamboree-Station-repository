@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ADTClothingShoesRomanSandales
+  name: roman sandals #changed name
+  description: The old Roman sandals are still reliable and stylish.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Shoes/Boots/roman_sandals.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Shoes/Boots/roman_sandals.rsi

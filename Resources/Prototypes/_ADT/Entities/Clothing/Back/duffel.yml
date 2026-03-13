@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+
+#ЦК - Jamboree, unsure of what this means
+- type: entity
+  parent: ClothingBackpackDuffelSecurity
+  id: ADTClothingBackpackDuffelCentcom
+  name: centcomm duffel bag #name changed
+  description: The most expensive duffel bag you've ever seen.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Back/centcom_duffel.rsi

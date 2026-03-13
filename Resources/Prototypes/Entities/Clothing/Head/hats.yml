@@ -617,10 +617,29 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: [ ClothingHeadBase, BaseSecurityContraband ] # Goob edit
+  parent: ClothingHeadBase
   id: ClothingHeadHatFedoraBrown
   name: brown fedora
   description: A brown fedora.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/brownfedora.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/brownfedora.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - ClothMade
+    - Recyclable
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ ClothingHeadBase, BaseSecurityContraband ] # Goob edit
+  id: ClothingHeadHatFedoraBrownDetective #Jamboree, adding this solely cause for some damn reason Goob has armor on this and has it available to any random crewmember
+  name: detective's brown fedora
+  description: The detective's brown fedora.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/brownfedora.rsi
@@ -651,10 +670,25 @@
         Heat: 0.8
 
 - type: entity
-  parent: [ ClothingHeadBase, BaseSecurityContraband ] # Goob edit
+  parent: ClothingHeadBase
   id: ClothingHeadHatFedoraGrey
   name: grey fedora
   description: A grey fedora.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/greyfedora.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/greyfedora.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+
+- type: entity
+  parent: [ ClothingHeadBase, BaseSecurityContraband ] # Goob edit
+  id: ClothingHeadHatFedoraGreyDetective
+  name: detective's grey fedora
+  description: The detective's grey fedora.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/greyfedora.rsi

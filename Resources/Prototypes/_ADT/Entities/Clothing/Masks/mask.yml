@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ADTMFDoomMask
+  name: supervillain's mask #changed name, respect to the goat though
+  description: "Doo-doo-doo-doo-doo! That's a audio daily double!" #changed description to be reference to Doomsday (the song)
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Mask/mfdoom.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Mask/mfdoom.rsi
+
+- type: entity
+  parent: ClothingMaskClown
+  id: ADTClothingMaskClownAbyss
+  name: abyssal clown mask #changed name
+  description: The mask of clowns who serve in the depths of the ocean in submarines. There's not much difference between a submarine and a space station... right? #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Mask/clown_abyss.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Mask/clown_abyss.rsi

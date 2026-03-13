@@ -131,6 +131,8 @@
   - CaptainBackpack
   - CaptainOuterClothing
   - CaptainGloves
+  - CaptainShoes #jamboree
+  - Glasses
   - Survival
   - Trinkets
   - Animals
@@ -149,6 +151,7 @@
   - HoPNeck
   - HoPGloves
   - HoPJumpsuit
+  - HoPShoes #jamboree
   - HoPBackpack
   - HoPOuterClothing
   - Glasses
@@ -431,6 +434,7 @@
   - QuartermasterHead
   - QuartermasterNeck
   - QuartermasterJumpsuit
+  - QuartermasterGloves #jamboree
   - CargoTechnicianBackpack
   - QuartermasterOuterClothing
   - QuartermasterShoes
@@ -546,6 +550,7 @@
   groups:
   - GroupTankHarness
   - AtmosphericTechnicianHead # Goobstation
+  - AtmosphericTechnicianNeck
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing

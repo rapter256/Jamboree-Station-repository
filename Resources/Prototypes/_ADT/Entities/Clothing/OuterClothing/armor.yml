@@ -1,0 +1,71 @@
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorAirsoftBlue
+  name: blue airsoft suit #changed name
+  description: Semi-flexible polycarbonate armor suit with weakened protection. Airsoft armor
+  suffix: airsoft
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Armor/airsoft_blue_armor.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Armor/airsoft_blue_armor.rsi
+  - type: GroupExamine
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorAirsoftRed
+  name: red airsoft suit #changed name
+  description: Semi-flexible polycarbonate armor suit with weakened protection. Airsoft armor
+  suffix: airsoft
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Armor/airsoft_red_armor.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Armor/airsoft_red_armor.rsi
+  - type: GroupExamine
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ADTClothingGigaMuscles
+  name: pure muscle #changed name
+  description: Your body was chiseled by the gods themselves.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Armor/muscles.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Armor/muscles.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6 #changed from 0.2
+        Slash: 0.7
+        Piercing: 0.6
+        Heat: 0.8
+  - type: StaminaResistance
+    damageCoefficient: 0.15
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ADTCenturionArmor
+  name: centurion armor #changed name
+  description: A replica of the breastplate of a Centurion of the Roman armies. It should be an honor for you to wear it... but it isn't due to it being made of flimsy materials. #changed the description #Jamboree
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Armor/centurion_armor.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Armor/centurion_armor.rsi
+
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ADTLegionerArmor
+  name: legion armor #changed name
+  description: A replica of the standard breast armour of a Roman legionary. It is made of flimsy materials. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Armor/legioner_armor.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Armor/legioner_armor.rsi
+

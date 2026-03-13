@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ADTClothingEyesGlassesMonocle
+  name: monocle
+  description: An outdated optical device for correcting vision or demonstrating arrogance.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Eyes/Glasses/monocle.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Eyes/Glasses/monocle.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: IdentityBlocker
+    coverage: EYES

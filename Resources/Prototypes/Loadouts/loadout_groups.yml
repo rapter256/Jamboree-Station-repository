@@ -251,6 +251,7 @@
   - TapeRecorder
   - DrinkOniGourd
   # End DeltaV Additions
+  - AirHorn #ADT
 
 - type: loadoutGroup
   id: Glasses
@@ -258,6 +259,7 @@
   minLimit: 0
   loadouts:
   - Glasses
+  - Monocle #ADT
   - GlassesJamjar
   - GlassesJensen
   - CheapSunglasses # Goobstation
@@ -362,6 +364,7 @@
   - CaptainCloakFormal
   - CaptainMantle
   - VeteranCaptainCloak # goob
+  - VeteranCaptainMantle # ADT
   - CaptainGreatcoat # imp
   - CaptainAdmiralCloak # imp
 
@@ -389,6 +392,15 @@
   loadouts:
   - CaptainGloves
   - CaptainFlightGloves #imp
+
+- type: loadoutGroup
+  id: CaptainShoes
+  name: loadout-group-captain-shoes
+  loadouts:
+  - NanotrasenRepresentativeBoots #jamboree add, goob name
+  - BlackShoes #jamboree add
+  - BlackHeels #imp
+
 
 - type: loadoutGroup
   id: HoPHead
@@ -437,6 +449,14 @@
   - HoPWintercoat
   - HoPLongcoat #goob
 
+- type: loadoutGroup
+  id: HoPShoes
+  name: loadout-group-hop-shoes
+  loadouts:
+  - NanotrasenRepresentativeBoots #jamboree add, goob name
+  - BlackShoes #jamboree add
+  - BlackHeels #imp
+
 # Civilian
 - type: loadoutGroup
   id: PassengerHead #Jamboree
@@ -463,6 +483,7 @@
   - BartenderBowler # Jamboree
   - PirateHat #Jamboree
   - SailorCap #Impstation
+  - DrinkingHelmet #ADT
 
 - type: loadoutGroup
   id: PassengerJumpsuit
@@ -477,18 +498,22 @@
   - WhiteJumpskirt
   - WhiteTurtleneck #DV
   - WhiteTurtleneckSkirt #DV
+  - WhiteShirt #ADT
   - BlackJumpsuit
   - BlackJumpskirt
   - BlackTurtleneck #DV
   - BlackTurtleneckSkirt #DV
+  - BlackShirt #ADT
   - RedJumpsuit
   - RedJumpskirt
   - RedTurtleneck #DV
   - RedTurtleneckSkirt #DV
+  - RedShirt #ADT
   - BlueJumpsuit
   - BlueJumpskirt
   - BlueTurtleneck #DV
   - BlueTurtleneckSkirt
+  - BlueShirt #ADT
   - YellowJumpsuit
   - YellowJumpskirt
   - YellowTurtleneck #DV
@@ -505,6 +530,7 @@
   - PurpleJumpskirt
   - PurpleTurtleneck #DV
   - PurpleTurtleneckSkirt #DV
+  - PurpleShirt #ADT
   - PinkJumpsuit
   - PinkJumpskirt
   - PinkTurtleneck #DV
@@ -534,6 +560,20 @@
   - CossackSuit
   - Loungewear
   - PirateSlops
+  #jamboree end
+  - Jeans #ADT
+  - CamoShirt #ADT
+  - DesertCamoShirt #ADT
+  - AnarchyShirt #ADT
+  - HawaiiShirt #ADT
+  - GothicAttire #ADT
+  - BlackVictorianSuit #ADT
+  - RedVictorianSuit #ADT
+  - Tuxedo #ADT
+  - WhiteTuxedo #ADT
+  - RedTuxedo #ADT
+  - CocktailDress #ADT
+  - BlackCocktailDress #ADT
   # DV change
   - JeansRed
   - JeansGreen
@@ -634,9 +674,11 @@
   name: loadout-group-passenger-shoes
   loadouts:
   - BlackShoes
+  - BlackHeels #Impstation
   - BrownShoes
   - WhiteShoes
   - RedShoes
+  - RedHeels #Impstation
   - BlueShoes
   - YellowShoes
   - GreenShoes
@@ -669,6 +711,8 @@
   - WaiterSuit #DV
   - WaiterSkirt #DV
   - WorkVest #DV
+  - BarberJumpsuit #ADT
+  - BarberJumpskirt #ADT
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -678,6 +722,7 @@
   loadouts:
   - CorpoJacket #jamboree
   - ValetVest #nyanotrasen
+  - BarberApron #ADT
 
 - type: loadoutGroup
   id: BartenderHead
@@ -686,6 +731,7 @@
   loadouts:
   - BartenderHead
   - BartenderBowler
+  - DrinkingHelmet #ADT
 
 - type: loadoutGroup
   id: BartenderJumpsuit
@@ -696,6 +742,8 @@
   - BartenderJumpsuitPurple
   - NightclubJumpsuit #funky
   - NightclubJumpskirt #funky
+  - BaristaJumpsuit #ADT
+  - BaristaJumpskirt #ADT
   - SeniorBartenderSuit #funky
   - SeniorBartenderSkirt #funky
   - ServiceMJ # goob
@@ -708,6 +756,7 @@
   - BartenderVest
   - BartenderApron
   - BartenderWintercoat
+  - BaristaApron #ADT
 
 - type: loadoutGroup
   id: ChefHead
@@ -740,6 +789,7 @@
   loadouts:
   - ChefApron
   - ChefJacket
+  - ButcherApron #ADT
   - ChefWintercoat
   - MasterChefJacket #funky
   - MasterChefWintercoat #funky
@@ -821,6 +871,9 @@
   - CardinalHat #frontier
   - WitchHunterHat #frontier
   - Kippah #frontier
+  - TemplarHelmet #Jamboree&Goob
+  - AncientHelmet #Jamboree
+  - ClockHelmet #Jamboree
 
 - type: loadoutGroup
   id: ChaplainEyes
@@ -871,6 +924,16 @@
   - ChaplainBishopRobe #frontier
   - ChaplainCardinalRobe #frontier
   - ChaplainWitchHunterRobe #frontier
+  - Templar #jamboree&Goob
+  - AncientArmor #jamboree&Goob
+  - ClockArmor #jamboree&Goob
+  - AdeptRobe #jamboree&Goob
+  - StudentRobe #jamboree&Goob
+  - MonkHabit #jamboree&Goob
+  - FriarRobe #ADT
+  - LeaderRobe #ADT
+  - RatvarRobe #ADT
+  - SpiderRobe #ADT
 
 - type: loadoutGroup
   id: ChaplainNeck
@@ -886,11 +949,12 @@
   - ChaplainNeckSun #imp
   - ChaplainNeckDragon #imp
   - Crucifix #frontier
+  - KnightCloak #ADT
 
 - type: loadoutGroup
   id: ChaplainShoes #jamboree
   name: loadout-group-chaplain-shoes
-  minLimit: 0
+  minLimit: 1
   loadouts:
   - BlackShoes
   - ClothFootWraps #jamboree, frontier content
@@ -994,6 +1058,7 @@
   - ClownGamble #funky
   - ClownJuggle #funky
   - WearyClownMask #TB
+  - BaroClownMask #ADT
   - ClownNose #imp
 
 - type: loadoutGroup
@@ -1016,6 +1081,7 @@
   - CircusClownSuit #imp
   - JokesterSuit #imp
   - WearyOveralls #TB
+  - BaroClownSuit #ADT
 
 - type: loadoutGroup
   id: ClownBackpack
@@ -1034,6 +1100,7 @@
   loadouts:
   - ClownRobes
   - ClownWintercoat
+  - BoxVest #ADT
   - JokesterOuterCoat #imp
   - WearyClownCoat #TB
 
@@ -1047,6 +1114,7 @@
   - CircusClownShoes #imp
   - JokesterShoes #imp
   - WearyClownShoes #TB
+  - BaroClownShoes #ADT
 
 - type: loadoutGroup
   id: SurvivalClown
@@ -1148,7 +1216,10 @@
   name: loadout-group-musician-head
   minLimit: 0
   loadouts:
+  - BartenderHead
+  - BartenderBowler
   - MusicianShako #imp
+  - TetoWig #ADT
 
 - type: loadoutGroup
   id: MusicianNeck
@@ -1167,6 +1238,9 @@
   - ClothingUniformMrSpaceWideSkirt #imp
   - MusicianMarchingBand #imp
   - MusicianSingerDress #imp
+  - BlackTangoDress #ADT
+  - WhiteTangoDress #ADT
+  - TetoSkirt #ADT
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -1189,7 +1263,8 @@
   name: loadout-group-musician-shoes
   loadouts:
   - BlackShoes
-  - BlackHeels
+  - BlackHeels #imp
+  - RedHeels #imp
 
 - type: loadoutGroup
   id: Instruments
@@ -1276,11 +1351,20 @@
   - CargoWinterBoots
 
 - type: loadoutGroup
+  id: QuartermasterGloves
+  name: loadout-group-quartermaster-hands
+  minLimit: 0
+  loadouts:
+  - WhiteGloves
+  - BrownGloves
+
+- type: loadoutGroup
   id: CargoTechnicianHead
   name: loadout-group-cargo-technician-head
   minLimit: 0
   loadouts:
   - CargoTechnicianHead
+  - CargoBeret #ADT
   - CargoTechnicianHeadMail # Goob/DeltaV - Mail
 
 - type: loadoutGroup
@@ -1454,6 +1538,7 @@
   minLimit: 0
   loadouts:
   - SeniorEngineerBeret   # Goobstation
+  - AtmosBeret #ADT
 
 - type: loadoutGroup
   id: AtmosphericTechnicianJumpsuit
@@ -1467,11 +1552,19 @@
   - AtmosMJ # goob
 
 - type: loadoutGroup
+  id: AtmosphericTechnicianNeck
+  name: loadout-group-atmospheric-technician-neck
+  minLimit: 0
+  loadouts:
+  - AtmosCloak #ADT
+
+- type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
   name: loadout-group-atmospheric-technician-outerclothing
   minLimit: 0
   loadouts:
   - AtmosphericTechnicianWintercoat
+  - AtmosCoat #ADT
 
 - type: loadoutGroup
   id: AtmosphericTechnicianBackpack
@@ -1538,6 +1631,7 @@
   - ResearchDirectorLabCoat
   - ResearchDirectorWintercoat
   - ResearchDirectorLabCoatPurple #goob
+  - CrazyScientistCoat #ADT
 
 - type: loadoutGroup
   id: ResearchDirectorShoes
@@ -1653,6 +1747,7 @@
   - HeadofSecurityTurtleneckSkirt
   - HeadofSecurityFormalSuit
   - HeadofSecurityFormalSkirt
+  - DutchJumpsuit #ADT
   - HoSSummerShirt # goob
 
 - type: loadoutGroup
@@ -1673,6 +1768,7 @@
   - HeadofSecurityWinterCoat
   - HeadofSecurityGreatCoat # Goobstation
   - HeadofSecurityVestWeb # Goobstation
+  - DutchCoat #ADT
 
 - type: loadoutGroup
   id: WardenHead
@@ -1708,6 +1804,8 @@
   - SecurityHat
   - TrooperHat
   - PrisonGuardHat #DV/nyanotrasen
+  - COCap #ADT
+  - SecShanka #ADT
 
 - type: loadoutGroup
   id: SecurityFace
@@ -1717,6 +1815,13 @@
   - BalaclavaBlack #frontier
   - Gaiter #jamboree
   - RedGaiter #jamboree
+  - BlackFacescarf #ADT
+  - BlueFacescarf #ADT
+  - RedFacescarf #ADT
+  - GreyFacescarf #ADT
+  - WhiteFacescarf #ADT
+  - SecClown #jamboree
+  - SecMime #jamboree
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -1735,6 +1840,8 @@
   - FrontierSecJumpskirt #frontier
   - PrivateSecJumpsuit #frontier
   - PrivateSecJumpskirt #frontier
+  - COJumpsuit #ADT
+  - COJumpskirt #ADT
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1761,6 +1868,7 @@
   - ArmorVestSlim
   - SecurityOfficerWintercoat
   - WinterCoatSeniorSecArmored # Goobstation
+  - SecRussianCoat #ADT
 
 - type: loadoutGroup
   id: SecurityShoes
@@ -1785,6 +1893,7 @@
   - DetectiveFedora
   - DetectiveFedoraGrey
   - ClothingHeadDeerstalker #imp
+  - InvestigatorHat #ADT
 
 - type: loadoutGroup
   id: DetectiveNeck
@@ -1792,6 +1901,7 @@
   minLimit: 0
   loadouts:
   - DetectiveTie
+  - InvestigatorCloak #ADT
   - Bodycam # Goobstation - Body cameras
 
 - type: loadoutGroup
@@ -1802,6 +1912,7 @@
   - DetectiveJumpskirt
   - NoirJumpsuit
   - NoirJumpskirt
+  - InvestigatorJumpsuit #ADT
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1811,6 +1922,7 @@
   - DetectiveCoat
   - DetectiveCoatGrey
   - DetectiveCoatPlate #DV
+  - InvestigatorCoat #ADT
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
@@ -1848,7 +1960,7 @@
   loadouts:
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
-  - ChemistUshanka # Goobstation
+  #- ChemistUshanka # Jamboree: disabling since we already have the drip loadout ushanka :)
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
@@ -1858,6 +1970,8 @@
   - ChiefMedicalOfficerJumpskirt
   - ChiefMedicalOfficerTurtleneckJumpsuit
   - ChiefMedicalOfficerTurtleneckJumpskirt
+  - CMOHikeJumpsuit #ADT
+  - CMOHikeJumpskirt #ADT
   - CMOMJ # goob
   - CMOScrubs #imp
 
@@ -1868,6 +1982,7 @@
   loadouts:
   - ChiefMedicalOfficerLabCoat
   - ChiefMedicalOfficerWintercoat
+  - CMOHikingCoat #ADT
   - CMOPrestigeLabcoat #imp
 
 - type: loadoutGroup
@@ -2003,6 +2118,7 @@
   minLimit: 0
   loadouts:
   - ParamedicHead
+  - ParaBeret #ADT
   - SeniorPhysicianBeret # Goobstation
 
 - type: loadoutGroup
@@ -2011,6 +2127,7 @@
   loadouts:
   - ParamedicJumpsuit
   - ParamedicJumpskirt
+  - ParamedicFieldSuit #ADT
   - ParamedicSpeedsuit #funky
   - ParamedicSpeedskirt #funky
   - SeniorPhysicianJumpsuit # Goobstation

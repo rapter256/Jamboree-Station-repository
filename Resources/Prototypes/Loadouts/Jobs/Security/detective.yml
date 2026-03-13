@@ -81,13 +81,13 @@
 - type: loadout
   id: DetectiveFedora
   equipment:
-    head: ClothingHeadHatFedoraBrown
+    head: ClothingHeadHatFedoraBrownDetective #jamboree
 
 
 - type: loadout
   id: DetectiveFedoraGrey
   equipment:
-    head: ClothingHeadHatFedoraGrey
+    head: ClothingHeadHatFedoraGreyDetective #jamboree
 
 
 # Neck
@@ -130,9 +130,9 @@
 - type: loadout
   id: DetectiveCoat
   equipment:
-    outerClothing: ClothingOuterCoatDetectiveLoadout
+    outerClothing: ClothingOuterCoatDetectiveReal #jamboree
 
 - type: loadout
   id: DetectiveCoatGrey
   equipment:
-    outerClothing: ClothingOuterCoatDetectiveLoadoutGrey
+    outerClothing: ClothingOuterCoatDetectiveGreyReal #jamboree

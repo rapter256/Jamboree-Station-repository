@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ADTClothingHandsRingBlood
+  name: blood ring
+  description: A magnificent ceremonial ring with a blood red gem. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Hands/Rings/RingBlood.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Hands/Rings/RingBlood.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ADTClothingHandsRingEmerald
+  name: emerald ring
+  description: A beautiful ceremonial ring with a vibrant emerald gem. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Hands/Rings/RingEmerald.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Hands/Rings/RingEmerald.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ADTClothingHandsRingPlazma
+  name: topaz ring #changed name
+  description: A stunning ceremonial ring with a splendid topaz gem. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Hands/Rings/RingPlazma.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Hands/Rings/RingPlazma.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ADTClothingHandsRingTurk
+  name: sapphire ring #changed name
+  description: An alluring ceremonial ring with a dazzling sapphire gem. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Hands/Rings/RingTurk.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Hands/Rings/RingTurk.rsi
+  - type: Item
+    size: Tiny

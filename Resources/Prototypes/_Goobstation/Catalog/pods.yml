@@ -9,16 +9,16 @@
     - ClothingOuterArmorTemplar
     - ClothingHeadHatHelmetTemplar
 
-- type: entity
-  id: SpawnArmamentsStudent
-  categories: [ HideSpawnMenu ]
-  name: student robe
-  parent: SpawnSupplyEmpty
-  components:
-  - type: SpawnOnDespawn
-    prototypes:
-    - ClothingOuterArmorStudent
-    - ClothingHeadHatHelmetCage
+#- type: entity
+ # id: SpawnArmamentsStudent
+ # categories: [ HideSpawnMenu ]
+ # name: student robe
+ # parent: SpawnSupplyEmpty
+ # components:
+ # - type: SpawnOnDespawn
+ #   prototypes:
+ #   - ClothingOuterArmorStudent
+ #   - ClothingHeadHatHelmetCage
 
 - type: entity
   id: SpawnArmamentsAncient
@@ -31,26 +31,26 @@
     - ClothingOuterArmorAncient
     - ClothingHeadHatHelmetAncient
 
-- type: entity
-  id: SpawnArmamentsWitchhunter
-  categories: [ HideSpawnMenu ]
-  name: witch hunter garb
-  parent: SpawnSupplyEmpty
-  components:
-  - type: SpawnOnDespawn
-    prototypes:
-    - ClothingOuterArmorWitchhunter
-    - ClothingHeadHatHelmetWitchhunter
+#- type: entity
+ # id: SpawnArmamentsWitchhunter
+ # categories: [ HideSpawnMenu ]
+ # name: witch hunter garb
+ # parent: SpawnSupplyEmpty
+ # components:
+ # - type: SpawnOnDespawn
+ #   prototypes:
+ #   - ClothingOuterArmorWitchhunter
+ #   - ClothingHeadHatHelmetWitchhunter
 
-- type: entity
-  id: SpawnArmamentsAdept
-  categories: [ HideSpawnMenu ]
-  name: adept robes
-  parent: SpawnSupplyEmpty
-  components:
-  - type: SpawnOnDespawn
-    prototypes:
-    - ClothingOuterArmorAdept
+#- type: entity
+#  id: SpawnArmamentsAdept
+#  categories: [ HideSpawnMenu ]
+#  name: adept robes
+#  parent: SpawnSupplyEmpty
+#  components:
+ # - type: SpawnOnDespawn
+ #   prototypes:
+ #   - ClothingOuterArmorAdept
 
 - type: entity
   id: SpawnArmamentsClock
@@ -63,23 +63,23 @@
     - ClothingOuterArmorClock
     - ClothingHeadHatHelmetClock
 
-- type: entity
-  id: SpawnArmamentsMonk
-  categories: [ HideSpawnMenu ]
-  name: monk's habit
-  parent: SpawnSupplyEmpty
-  components:
-  - type: SpawnOnDespawn
-    prototypes:
-    - ClothingOuterArmorMonk
+#- type: entity
+#  id: SpawnArmamentsMonk
+#  categories: [ HideSpawnMenu ]
+ # name: monk's habit
+ # parent: SpawnSupplyEmpty
+#  components:
+#  - type: SpawnOnDespawn
+#    prototypes:
+ #   - ClothingOuterArmorMonk
 
-- type: entity
-  id: SpawnArmamentsBishop
-  categories: [ HideSpawnMenu ]
-  name: bishop's robes
-  parent: SpawnSupplyEmpty
-  components:
-  - type: SpawnOnDespawn
-    prototypes:
-    - ClothingOuterArmorBishop
-    - ClothingHeadHatHelmetBishop
+#- type: entity
+#  id: SpawnArmamentsBishop
+#  categories: [ HideSpawnMenu ]
+ # name: bishop's robes
+ # parent: SpawnSupplyEmpty
+ # components:
+  #- type: SpawnOnDespawn
+  #  prototypes:
+   # - ClothingOuterArmorBishop
+  #  - ClothingHeadHatHelmetBishop

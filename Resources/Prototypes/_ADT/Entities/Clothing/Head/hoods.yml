@@ -1,0 +1,63 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatHoodChaplainLeader
+  categories: [ HideSpawnMenu ]
+  name: religious leader's robe hood #added an apostrophe to the name & changed name slightly
+  description: A hood that screams that you are NOT in a cult. #changed a description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/hoods/chaplain_leader_hood.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/hoods/chaplain_leader_hood.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatHoodMonk
+  categories: [ HideSpawnMenu ]
+  name: friar robe hood #changed name
+  description: A hood for someone who finds tranquility in isolation. #changed the description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/hoods/chaplain_monk_hood.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/hoods/chaplain_monk_hood.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatClockworkHood
+  categories: [ HideSpawnMenu ]
+  name: clockwork robe hood #changed name
+  description:  The hood of less armed servants of Ratvar. It is good that the wearer is on our side... most likely...
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/hoods/clockwork_hood.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/hoods/clockwork_hood.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ADTClothingHeadHatWebHood
+  categories: [ HideSpawnMenu ]
+  name: spider robe hood #changed name
+  description: Are you the spider... or the web? #changed the description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/Head/hoods/chaplain_web_hood.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/Head/hoods/chaplain_web_hood.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair

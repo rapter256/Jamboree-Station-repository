@@ -1,0 +1,223 @@
+
+#бушлат следователя
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterCoatInvestigator
+  name: investigator coat #changed name
+  description: This jacket increases the chance of a suspect's confession by half. #removed one word from the description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/investigator_coat.rsi
+  - type: StorageFill
+    contents:
+    - id: SmokingPipeFilledTobacco
+    - id: FlippoEngravedLighter
+  - type: ExplosionResistance
+    damageCoefficient: 1 #its a coat. it doesnt do shit
+  - type: Armor # Woundmed
+    coverage:
+    - Chest
+    - Groin
+    - Tail
+    - Arm
+    - Leg
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.7
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterAtmosianBomberJacket
+  name: atmosian bomber jacket
+  description: A thick, well-worn atmosian leather bomber jacket.
+  components:
+    - type: Sprite
+      sprite: ADT/Clothing/OuterClothing/Coats/atmosian.rsi
+    - type: Clothing
+      sprite: ADT/Clothing/OuterClothing/Coats/atmosian.rsi
+
+#Пальто ЦентКом
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterCoatCentCom
+  name: centcomm coat #added M to the name
+  description: A green coat with gold inserts. The golden letter N is emblazoned on the back. Only the big shots wear this coat...
+  components:
+  - type: Storage
+    grid:
+     - 0,0,2,1
+    maxItemSize: Normal
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/centcom_coat.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/centcom_coat.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.7
+        Heat: 0.85
+        Caustic: 0.75
+
+#Пальто КЦК
+- type: entity
+  parent: ClothingOuterStorageBase #changed so it doesn't have armor
+  id: ADTClothingOuterCoatCCC
+  name: nanotrasen representative's consultant coat
+  description: A gray coat with gold inserts. The golden letter N is emblazoned on the back. Make people know you're the hand of the big shots. #changed name and description
+  components:
+    - type: Sprite
+      sprite: ADT/Clothing/OuterClothing/Coats/ccc_coat.rsi
+    - type: Clothing
+      sprite: ADT/Clothing/OuterClothing/Coats/ccc_coat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterCoatCyberSun
+  name: interdyne laboratory coat #changed name
+  description: Never before has being so unethical felt so good!
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/labcyber.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/labcyber.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+# Med
+
+- type: entity
+  parent: ClothingOuterCoatLab
+  id: ADTClothingOuterCoatLabcoatCMOHike
+  name: chief medical officer's hiking lab coat
+  description: Physical fitness is the key to a healthy body! So lets. PUMP. YOU. UP!!! #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/hike_labcoat_cmo.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/hike_labcoat_cmo.rsi
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTOuterClothingCoatsCrazyScientist
+  name: crazy scientist's coat #changed name
+  description: "I have gone coo coo bananas! I will now blow up the world! MUAHAHAHAHA!!!!"
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/crazyscientist.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/crazyscientist.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageBase , ClothingOuterArmorHoS, BaseSecurityCommandContraband]
+  id: ADTClothingOuterDutch
+  name: head of security's cowboy jacket #changed name
+  description: For those long nights on the beach in Tahiti.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/dutch_jacket.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/dutch_jacket.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterLettermanNanoTrasen
+  name: nanotrasen letterman jacket #changed name
+  description: A blue letterman jacket with a proud Nanotrasen N on the back. The tag says that it was made by Mr.Chang's corp.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/letterman_nanotrasen.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/letterman_nanotrasen.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ADTClothingOuterLettermanSyndie
+  name: blood-red letterman jacket
+  description: A blood-red letterman jacket with a huge S on the back. Nothing suspicious.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/letterman_syndie.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/letterman_syndie.rsi
+
+- type: entity
+  parent: ClothingOuterBaseToggleable
+  id: ADTClothingCoatMonkRobe
+  name: friar robe #changed name
+  description: A robe for someone who finds tranquility in isolation. #changed the description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/chaplain_monk.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/chaplain_monk.rsi
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ADTClothingHeadHatHoodMonk
+
+
+- type: entity
+  parent: ClothingOuterBaseToggleable
+  id: ADTClothingCoatReligionLeader
+  name: leader's robe #changed name
+  description: A regal robe which indicates you DEFINITELY are NOT in a cult. #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/chaplain_leader.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/chaplain_leader.rsi
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ADTClothingHeadHatHoodChaplainLeader
+
+- type: entity
+  parent: ClothingOuterBaseToggleable
+  id: ADTClothingCoatClockworkRobe
+  name: clockwork robe
+  description: Tur ebor bs gur oenff tbq bs zrpunavfzf. Ig vf n tbbq guvat vg'f jrnere vf ba bhe fvqr... evtug? #changed description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/clockwork_robe.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/clockwork_robe.rsi
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ADTClothingHeadHatClockworkHood
+
+- type: entity
+  parent: ClothingOuterBaseToggleable
+  id: ADTClothingOuterSpiderRobe
+  name: spider robe
+  description: The robe of those who praise the Web or the Spider. Regardless of any creep factor... it looks really cool.. #changed the description
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/chaplain_web.rsi
+    state: icon
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/chaplain_web.rsi
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ADTClothingHeadHatWebHood
+
+# Пальто надзирателя
+- type: entity
+  parent: ClothingOuterStorageBase #changed
+  id: ADTClothingOuterCoatCorrectionsOfficerGrey
+  name: grey corrections officer coat
+  description: Warm and formal corrections officer's coat.
+  components:
+  - type: Sprite
+    sprite: ADT/Clothing/OuterClothing/Coats/corrections_officer_coat_grey.rsi
+  - type: Clothing
+    sprite: ADT/Clothing/OuterClothing/Coats/corrections_officer_coat_grey.rsi

@@ -93,9 +93,12 @@
     BoxCandleSmall: 2
     Urn: 5
     SpectralLocator: 1
-    ClothingHeadHelmetTemplar: 1 #goob
-    ClothingHeadHatImam: 1 #goob
-    HeadSkeleton: 1 #goob
+    ADTClothingHandsRingBlood: 2 #ADT
+    ADTClothingHandsRingEmerald: 2 #ADT
+    ADTClothingHandsRingPlazma: 2 #ADT
+    ADTClothingHandsRingTurk: 2 #ADT
+    ADTClothingUniformBlackWeddingSuit: 2 #ADT
+    ADTClothingUniformLushWhiteWeddingDress: 2 #ADT
   contrabandInventory:
     FoodBakedBunHotX: 2
     DrinkWineBottleFull: 1
