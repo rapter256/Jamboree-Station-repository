@@ -888,6 +888,7 @@
   minLimit: 0
   loadouts:
   - ChaplainMask
+  - ClownMask #jamboree addition
   - ChaplainMaskClayshaper #imp
   - ChaplainMaskFire #imp
   - ChaplainMaskSilent #imp
@@ -918,6 +919,7 @@
   - ChaplainNunRobe
   - ChaplainBlackHoodie
   - ChaplainHoodie
+  - ClownRobes #jamboree Add
   - ChaplainOuterMoon #imp
   - ChaplainOuterSilent #imp
   - TechPriestSuit #nyanotrasen

@@ -1,0 +1,154 @@
+# SPDX-FileCopyrightText: 2024 Dae <60460608+ZeroDayDaemon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Armok <155400926+ARMOKS@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Misandry <mary@thughunt.ing>
+# SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  name: holy scroll
+  description: Between these dowels could hide heavenly revelations, devilish secrets, or a really long papercut.
+  parent: Bible
+  id: HolyTextHolyScroll
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: scroll
+  - type: Item
+    size: Small
+    heldPrefix: scroll
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: holy tablet
+  description: Indecipherable to the layperson, only the chaplain knows whence its powers come.
+  parent: Bible
+  id: HolyTextHolyTablet
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: tablet
+  - type: Item
+    size: Small
+    heldPrefix: tablet
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: greybible
+  description: An NT breakthrough, this tome is compatible with all chaplains, regardless of their beliefs. It doesn't say much of anything.
+  parent: Bible
+  id: HolyTextGreybible
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: greybible
+  - type: Item
+    size: Small
+    heldPrefix: greybible
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: kojiki
+  description: A spiritually powerful text detailing yokai and their mythologies, and how to coexist with them.
+  parent: Bible
+  id: HolyTextKojiki
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: kojiki
+  - type: Item
+    size: Small
+    heldPrefix: kojiki
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: tao teachings
+  description: Comprises many spiritually powerful texts, none of which are the true Tao.
+  parent: Bible
+  id: HolyTextTaoTeachings
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: tao
+  - type: Item
+    size: Small
+    heldPrefix: tao
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: principia discordia
+  description: Tenet V - A Discordian is Forbidden of Believing what they Read.
+  parent: Bible
+  id: HolyTextPrincipiaDiscordia
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: principia
+  - type: Item
+    size: Small
+    heldPrefix: principia
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: chaplain's grimoire
+  description: Is it holy? Is it arcane? Wizard Federation lawyers are still wands-deep in the lawsuit.
+  parent: Bible
+  id: HolyTextChaplainsGrimoire
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: grimoire
+  - type: Item
+    size: Small
+    heldPrefix: grimoire
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: unitology tome
+  description: Technically hallowed, this is just six volumes discussing xenoarch and asking for spesos.
+  parent: Bible
+  id: HolyTextUnitologyTome
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: unitology
+
+- type: entity
+  name: extreme teen bible
+  description: Meant for youth pastors, chaplains proselytizing from this are compelled to sit in chairs backwards.
+  parent: Bible
+  id: HolyTextExtremeTeenBible
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: etb
+  - type: Item
+    size: Small
+    heldPrefix: etb
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+
+- type: entity
+  name: bibble
+  description: For a book written by a guy who is coo coo bananas, it is quite compelling! #changed description because hey, that's me! #Bibble, Jamboree
+  parent: Bible
+  id: HolyTextBibble
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: bibble
+
+- type: entity
+  name: the rule of threes
+  description: The sacred text of the Honkmother. As to be expected, many of its passages are jokes.
+  parent: Bible
+  id: HolyTextClown
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: clowntext
+  - type: Item
+    size: Small
+    heldPrefix: clowntext
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
