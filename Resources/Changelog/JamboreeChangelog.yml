@@ -739,3 +739,13 @@ Entries:
         and supersynth to HOP's musician kit.
   id: 82
   time: '2026-03-12T07:28:29.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added 11 new bibles from Impstation!
+    - type: Add
+      message: >-
+        Added Honkmother Robes and A Clown Mask to the Chaplain loadout! Praise
+        the Honkmother!
+  id: 83
+  time: '2026-03-13T21:38:05.0000000+00:00'
