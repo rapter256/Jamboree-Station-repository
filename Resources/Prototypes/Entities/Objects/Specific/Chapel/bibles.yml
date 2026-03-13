@@ -102,6 +102,19 @@
     - BibleSet
     - QuaranSet
     - TanakhSet
+    # Impstation Adds start
+    - ScrollSet
+    - TabletSet
+    - GreybibleSet
+    - KojikiSet
+    - TaoSet
+    - DiscordSet
+    - ArcaneSet
+    - UnitologySet
+    - ExtremeSet
+    - BibbleSet
+    - ThreesSet 
+    # Impstation Adds end
     - ClockworkSet
     maxSelectedSets: 1
 
@@ -144,6 +157,120 @@
     state: icon
   content:
   - BibleSlabClockwork
+
+#Begin IMP selections
+- type: selectableSet
+  id: ScrollSet
+  name: The Holy Scroll
+  description: Between these dowels could hide heavenly revelations, devilish secrets, or a really long papercut.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: scroll
+  content:
+  - HolyTextHolyScroll
+
+- type: selectableSet
+  id: TabletSet
+  name: The Holy Tablet
+  description: Indecipherable to the layperson, only the chaplain knows whence its powers come.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: tablet
+  content:
+  - HolyTextHolyTablet
+
+- type: selectableSet
+  id: GreybibleSet
+  name: The Greybible
+  description: An NT breakthrough, this tome is compatible with all chaplains, regardless of their beliefs. It doesn't say much of anything.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: greybible
+  content:
+  - HolyTextGreybible
+
+- type: selectableSet
+  id: KojikiSet
+  name: The Kojiki
+  description: Comprises many spiritually powerful texts, none of which are the true Tao.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: kojiki
+  content:
+  - HolyTextKojiki
+
+- type: selectableSet
+  id: TaoSet
+  name: The Teachings of Tao
+  description: In simplicity there is harmony. In effortlessness comes peace.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: tao
+  content:
+  - HolyTextTaoTeachings
+
+- type: selectableSet
+  id: DiscordSet
+  name: The Principia Discordia
+  description: The only constant of the universe is no constants exist.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: principia
+  content:
+  - HolyTextPrincipiaDiscordia
+
+- type: selectableSet
+  id: ArcaneSet
+  name: The Grimoire
+  description: The practices of wizardry do not differ much from the practices of divine worship.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: grimoire
+  content:
+  - HolyTextChaplainsGrimoire
+
+- type: selectableSet
+  id: UnitologySet
+  name: The Tome of Unitology
+  description: Through the continuous flow of spesos, you too can become immortal!!!
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: unitology
+  content:
+  - HolyTextUnitologyTome
+
+- type: selectableSet
+  id: ExtremeSet
+  name: The Extreme Teen Bible
+  description: In this tome contains the means of finally becoming totally tubular, dude.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: etb
+  content:
+  - HolyTextExtremeTeenBible
+
+- type: selectableSet
+  id: BibbleSet
+  name: The Bibble
+  description: If the author didn't mention making a pinky promise this was all true, this book would seem like total malarky!
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: bibble
+  content:
+  - HolyTextBibble
+
+- type: selectableSet
+  id: ThreesSet
+  name: The Rule of Threes
+  description: Through comedy, true enlightenment shall come.
+  sprite:
+    sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
+    state: clowntext
+  content:
+  - HolyTextClown
+
+
+
 ##END SET SELECTION
 
 - type: entity

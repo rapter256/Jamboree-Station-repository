@@ -9,7 +9,7 @@
 
 - type: entity
   parent: Bible
-  name: Quaran
+  name: quaran #decapitalized
   description: "Inshallah."
   id: BibleQuaran
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   parent: Bible
-  name: Tanakh
+  name: tanakh #decapitalized
   description: "Choose life, that you and your offspring may live."
   id: BibleTanakh
   components:
