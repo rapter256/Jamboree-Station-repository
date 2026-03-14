@@ -253,7 +253,7 @@
     startAnnouncementColor: "#18abf5"
     startAudio:
       path: /Audio/Announcements/announce.ogg
-    weight: 8
+    weight: 4 # jamboree - anom spawn decreases
     duration: 35
     chaos: # Goobstation
       Anomaly: 100
@@ -276,7 +276,7 @@
     startAnnouncementColor: "#18abf5"
     startAudio:
       path: /Audio/Announcements/announce.ogg
-    weight: 8
+    weight: 5 # jamboree - anom spawn decreases
     duration: 35
     chaos: # Goobstation
       Anomaly: 40
