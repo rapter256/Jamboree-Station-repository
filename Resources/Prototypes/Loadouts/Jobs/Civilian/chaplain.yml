@@ -105,6 +105,10 @@
   equipment:
     head: ClothingHeadHatWitch1
 
+- type: loadout
+  id: ChaplainWizard #jamboree addition
+  equipment:
+    head: ClothingHeadHatWizardFake
 
 # Mask
 - type: loadout
@@ -163,6 +167,11 @@
   id: ChaplainHoodie
   equipment:
     outerClothing: ClothingOuterHoodieChaplain
+
+- type: loadout
+  id: ChaplainWizardRobe #jamboree change
+  equipment:
+    outerClothing: ClothingOuterWizard
 
 #shoes
 

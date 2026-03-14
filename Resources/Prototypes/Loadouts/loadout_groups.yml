@@ -860,6 +860,7 @@
   - ChaplainPlagueHat
   - ChaplainWitchHat
   - ChaplainWitchHatAlt
+  - ChaplainWizard #jamboree addition
   - ChaplainHeadDruid #imp
   - ChaplainHeadMoon #imp
   - ChaplainHeadTidal #imp
@@ -919,7 +920,8 @@
   - ChaplainNunRobe
   - ChaplainBlackHoodie
   - ChaplainHoodie
-  - ClownRobes #jamboree Add
+  - ClownRobes #jamboree addition
+  - ChaplainWizardRobe #jamboree addition
   - ChaplainOuterMoon #imp
   - ChaplainOuterSilent #imp
   - TechPriestSuit #nyanotrasen
