@@ -192,7 +192,7 @@
 - type: selectableSet
   id: KojikiSet
   name: The Kojiki
-  description: Comprises many spiritually powerful texts, none of which are the true Tao.
+  description: Through the understanding of yokai and their ways there will come peace with them.
   sprite:
     sprite: _Impstation/Objects/Specific/Chapel/holytexts.rsi
     state: kojiki
