@@ -749,3 +749,9 @@ Entries:
         the Honkmother!
   id: 83
   time: '2026-03-13T21:38:05.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: Reduced how much anomalies and artifacts spawn randomly.
+  id: 84
+  time: '2026-03-14T02:59:50.0000000+00:00'
