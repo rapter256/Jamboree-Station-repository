@@ -120,7 +120,7 @@
     sprite: ADT/Clothing/OuterClothing/Coats/crazyscientist.rsi
 
 - type: entity
-  parent: [ClothingOuterStorageBase , ClothingOuterArmorHoS, BaseSecurityCommandContraband]
+  parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase, BaseSecurityCommandContraband]
   id: ADTClothingOuterDutch
   name: head of security's cowboy jacket #changed name
   description: For those long nights on the beach in Tahiti.
