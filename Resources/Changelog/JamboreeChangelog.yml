@@ -763,3 +763,12 @@ Entries:
         options! Now you can feel safe while planning your trip to Tahiti...
   id: 85
   time: '2026-03-15T02:06:01.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        There are now examples of Animal Cruelty and Assault in the Legal
+        Mandate, so that confusion is lessened. Yes, the psychic zap does count
+        as assault definitively now!
+  id: 86
+  time: '2026-03-15T07:36:19.0000000+00:00'
