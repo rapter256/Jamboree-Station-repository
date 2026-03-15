@@ -755,3 +755,11 @@ Entries:
       message: Reduced how much anomalies and artifacts spawn randomly.
   id: 84
   time: '2026-03-14T02:59:50.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        The HoS Cowboy Jacket now has armor like the other HoS outer clothing
+        options! Now you can feel safe while planning your trip to Tahiti...
+  id: 85
+  time: '2026-03-15T02:06:01.0000000+00:00'
