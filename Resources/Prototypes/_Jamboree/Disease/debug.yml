@@ -1,0 +1,15 @@
+﻿- type: entity
+  id: MeleeDebugInfectCold
+  parent: MeleeDebugGib
+  name: cold stick
+  description: The common cold. Maybe it's the bubonic plague.
+  components:
+  - type: Tag
+    tags:
+    - Debug
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+  - type: DiseaseOnHit
+    disease: DiseaseCold

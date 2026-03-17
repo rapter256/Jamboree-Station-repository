@@ -279,6 +279,9 @@ public sealed class PaperSystem : EntitySystem
 
         entity.Comp.Mode = PaperAction.Read;
         UpdateUserInterface(entity);
+
+        var writeAfterEv = new PaperAfterWriteEvent(args.Actor); // Jamboree - KillTome port
+        RaiseLocalEvent(entity.Owner, ref writeAfterEv);
     }
 
     private void OnPaperWrite(Entity<ActivateOnPaperOpenedComponent> entity, ref PaperWriteEvent args)
@@ -363,6 +366,14 @@ public record struct PaperWriteEvent(EntityUid User, EntityUid Paper);
 /// <summary>
 /// Cancellable event for attempting to write on a piece of paper.
 /// </summary>
-/// <param name="paper">The paper that the writing will take place on.</param>
+/// <param name="Paper">The paper that the writing will take place on.</param> // Jamboree - "paper" to "Paper" KillTome port
 [ByRefEvent]
 public record struct PaperWriteAttemptEvent(EntityUid Paper, string? FailReason = null, bool Cancelled = false);
+
+/// <summary> // Jamboree - KillTome port
+/// Event raised on paper after it was written on by someone.
+/// </summary>
+/// <param name="Actor">Entity that wrote something on the paper.</param>
+[ByRefEvent]
+public readonly record struct PaperAfterWriteEvent(EntityUid Actor);
+

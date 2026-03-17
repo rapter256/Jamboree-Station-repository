@@ -1,0 +1,15 @@
+﻿- type: entity
+  id: DiseaseCold
+  parent: DiseaseBase
+  name: Cold
+  description: The common cold. You'll feel a bit bad while affected by this.
+  components:
+  - type: Disease
+    diseaseType: Viral
+    infectionRate: 0.005 # very slow
+    immunityGainRate: 1.25
+    genotype: 88174
+    effects:
+      DiseaseBehaviorFeelUnwell: 0.8
+      DiseaseBehaviorHeadache: 0.3
+      DiseaseBehaviorCough: 0.3

@@ -1,0 +1,91 @@
+﻿- type: entity
+  name: mosquito
+  parent: [ SimpleMobBase, FlyingMobBase ]
+  id: MobMosquito
+  description: It's like a bee but worse in every way, and really annoying.
+  components:
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 5
+    baseSprintSpeed : 7
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: mosquito-1
+      sprite: _Jamboree/Mobs/Animals/mosquito.rsi
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.1
+        density: 30
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      5: Dead
+  - type: Stamina
+    critThreshold: 10
+    animationThreshold: 5
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: mosquito-1
+      Critical:
+        Base: mosquito-dead
+      Dead:
+        Base: mosquito-dead
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Blood
+          Quantity: 1
+  - type: Butcherable
+    spawned:
+    - id: PuddleBloodSmall
+  - type: Item
+    size: Tiny
+  - type: Tag
+    tags:
+    - Trash
+  - type: Bloodstream
+    bloodReagent: InsectBlood
+    bloodMaxVolume: 0.1
+  - type: MobPrice
+    price: 50
+  - type: NPCRetaliation
+  - type: FactionException
+  - type: NpcFactionMember
+    factions:
+    - Passive
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: ZombieImmune
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 5
+      behaviors:
+      - !type:GibBehavior
+        recursive: false
+  - type: SpamEmitSound
+    minInterval: 15
+    maxInterval: 45
+    sound:
+      path: /Audio/_Jamboree/Animals/mosquito_buzz.ogg
+      params:
+        volume: 4
+        maxDistance: 10
+        variation: 0.3
