@@ -2,6 +2,7 @@
   name: mosquito
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobMosquito
+  suffix: Admeme
   description: It's like a bee but worse in every way, and really annoying.
   components:
   - type: CombatMode
