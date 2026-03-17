@@ -15,7 +15,7 @@
   name: greatshield
   parent: [BaseItem, ClothingSlotBase, BaseCentcommContraband]
   id: BlueShieldShield
-  description: The iconic namesake of these soldiers, the Blueshield. Known to take shots meant for high-ranking officials.
+  description: The finest in protection technology. Meant to take the bullets and blasts meant for the higher-ups. #changed, jamboree
   components:
     - type: ContainerContainer
     - type: ItemToggle

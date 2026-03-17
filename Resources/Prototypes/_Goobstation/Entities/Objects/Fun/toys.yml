@@ -194,7 +194,7 @@
 - type: entity
   parent: BaseBinglePlushie
   id: PlushieBingleYakub
-  name: yakub bingle plushie
+  name: big brain bingle plushie #changed name cause... idk... yakub is a lil weird? jamboree
   description: A cute stuffed toy that resembles a blue alien. You feel a strange compulsion to say bingle
   components:
   - type: Sprite

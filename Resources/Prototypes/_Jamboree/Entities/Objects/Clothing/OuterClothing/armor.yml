@@ -5,9 +5,9 @@
   description: Halt naysayer, perceive my drip!
   components:
   - type: Sprite
-    sprite: _Jamboree/Clothing/OuterClothing/wardenarmor.rsi
+    sprite: _Jamboree/Clothing/OuterClothing/Armor/wardenarmor.rsi #jamboree, moved to Armor folder to keep organized
   - type: Clothing
-    sprite: _Jamboree/Clothing/OuterClothing/wardenarmor.rsi
+    sprite: _Jamboree/Clothing/OuterClothing/Armor/wardenarmor.rsi #jamboree, moved to Armor folder to keep organized
   - type: Armor
     coverage:
     - Chest
@@ -39,9 +39,9 @@
   description: The armor is adorned with a gold lining. Practical? No. Cool as fuck? Absolutely.
   components:
   - type: Sprite
-    sprite: _Jamboree/Clothing/OuterClothing/captainplatearmor.rsi
+    sprite: _Jamboree/Clothing/OuterClothing/Armor/captainplatearmor.rsi #jamboree, moved to Armor folder to keep organized
   - type: Clothing
-    sprite: _Jamboree/Clothing/OuterClothing/captainplatearmor.rsi
+    sprite: _Jamboree/Clothing/OuterClothing/Armor/captainplatearmor.rsi #jamboree, moved to Armor folder to keep organized
   - type: Armor
     coverage:
     - Chest
@@ -65,3 +65,18 @@
     damageCoefficient: 0.6
   - type: FireProtection
     reduction: 0.7
+
+#BSO is gone, DON'T LET HIM TAKE HIS COAT (jamboree lol)
+- type: entity
+  parent: [ BaseSecurityCommandContraband, ClothingOuterWinterHoS ]
+  id: ClothingOuterSubzeroHOS
+  name: head of security's sub-zero coat
+  description: An armored winter coat designed for comfort in absolute zero.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Clothing/OuterClothing/Wintercoats/hos_subzero_coat.rsi
+  - type: Clothing
+    sprite: _Jamboree/Clothing/OuterClothing/Wintercoats/hos_subzero_coat.rsi
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHatHoodSubzeroHOS
