@@ -1,4 +1,4 @@
-motd-1 = If you are feeling frustrated, remember that epi is here to blame.
+motd-1 = If you are feeling frustrated, remember that science is here to blame.
 motd-2 = Reminder: Put something funny here later
 motd-3 = Sergal PR reverted
 motd-4 = Sergal PR merged
@@ -30,3 +30,9 @@ motd-29 = Rock mcmassgib has arrived at the station.
 motd-30 = 1984 is a lie
 motd-31 = He just sits there and KILLS me with his tail
 motd-32 = Can I get a permit for the RPG?
+motd-33 = Security is obligated to shoot on sight
+motd-34 = STOP LABELING THE GAS TANKS "SOLUTION TO CLOWN PROBLEM" GOSH DARN IT!!!
+motd-35 = "I think we are gonna have to kill this guy Tippy." "TIP:-"
+motd-36 = to use a antag toke nor to not
+motd-37 = RUN FOR YOUR LICE
+motd-38 = You guys get paid?

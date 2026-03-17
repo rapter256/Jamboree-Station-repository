@@ -10,4 +10,4 @@
   id: MessageOfTheDay
   values:
     prefix: motd-
-    count: 32
+    count: 38
