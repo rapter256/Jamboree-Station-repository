@@ -772,3 +772,28 @@ Entries:
         as assault definitively now!
   id: 86
   time: '2026-03-15T07:36:19.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Remove
+      message: The BSO has been fully removed from the loadout menu. R.I.P!
+    - type: Add
+      message: >-
+        Added a recolor of the BSO's winter gear (their snowjacks, winter coat,
+        and ushanka) as a clothing set for the Head of Security. The BSO's drip
+        will live on with them.
+    - type: Tweak
+      message: >-
+        The Claw Machine's inventory has been changed to have more options! Also
+        no more goobmins in the machine at least!
+    - type: Tweak
+      message: >-
+        IPCs and Borgs can now clap and salute! While IPCs do have sounds for
+        clapping and saluting, borgs do not because their arms don't move. Wait
+        why can they clap then? Huh-
+    - type: Add
+      message: >-
+        There are now 6 new messages that can appear as the Message of the Day!
+        If you wanna see more, check out the dynamic host names channel in the
+        Jamboree Discord!
+  id: 87
+  time: '2026-03-17T04:42:13.0000000+00:00'
