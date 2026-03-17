@@ -1740,6 +1740,7 @@
   - HeadofSecuritySpecialBeret # Goobstation
   - HoSCowboy #Delta V
   - HOSBucket #TP
+  - HOSUshanka #Jamboree, GoobResprite & reuse
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -1773,6 +1774,7 @@
   - HeadofSecurityGreatCoat # Goobstation
   - HeadofSecurityVestWeb # Goobstation
   - DutchCoat #ADT
+  - SubzeroCoat #Jamboree, Goob resprite & reuse
 
 - type: loadoutGroup
   id: WardenHead

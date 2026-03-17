@@ -55,6 +55,7 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-ntr-centcom
   canBeAntag: false
+  setPreference: false # jamboree, death of the BSO
   access:
   - Security
   - Brig

@@ -1355,7 +1355,7 @@
   name: loadout-group-hos-shoes
   loadouts:
   - JackBoots
-  - SecurityWinterBoots
+  - SubzeroJacks #replacing normal ones with this, Jamboree, Goob resprite & reuse
   - AdvancedJackBoots
 
 - type: loadoutGroup

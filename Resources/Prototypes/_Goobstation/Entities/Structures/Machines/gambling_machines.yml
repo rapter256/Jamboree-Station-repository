@@ -384,35 +384,46 @@
     - PlushieMoth
     - PlushieHuman
     - PlushiePenguin
-    - PlushieXeve
-    - PlushieDurk
-    - PlushieMnwaar
-    - PlushieLouie
     - FoamWonderprod
-    - PlushieBingle
+    - PlushieBingleSmall #changed, jamboree
+    - PlushieAbductor
+    #jamboree additions
+    - PlushieGhost
+    - PlushieBee
+    - PlushieHampter
+    - PlushieNuke
+    - PlushieLamp
+    - PlushieArachind
+    - PlushieLizard
+    - PlushieExperiment
+    - PlushieSpaceLizard
+    - PlushieDiona
+    - PlushieSharkBlue
+    - PlushieSharkPink
+    - PlushieSharkGrey
+    - PlushieCarp
+    - PlushieMagicarp
+    - PlushieHolocarp
+    - PlushieSlime
+    - PlushieSnake
+    - PlushieVox
+    - PlushieAtmosian
+    # jamboree end
+    evilRewards:
+    #jamboree, fully changing this cause while we are a goob fork we don't interact with goob devs at all really
     - PlushieBongle
     - PlushieBinglePony
-    - PlushieAbductor
-    - PlushieJvne
-    - PlushieFern
-    - PlushieNigel
-    - PlushieBrizby
-    - PlushieBoggle
-    - PlushieLehmin
-    - PlushieWachtel
-    - PlushieLeguia
-    - PlushiePasha
-    evilRewards:
-    - EvilPlushieXeve
-    - EvilPlushieBoggle
-    - EvilPlushieBrizby
-    - EvilPlushieNigel
-    - EvilPlushieFern
-    - EvilPlushieJvne
-    - EvilPlushieMnwaar
-    - EvilPlushieDurk
-    - EvilPlushieLouie
-    - EvilPlushieWachtel
-    - EvilPlushieLeguia
-    - EvilPlushiePasha
+    - PlushieGhostRevenant
+    - PlushieRouny
+    - PlushieLizardMirrored
+    - PlushieLizardInversed
+    - PlushieRatvar
+    - PlushieNar
+    - PlushieRainbowLizard
+    - PlushieRainbowCarp
+    - ToyRubberDuck
+    - FoamWonderprod
+    - PlushieBingle
+    - PlushieXeno
+    #jamboree, end
   - type: DoAfter
