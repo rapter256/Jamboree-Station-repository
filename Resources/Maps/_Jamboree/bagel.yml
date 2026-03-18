@@ -114141,13 +114141,6 @@ entities:
     - type: Transform
       pos: 3.0700302,-3.5928688
       parent: 24674
-- proto: PlushieSamantha
-  entities:
-  - uid: 16766
-    components:
-    - type: Transform
-      pos: -37.215908,-28.505322
-      parent: 2
 - proto: PlushieSpaceLizard
   entities:
   - uid: 17048

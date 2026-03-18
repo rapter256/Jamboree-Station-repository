@@ -22,48 +22,48 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
 ## CORES RULES
 
-  - [textlink="0. Admin discretion on enforcement" link="CORE01"]
-  - [textlink="1. Enforcements are final" link="CORE02"]
-  - [textlink="2. Erotic or other adult focused RP is not allowed" link="CORE03"]
-  - [textlink="3. Metagaming is expressly prohibited" link="CORE04"]
-  - [textlink="4. You must be 18 or older" link="CORE05"]
-  - [textlink="5. This is an English only server" link="CORE06"]
+  - [textlink="C0. Admin discretion on enforcement" link="CORE01"]
+  - [textlink="C1. Enforcements are final" link="CORE02"]
+  - [textlink="C2. Erotic or other adult focused RP is not allowed" link="CORE03"]
+  - [textlink="C3. Metagaming is expressly prohibited" link="CORE04"]
+  - [textlink="C4. You must be 18 or older" link="CORE05"]
+  - [textlink="C5. This is an English only server" link="CORE06"]
 
 ## IN GAME & ROLEPLAY RULES
 
   Additional rules made for roleplay clarifications.
 
-  - [textlink="1. Roleplay" link="RP01"]
-  - [textlink="2. Obey the Metashield" link="RP02"]
-  - [textlink="3. Do not Metagame" link="RP02"]
-  - [textlink="4. Do not Powergame" link="RP04"]
-  - [textlink="5. Play a believable character" link="RP05"]
-  - [textlink="6. Death Amnesia / New Life Rules" link="RP06"]
-  - [textlink="7. Do not self antag" link="RP07"]
+  - [textlink="RP1. Roleplay" link="RP01"]
+  - [textlink="RP2. Obey the Metashield" link="RP02"]
+  - [textlink="RP3. Do not Metagame" link="RP03"]
+  - [textlink="RP4. Do not Powergame" link="RP04"]
+  - [textlink="RP5. Play a believable character" link="RP05"]
+  - [textlink="RP6. Death Amnesia / New Life Rules" link="RP06"]
+  - [textlink="RP7. Do not self antag" link="RP07"]
 
   ## COMMAND RULES
-  - [textlink="1. Input at least a minimum amount of effort\knowledge of the Code of Conduct" link="CO01"]
-  - [textlink="2. Follow Chain of Command" link="CO02"]
-  - [textlink="3. Deal with enemies in proportion to their crime(s)" link="CO03"]
+  - [textlink="COM1. Input at least a minimum amount of effort\knowledge of the Code of Conduct" link="CO01"]
+  - [textlink="COM2. Follow Chain of Command" link="CO02"]
+  - [textlink="COM3. Deal with enemies in proportion to their crime(s)" link="CO03"]
 
   ## ANTAGONIST RULES
-  - [textlink="1. You are still playing a character" link="AN01"]
-  - [textlink="2. Objectives are not required" link="AN02"]
-  - [textlink="3. Objectives may be completed through proportional damage" link="AN03"]
-  - [textlink="4. Damage Restrictions" link="AN04"]
+  - [textlink="A1. You are still playing a character" link="AN01"]
+  - [textlink="A2. Objectives are not required" link="AN02"]
+  - [textlink="A3. Objectives may be completed through proportional damage" link="AN03"]
+  - [textlink="A4. Damage Restrictions" link="AN04"]
 
   ## SILICON RULES
   These rules apply in the context of being in a silicon role or being converted to a silicon role within a round.
 
-  - [textlink="1. Your silicon laws are your rules" link="S01"]
-  - [textlink="2. Laws are to obeyed by their order" link="S02"]
-  - [textlink="3. Higher order laws can modify lower order laws" link="S03"]
-  - [textlink="4. You cannot explicitly ask for or allow law modifications" link="S04"]
-  - [textlink="5. You are a free agent if you have no laws" link="S05"]
-  - [textlink="6. You are not required to follow orders which violate other rules or cause undue effort to achieve" link="S06"]
-  - [textlink="7. Do not constantly change your interpretation of your laws" link="S07"]
-  - [textlink="8. Crew are staff members, make reasonable assumptions" link="S08"]
-  - [textlink="9. Harm is defined as physical trauma, prioritized by its imminency and magnitude" link="S09"]
-  - [textlink="10. You may determine how you resolve conflicts between orders" link="S10"]
+  - [textlink="S1. Your silicon laws are your rules" link="S01"]
+  - [textlink="S2. Laws are to obeyed by their order" link="S02"]
+  - [textlink="S3. Higher order laws can modify lower order laws" link="S03"]
+  - [textlink="S4. You cannot explicitly ask for or allow law modifications" link="S04"]
+  - [textlink="S5. You are a free agent if you have no laws" link="S05"]
+  - [textlink="S6. You are not required to follow orders which violate other rules or cause undue effort to achieve" link="S06"]
+  - [textlink="S7. Do not constantly change your interpretation of your laws" link="S07"]
+  - [textlink="S8. Crew are staff members, make reasonable assumptions" link="S08"]
+  - [textlink="S9. Harm is defined as physical trauma, prioritized by its imminency and magnitude" link="S09"]
+  - [textlink="S10. You may determine how you resolve conflicts between orders" link="S10"]
 
 </Document>
