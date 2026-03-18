@@ -116,7 +116,6 @@
       - PosterContrabandExoRun
       - PosterContrabandExoChomp
       - PosterContrabandGoobChuckler # Goobstation
-      - PosterContrabandGoobYakub # Goobstation
       - PosterContrabandGoobRedFOSS # Goobstation
     chance: 1
 
@@ -193,10 +192,8 @@
       - PosterLegitGoobWallMeat # Goobstation
       - PosterLegitGoobCoolS # Goobstation
       - PosterLegitGoobBigBrotherAI # Goobstation
-      - PosterLegitGoobDurkPlush # Goobstation
       - PosterLegitGoobWelderBomb # Goobstation
       - PosterLegitGoobLokoAdvertisement # Goobstation
-      - PosterLegitGoobLouieVote # Goobstation
       - PosterLegitGoobSlowDownClown # Goobstation
       - PosterLegitGoobNTRAdvert # Goobstation
       - PosterLegitOppenhopper

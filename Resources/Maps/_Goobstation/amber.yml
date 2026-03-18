@@ -115035,13 +115035,6 @@ entities:
     - type: Transform
       pos: 13.541924,-10.43575
       parent: 2
-- proto: PlushieBrizby
-  entities:
-  - uid: 16554
-    components:
-    - type: Transform
-      pos: 39.562862,-64.33146
-      parent: 2
 - proto: PlushieDiona
   entities:
   - uid: 16555

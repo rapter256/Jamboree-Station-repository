@@ -492,7 +492,7 @@
   name: guide-entry-rules-rp04
   ruleEntry: true
   priority: 4
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RP03.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RP04.xml" #was a small typo
 
 - type: guideEntry
   id: RP05

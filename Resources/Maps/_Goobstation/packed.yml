@@ -70969,13 +70969,6 @@ entities:
     - type: Transform
       pos: 6.0254927,-3.2604024
       parent: 2
-- proto: PlushieDurk
-  entities:
-  - uid: 12254
-    components:
-    - type: Transform
-      pos: 83.477715,8.436194
-      parent: 2
 - proto: PlushieNar
   entities:
   - uid: 10352
@@ -71261,13 +71254,6 @@ entities:
     components:
     - type: Transform
       pos: 41.5,-9.5
-      parent: 2
-- proto: PosterLegitGoobDurkPlush
-  entities:
-  - uid: 5645
-    components:
-    - type: Transform
-      pos: 82.5,8.5
       parent: 2
 - proto: PosterLegitHighClassMartini
   entities:
