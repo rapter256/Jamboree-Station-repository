@@ -87,8 +87,6 @@
     children:
     - id: CdDiskDanitosBurritos
       weight: 1
-    - id: CdDiskBillMovie
-      weight: 1
     - id: CdDiskCapTraining
       weight: 1
     - id: CdDiskCargonia
@@ -99,8 +97,6 @@
       weight: 1
     - id: CdDiskDansTickets
       weight: 1
-    - id: CdDiskGrones
-      weight: 1
     - id: CdDiskPopeCrunchCereal
       weight: 1
     - id: CdDiskQuikNoodles
@@ -109,22 +105,6 @@
       weight: 1
     - id: CdDiskSecurityPsa
       weight: 1
-    - id: JVNECdDiskCapstien
-      weight: 0.3
-    - id: JVNECdDiskNinja
-      weight: 0.3
-    - id: JVNECdDiskNextUp
-      weight: 0.5
-    - id: JVNECdDiskJNE
-      weight: 0.3
-    - id: CdDiskCommanderAnnouncement
-      weight: 0.2
-    - id: CdDiskCommanderFigurines
-      weight: 0.2
-    - id: CdDiskCommanderResignation
-      weight: 0.2
-    - id: CdDiskCommanderSupport
-      weight: 0.2
     - id: CdDiskHeisenbeeTrial
       weight: 0.2
     - id: CdDiskXgOnboarding1
@@ -169,8 +149,6 @@
     - id: VinylDiskOrange
       weight: 1
     - id: VinylDiskWhite
-      weight: 1
-    - id: VinylDiskLightRed
       weight: 1
     - id: VinylDiskDarkBlue
       weight: 1
@@ -231,8 +209,6 @@
       weight: 1
     - id: VinylSleevePizza
       weight: 1
-    - id: VinylSleeveFart
-      weight: 1
     - id: VinylSleeveLavaLand
       weight: 1
     - id: VinylSleeveHockey
@@ -288,8 +264,6 @@
     - id: VinylSleeveJapan
       weight: 1
     - id: VinylSleeveChristmas
-      weight: 1
-    - id: VinylSleevePickle
       weight: 1
     - id: VinylSleeveFlash
       weight: 1

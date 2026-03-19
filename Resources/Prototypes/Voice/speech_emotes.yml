@@ -277,9 +277,9 @@
   whitelist:
     components:
     - Hands
-  blacklist:
-    tags:
-    - SiliconEmotes
+#  blacklist:
+#    tags:
+#    - SiliconEmotes
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
     - claps
@@ -342,9 +342,9 @@
   whitelist:
     components:
     - Hands
-  blacklist:
-    tags:
-    - SiliconEmotes
+#  blacklist:
+#    tags:
+#    - SiliconEmotes
   chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
     - salute
