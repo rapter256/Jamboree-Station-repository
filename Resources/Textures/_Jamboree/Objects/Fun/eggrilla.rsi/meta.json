@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Imported from https://www.reddit.com/r/funny/comments/f0vkqk/i_photoshopped_a_gorilla_into_an_eggplant_for by Gorse",
+    "size": {
+        "x": 224,
+        "y": 224
+    },
+    "states": [
+        {
+            "name": "icon"
+        }
+    ]
+}
