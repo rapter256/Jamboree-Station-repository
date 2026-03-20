@@ -814,3 +814,9 @@ Entries:
         that haven't earned the capital punishment!
   id: 88
   time: '2026-03-18T22:23:28.0000000+00:00'
+- author: Gorse1, xsainteer
+  changes:
+    - type: Add
+      message: There are various new tools for admins to torment you with. Beware.
+  id: 89
+  time: '2026-03-20T04:31:18.0000000+00:00'
