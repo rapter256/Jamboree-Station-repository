@@ -1,0 +1,73 @@
+﻿- type: entity
+  parent: MobSiliconBase
+  id: MobCameraBug
+  name: camera bug
+  description: A small drone with a lens on the front. You feel like it's watching you.
+  components:
+  - type: Sprite
+    drawdepth: SmallMobs
+    sprite: _Jamboree/Mobs/Silicon/camerabug.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base", "movement" ]
+      state: camera-bug
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: camera-bug-moving
+    noMovementLayers:
+      movement:
+        state: camera-bug
+  - type: InteractionPopup
+    interactSuccessString: petting-success-camerabug
+    interactFailureString: petting-failure-camerabug
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: Vocalizer
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+        density: 30
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: SyndieBorg
+    allowedEmotes:
+    - Laugh
+    - Sigh
+    - Crying
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - Unimplantable
+    - SiliconMob
+    - SiliconEmotes
+  - type: Vocal
+    sounds:
+      Unsexed: UnisexSiliconSyndicate
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4
+    baseSprintSpeed: 8
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    animation: WeaponArcBite
+    damage:
+      types:
+        Blunt: 0
+
