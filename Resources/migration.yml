@@ -209,7 +209,7 @@ LockableButtonRobotics: null
 LockerChiefJusticeFilled: null
 LockerClerkFilled: null
 LockerPsychologistFilled: LockerMedical
-LockerQuartermasterFilledHardsuit: LockerQuartermasterFilled
+LockerQuartermasterFilledHardsuit: null
 PosterMapGlacier: null
 RailingCornerSmallDeltaV: RailingCorner
 RailingDeltaV: Railing
