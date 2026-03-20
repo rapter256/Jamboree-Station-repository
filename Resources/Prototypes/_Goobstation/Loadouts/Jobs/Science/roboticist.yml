@@ -29,3 +29,43 @@
   id: RoboticistPDA
   equipment:
     id: RoboticistPDA
+
+# funky things
+
+- type: loadout
+  id: InterRoboticistJumpsuit #funky
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitInterRoboticist #funky
+
+- type: loadout
+  id: InterRoboticistJumpskirt #funky
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtInterRoboticist
+
+- type: loadout
+  id: InterRobohandsGloves #funky
+  equipment:
+    gloves: ClothingHandsGlovesInterRobohands
+
+# jamboree additions
+- type: loadout
+  id: CardborgHead
+  equipment:
+    head: ClothingHeadHatCardborg
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobRoboticist
+      time: 360000 #100 hrs
+
+- type: loadout
+  id: CardborgSuit
+  equipment:
+    outerClothing: ClothingOuterCardborg
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobRoboticist
+      time: 360000 #100 hrs

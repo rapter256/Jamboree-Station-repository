@@ -1649,8 +1649,6 @@
   name: loadout-group-scientist-head
   minLimit: 0
   loadouts:
-  - RoboticistCap #reenabled, jamboree
-  - SkullBandana # reenabled, jamboree
   - ScientificBeret
   - ScienceBucket #TP
 
@@ -1669,8 +1667,6 @@
   - ScientistJumpskirt
   - RoboticistJumpsuit #jamboree, reenabled because for SOME FUCKING REASON goob has roboticists using the scientist loadouts event though they FUCKING MADE LOADOUT GROUPS FOR THEM!!!!
   - RoboticistJumpskirt #jamboree, reenabled
-  - InterRoboticistJumpsuit #funky
-  - InterRoboticistJumpskirt #funky
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
   - ResearchMJ # goob
@@ -1692,8 +1688,6 @@
   - RegularLabCoat
   - ScienceLabCoat
   - ScienceWintercoat
-  - RoboticistLabCoat
-  - RoboticistWintercoat
   - SeniorResearcherLabCoat
 
 - type: loadoutGroup
@@ -1712,7 +1706,6 @@
   - LatexGloves
   - PurpleGloves
   - RobohandsGloves
-  - InterRobohandsGloves
 
 - type: loadoutGroup
   id: ScientistPDA

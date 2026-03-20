@@ -39,7 +39,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ADTClothingCaptainShoulder
-  name: captain's veteran mantle #changed name
+  name: veteran captain mantle #changed name
   description: Theres not enough room for the two of us at this station...
   components:
   - type: Sprite
