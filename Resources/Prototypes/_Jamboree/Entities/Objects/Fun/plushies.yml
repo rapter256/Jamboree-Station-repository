@@ -1,8 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
-- type: entity
+﻿- type: entity
   id: Meowl # jamboree - shitposting era real
   name: meowl
   suffix: Admeme
@@ -33,3 +29,23 @@
     soundHit:
       collection: FelinidMeows
   - type: Boomerang # wheeeeeeeee
+
+- type: entity
+  parent: BaseBinglePlushie
+  id: PlushieBingleBerryDingle
+  name: bingle berry dingle plushie
+  description: Looks like someone smacked it on the head really hard.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Fun/bingle-berry-dingle.rsi
+    state: icon
+
+- type: entity
+  parent: BaseBinglePlushie
+  id: PlushieBingleGungleUngus
+  name: gungle ungus bingle plushie
+  description: You're really glad this thing isn't real.
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Fun/gungle-ungus-bingle.rsi
+    state: icon
