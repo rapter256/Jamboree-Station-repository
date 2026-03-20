@@ -238,7 +238,8 @@ namespace Content.IntegrationTests.Tests
             "dm01-entryway",
             "Chloris", // Goobstation
             "Serpentcrest", // Goobstation
-            "Chibi",
+            "Chibi", // Jamboree, DV
+            "Glacier", // Jamboree, DV
         };
 
         private static readonly ProtoId<EntityCategoryPrototype> DoNotMapCategory = "DoNotMap";
