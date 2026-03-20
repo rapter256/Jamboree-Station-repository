@@ -27,6 +27,12 @@ public sealed partial class SpecialAnimationOnUseComponent : Component
 
     [DataField, AutoNetworkedField]
     public SpecialAnimationBroadcastType BroadcastType = SpecialAnimationBroadcastType.Pvs;
+/// <summary>
+/// If true, uses the item itself as the sprite for the animation instead of the player.
+/// Defaults to false
+/// </summary>
+    [DataField, AutoNetworkedField]
+    public bool AnimateItem;
 }
 
 public enum SpecialAnimationBroadcastType

@@ -1,0 +1,31 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  id: Eggrilla # jamboree - shitposting era real
+  name: eggrilla
+  suffix: Admeme
+  description: Should you... eat this?
+  parent: [BaseItem]
+  components:
+  - type: Sprite
+    sprite: _Jamboree/Objects/Fun/eggrilla.rsi
+    state: icon
+    scale: 0.2, 0.2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+    damage:
+      types:
+        Blunt: 0
+  - type: SpecialAnimationOnUse
+    overrideText: eggrilla jumpscare
+    animateItem: true

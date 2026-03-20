@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  id: MeleeDebugInfectCold
+  parent: MeleeDebugGib
+  name: cold stick
+  description: The common cold. Maybe it's the bubonic plague.
+  components:
+  - type: Tag
+    tags:
+    - Debug
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+  - type: DiseaseOnHit
+    disease: DiseaseCold

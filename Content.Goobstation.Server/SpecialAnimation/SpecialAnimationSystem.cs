@@ -36,23 +36,26 @@ public sealed class SpecialAnimationSystem : SharedSpecialAnimationSystem
 
         if (ent.Comp.OverrideText != null)
             animation = animation.WithText(ent.Comp.OverrideText);
+// Jamboree - AnimateItem: changed args.User to "sprite" so the sprite used
+// is the item itself and not the player triggering it
+        var sprite = ent.Comp.AnimateItem ? ent.Owner : args.User;
 
         switch (ent.Comp.BroadcastType)
         {
             case SpecialAnimationBroadcastType.Local:
-                PlayAnimationForEntity(args.User, args.User, animation);
+                PlayAnimationForEntity(sprite, args.User, animation);
                 break;
             case SpecialAnimationBroadcastType.Pvs:
-                PlayAnimationFiltered(args.User, Filter.Pvs(args.User, entityManager: EntityManager), animation);
+                PlayAnimationFiltered(sprite, Filter.Pvs(args.User, entityManager: EntityManager), animation);
                 break;
             case SpecialAnimationBroadcastType.Grid:
-                PlayAnimationFiltered(args.User, Filter.BroadcastGrid(xform.ParentUid), animation);
+                PlayAnimationFiltered(sprite, Filter.BroadcastGrid(xform.ParentUid), animation);
                 break;
             case SpecialAnimationBroadcastType.Map:
-                PlayAnimationFiltered(args.User, Filter.BroadcastMap(xform.MapID), animation);
+                PlayAnimationFiltered(sprite, Filter.BroadcastMap(xform.MapID), animation);
                 break;
             case SpecialAnimationBroadcastType.Global:
-                PlayAnimationFiltered(args.User, Filter.Broadcast(), animation);
+                PlayAnimationFiltered(sprite, Filter.Broadcast(), animation);
                 break;
         }
     }
