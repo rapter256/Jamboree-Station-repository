@@ -6,7 +6,7 @@
 
 changeling-roundend-name = changeling
 
-objective-issuer-self = [color=orange]The Self[/color]
+# just removed this cause eh, not needed, objective-issuer-self = [color=orange]The Self[/color]
 # both changed to get a different perspective on changelings
 objective-issuer-atavist = [color=crimson]The Neo-Atavists[/color]
 
