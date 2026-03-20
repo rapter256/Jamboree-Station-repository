@@ -820,3 +820,16 @@ Entries:
       message: There are various new tools for admins to torment you with. Beware.
   id: 89
   time: '2026-03-20T04:31:18.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added lore entries to most antagonist guidebook entries! (No heretic
+        entry yet as that will be done once time is available to remove all
+        mentions of Mansus 😨)
+    - type: Add
+      message: >-
+        Ported some of the Hospitality director's clothing from Impstation to
+        the Nanotrasen Representative!
+  id: 90
+  time: '2026-03-20T08:53:26.0000000+00:00'
