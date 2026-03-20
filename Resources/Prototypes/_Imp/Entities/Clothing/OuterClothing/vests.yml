@@ -1,0 +1,11 @@
+#Hospitality Director vest
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestHD
+  name: nanotrasen representative's host vest #jamboree, name change
+  description: If the host of the party isn't dressing good, then what's even the point? #changed description
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/OuterClothing/Vests/hd_vest.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/OuterClothing/Vests/hd_vest.rsi

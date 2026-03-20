@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleHD
+  name: nanotrasen representative's host mantle #jamboree, name changed
+  description: This mantle shows you really know how to make sure this station is the hotspot. #changed description
+  components:
+  - type: Sprite
+    sprite: _Impstation/Clothing/Neck/Mantles/hdmantle.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Neck/Mantles/hdmantle.rsi
+

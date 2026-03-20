@@ -44,3 +44,14 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtHD
+  name: nanotrasen representative's host jumpskirt #changed name, jamboree
+  description: A classy skirt for classy gatherings. #changed description
+  components:
+    - type: Sprite
+      sprite: _Impstation/Clothing/Uniforms/Jumpskirt/hd_uniform.rsi
+    - type: Clothing
+      sprite: _Impstation/Clothing/Uniforms/Jumpskirt/hd_uniform.rsi
