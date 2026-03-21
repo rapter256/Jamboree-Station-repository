@@ -1,15 +1,11 @@
-# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Map
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/21/2026 05:43:10
-  entityCount: 18561
+  time: 03/21/2026 23:45:48
+  entityCount: 18566
 maps:
 - 1
 grids:
@@ -53408,7 +53404,7 @@ entities:
   - uid: 7542
     components:
     - type: Transform
-      pos: 23.52791,-31.455036
+      pos: 23.488756,-31.26318
       parent: 2
 - proto: ClothingEyesHudBeer
   entities:
@@ -61353,6 +61349,18 @@ entities:
     - type: Transform
       pos: 10.435558,22.792347
       parent: 2
+- proto: DrinkManhattanProjectGlass
+  entities:
+  - uid: 13752
+    components:
+    - type: Transform
+      pos: 28.39553,-35.316414
+      parent: 2
+  - uid: 13756
+    components:
+    - type: Transform
+      pos: 28.629906,-35.441414
+      parent: 2
 - proto: DrinkManlyDorfGlass
   entities:
   - uid: 7136
@@ -62441,7 +62449,7 @@ entities:
       pos: 36.5,-26.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -26115.05
+      secondsUntilStateChange: -26875.47
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -64680,13 +64688,6 @@ entities:
     components:
     - type: Transform
       pos: -5.6642,-28.834438
-      parent: 2
-- proto: FoodSoupSlime
-  entities:
-  - uid: 13473
-    components:
-    - type: Transform
-      pos: 29.395521,-37.388863
       parent: 2
 - proto: FoodTinMRE
   entities:
@@ -89553,6 +89554,11 @@ entities:
     - type: Transform
       pos: 12.5,29.5
       parent: 2
+  - uid: 13473
+    components:
+    - type: Transform
+      pos: -34.5,44.5
+      parent: 2
 - proto: JVNECdDiskSyndicate
   entities:
   - uid: 11345
@@ -89643,6 +89649,11 @@ entities:
     components:
     - type: Transform
       pos: -4.5,-13.5
+      parent: 2
+  - uid: 12895
+    components:
+    - type: Transform
+      pos: 29.5,-37.5
       parent: 2
   - uid: 17926
     components:
@@ -97685,11 +97696,6 @@ entities:
       parent: 2
 - proto: RandomArtifactSpawner
   entities:
-  - uid: 12895
-    components:
-    - type: Transform
-      pos: 47.5,64.5
-      parent: 2
   - uid: 13201
     components:
     - type: Transform
@@ -103897,6 +103903,11 @@ entities:
     - type: Transform
       pos: -21.5,32.5
       parent: 2
+  - uid: 13761
+    components:
+    - type: Transform
+      pos: -20.5,48.5
+      parent: 2
 - proto: SpiderWeb
   entities:
   - uid: 304
@@ -106458,6 +106469,11 @@ entities:
     - type: Transform
       pos: 30.5,-37.5
       parent: 2
+  - uid: 13704
+    components:
+    - type: Transform
+      pos: 28.5,-35.5
+      parent: 2
   - uid: 14292
     components:
     - type: Transform
@@ -108455,6 +108471,12 @@ entities:
     components:
     - type: Transform
       pos: -22.725107,33.515625
+      parent: 2
+  - uid: 13793
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.610529,48.416405
       parent: 2
 - proto: VendingBarDrobe
   entities:
