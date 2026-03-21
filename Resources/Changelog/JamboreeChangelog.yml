@@ -833,3 +833,26 @@ Entries:
         the Nanotrasen Representative!
   id: 90
   time: '2026-03-20T08:53:26.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Glacier Station has gotten some edits, as according to the feedback of
+        you the players! We hope it is more fun to run around on now!
+    - type: Tweak
+      message: >-
+        Saltern and Atlas have now been updated! They both include a Radio Host
+        and Reporter sections now! Atlas does have a small Xenobiology area as
+        well (It is VERY SMALL so keep that in mind when setting up)!
+    - type: Tweak
+      message: >-
+        Gingerbread people have been enabled as a playable species! Feedback on
+        how they feel to customize is appreciated as a planned retune of them
+        into more generally cookie-centric folk is planned!
+    - type: Fix
+      message: >-
+        Fixed some small mapping issues with Central Command. Now anyone with
+        Armory access can access the contraband room and the CC Brig properly
+        works!
+  id: 91
+  time: '2026-03-21T09:18:58.0000000+00:00'
