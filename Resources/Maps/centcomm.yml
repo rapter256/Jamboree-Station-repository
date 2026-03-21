@@ -1,20 +1,16 @@
-# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 meta:
   format: 7
   category: Grid
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/18/2026 01:14:29
-  entityCount: 6973
-maps: []
+  time: 03/21/2026 04:49:38
+  entityCount: 6975
+maps:
+- 252
 grids:
 - 1668
-orphans:
-- 1668
+orphans: []
 nullspace: []
 tilemap:
   0: Space
@@ -52,12 +48,22 @@ tilemap:
 entities:
 - proto: ""
   entities:
+  - uid: 252
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
   - uid: 1668
     components:
     - type: MetaData
       name: Central Command
     - type: Transform
-      parent: invalid
+      parent: 252
     - type: MapGrid
       chunks:
         -1,-1:
@@ -4589,22 +4595,6 @@ entities:
     components:
     - type: Transform
       pos: 16.5,21.5
-      parent: 1668
-- proto: BenchSofaCorpLeft
-  entities:
-  - uid: 3123
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -9.5,-28.5
-      parent: 1668
-- proto: BenchSofaCorpRight
-  entities:
-  - uid: 252
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -9.5,-27.5
       parent: 1668
 - proto: BiomassReclaimer
   entities:
@@ -23461,6 +23451,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: FoodFrozenSnowconeClown
+  entities:
+  - uid: 2776
+    components:
+    - type: Transform
+      pos: 1.5759072,-3.7846346
+      parent: 1668
 - proto: FoodMealHappyHonkBigBite
   entities:
   - uid: 771
@@ -27256,17 +27253,17 @@ entities:
     - type: Transform
       pos: 7.5,25.5
       parent: 1668
+  - uid: 3123
+    components:
+    - type: Transform
+      pos: 4.5,31.5
+      parent: 1668
 - proto: HighSecCentralCommandLocked
   entities:
   - uid: 1278
     components:
     - type: Transform
       pos: 7.5,-1.5
-      parent: 1668
-  - uid: 2776
-    components:
-    - type: Transform
-      pos: 4.5,31.5
       parent: 1668
   - uid: 3791
     components:
@@ -28438,7 +28435,7 @@ entities:
         stampedColor: '#006600FF'
         stampedName: stamp-component-stamped-name-centcom
       content: >-
-        ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀ 
+        ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 
         ║░██░░░░██░║
 
@@ -28448,7 +28445,7 @@ entities:
 
         ║░██░░░███░║─ Central Field Command
 
-        ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀ 
+        ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 
         ────────────────────⋆⋅☆⋅⋆──────────────────
 
@@ -29478,6 +29475,13 @@ entities:
     components:
     - type: Transform
       pos: 26.5,7.5
+      parent: 1668
+- proto: PlushieRainbowCarp
+  entities:
+  - uid: 6954
+    components:
+    - type: Transform
+      pos: 14.541379,6.418272
       parent: 1668
 - proto: PlushieVox
   entities:
@@ -34040,6 +34044,13 @@ entities:
     - type: Transform
       pos: -24.5,12.5
       parent: 1668
+- proto: SpawnMobPenguin
+  entities:
+  - uid: 6953
+    components:
+    - type: Transform
+      pos: -6.5,3.5
+      parent: 1668
 - proto: SpawnVehicleChairOfficeDark
   entities:
   - uid: 1021
@@ -36824,9 +36835,10 @@ entities:
       parent: 1668
 - proto: TurnstileGenpopEnter
   entities:
-  - uid: 5670
+  - uid: 6614
     components:
     - type: Transform
+      rot: 1.5707963267948966 rad
       pos: 15.5,13.5
       parent: 1668
   - uid: 6729
@@ -36837,9 +36849,10 @@ entities:
       parent: 1668
 - proto: TurnstileGenpopLeave
   entities:
-  - uid: 6614
+  - uid: 5670
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: 15.5,11.5
       parent: 1668
 - proto: TwoWayLever
