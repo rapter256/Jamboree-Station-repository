@@ -21,3 +21,21 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 40000 # 11.1 hours
+
+- type: entity
+  categories: [ HideSpawnMenu, Spawner ]
+  parent: BaseAntagSpawner
+  id: SpawnPointGhostRoboNeuroticist
+  components:
+  - type: GhostRole
+    name: ghost-role-information-roboneuroticist-name
+    description: ghost-role-information-roboneuroticist-description
+    rules: ghost-role-information-roboneuroticist-rules
+    mindRoles:
+    - MindRoleRoboNeuroticist
+    requirements: # keep in sync with the antag prototype
+    - !type:OverallPlaytimeRequirement
+      time: 172800 # 48h evil big antag lots of playtime
+    - !type:RoleTimeRequirement
+      role: JobResearchDirector
+      time: 7200 # changed from 2h robotocist from DV to RD
