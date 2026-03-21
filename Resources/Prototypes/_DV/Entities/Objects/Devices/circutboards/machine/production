@@ -6,6 +6,6 @@
   - type: MachineBoard
     prototype: SyndicateExosuitFabricator
     stackRequirements:
-      Capacitor: 2
+      MicroManipulatorStockPart: 2
       Glass: 4
       Cable: 5
