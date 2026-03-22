@@ -868,3 +868,11 @@ Entries:
       message: Glacier has had a small fix to add a reagent grinder to it!
   id: 92
   time: '2026-03-22T01:10:41.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Discount Dan's now offers a delicious sequel to the space dog: Space Dog
+        2.
+  id: 93
+  time: '2026-03-22T07:37:05.0000000+00:00'
