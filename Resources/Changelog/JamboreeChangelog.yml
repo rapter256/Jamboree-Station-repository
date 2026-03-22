@@ -856,3 +856,15 @@ Entries:
         works!
   id: 91
   time: '2026-03-21T09:18:58.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Fix
+      message: Saltern is now properly working!
+    - type: Add
+      message: >-
+        Added the Zookeeper, Radio Host, and Reporter roles to Saltern! Also new
+        little fun things around the map!
+    - type: Tweak
+      message: Glacier has had a small fix to add a reagent grinder to it!
+  id: 92
+  time: '2026-03-22T01:10:41.0000000+00:00'
