@@ -876,3 +876,11 @@ Entries:
         2.
   id: 93
   time: '2026-03-22T07:37:05.0000000+00:00'
+- author: Amos-Ann-works
+  changes:
+    - type: Tweak
+      message: >-
+        Retextured Some of the Experiment Hardsuits textures to fit more with
+        its main texture.
+  id: 94
+  time: '2026-03-25T05:27:34.0000000+00:00'
