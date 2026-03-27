@@ -5,8 +5,8 @@
   description: Don't stand too close to this thing, definitely dont put anything metal in.
   components:
   - type: Microwave
-    cookTimeMultiplier: 0.45
-    baseHeatMultiplier: 180
+    cookTimeMultiplier: 0.45 # Jamboree
+    baseHeatMultiplier: 180 # Jamboree
     capacity: 30
     canMicrowaveIdsSafely: false # No AA farm
     temperatureUpperThreshold: 410.32
