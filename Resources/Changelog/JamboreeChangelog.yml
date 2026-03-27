@@ -921,3 +921,20 @@ Entries:
         implemented, this is to help give someone a head start ;)
   id: 95
   time: '2026-03-27T06:25:53.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Added the pleebnar, hamster, homunculus, pet rock, bee, cockroach, and
+        snoth to the animals loadout menu! Guess the pet store finally
+        restocked...
+    - type: Add
+      message: >-
+        Added the hand labeler to the trinket loadout menu! Now you can name
+        your pets. Or your survival box. Or your hat. Or your jumpsu-
+    - type: Add
+      message: >-
+        Added rubber duck, and the magic crayon to the loadout menu. Nick-knacks
+        galore!
+  id: 96
+  time: '2026-03-27T14:07:43.0000000+00:00'
