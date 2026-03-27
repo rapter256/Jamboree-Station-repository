@@ -1,0 +1,5 @@
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: AdvancedMicrowaveMachineCircuitBoard
+  result: AdvancedMicrowaveMachineCircuitBoard
