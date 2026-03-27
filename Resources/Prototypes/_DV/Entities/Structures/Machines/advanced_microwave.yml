@@ -6,6 +6,8 @@
   components:
   - type: Microwave
     cookTimeMultiplier: 0.5
+    BaseHeatMultiplier: 120
+    TemperatureUpperThreshold: 435.43
     capacity: 30
     canMicrowaveIdsSafely: false # No AA farm
   - type: Sprite
@@ -19,7 +21,3 @@
     intensitySlope: 10
     canCreateVacuum: false
     deleteAfterExplosion: false
-  - type: FoodRecipeProvider
-    providedRecipes: # if any new unique foods get added this will need updating
-    - RecipeBaguetteSword
-    - RecipeThrowingCroissant

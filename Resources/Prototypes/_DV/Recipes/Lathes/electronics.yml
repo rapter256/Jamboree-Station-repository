@@ -1,5 +1,7 @@
-
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
   id: AdvancedMicrowaveMachineCircuitBoard
   result: AdvancedMicrowaveMachineCircuitBoard
+  icon:
+    sprite: _DV/Structures/Machines/advanced_microwave.rsi
+    state: mw
