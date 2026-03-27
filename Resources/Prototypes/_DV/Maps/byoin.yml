@@ -67,7 +67,6 @@
           #supply
             SalvageSpecialist: [ 2, 2 ]
             CargoTechnician: [ 2, 2 ]
-            Courier: [ 1, 1 ]
           #civilian
             Passenger: [ -1, -1 ]
             Lawyer: [ 1, 1 ]
