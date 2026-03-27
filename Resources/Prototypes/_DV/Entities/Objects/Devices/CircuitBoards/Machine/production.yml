@@ -6,6 +6,6 @@
   - type: MachineBoard
     prototype: AdvancedMicrowave
     stackRequirements:
-      Manipulator: 2
-      Glass: 4
-      Cable: 5
+      Manipulator: 3
+      Glass: 5
+      Cable: 6
