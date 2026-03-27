@@ -1,5 +1,7 @@
 # Pet Rock
 - type: entity
+  name: pet rock
+  description: Your new and only best friend!
   parent: BaseItem #changed cause no have BasePetRock
   id: PetRock
   components:
