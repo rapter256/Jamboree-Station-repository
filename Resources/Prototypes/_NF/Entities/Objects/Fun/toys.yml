@@ -1,0 +1,9 @@
+# Pet Rock
+- type: entity
+  parent: BaseItem #changed cause no have BasePetRock
+  id: PetRock
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Fun/petrock.rsi
+    layers:
+    - state: rock
