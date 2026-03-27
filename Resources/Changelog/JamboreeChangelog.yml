@@ -884,3 +884,40 @@ Entries:
         its main texture.
   id: 94
   time: '2026-03-25T05:27:34.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: >-
+        Ported Byoin: A low-pop map from Delta V! It has been refurbished with
+        the Jamboree necessities! Check out the brand new entertainment station
+        which replaces the courtroom from the original map!
+    - type: Add
+      message: >-
+        Reach returns! It is now refurbished to allow for the Radio Host role,
+        has things to deal with pesky viruses, has different command kits
+        present in their respective departments, a slight expanding of salvage's
+        space, and more! Take a cruise today!
+    - type: Tweak
+      message: >-
+        Tweaked Saltern, Glacier, and Central Command as to remove some small
+        issues! Saltern has proper station radios now, Glacier has a crate with
+        a Lavaland gate flatpack in it, and Central Command's radio station now
+        is accessible by service!
+    - type: Add
+      message: >-
+        The Owl has come to save the station from it's woes! Added the super
+        suit of the Owl, alongside a more boring normal costume, and some
+        gadgets for him to use in his crusade to save the sector. While
+        currently just an admeme, expect updates in the future...
+    - type: Add
+      message: >-
+        The Griffin has come to terrorize the station! Added the super suit of
+        the Griffin, alongside a more boring normal costume, and some gadgets
+        for him to use in his villainous escapades to "griff" the sector! While
+        currently just an admeme, expect updates in the future...
+    - type: Add
+      message: >-
+        Added the textures of the AAC tablets to the game! While not fully
+        implemented, this is to help give someone a head start ;)
+  id: 95
+  time: '2026-03-27T06:25:53.0000000+00:00'
