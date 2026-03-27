@@ -239,11 +239,11 @@
   components:
   - type: Microwave
     cookTimeMultiplier: 0.4 # Jamboree
-    baseHeatMultiplier: 200 # Jamboree
+    baseHeatMultiplier: 350 # Jamboree
     capacity: 8 # Jamboree
     canMicrowaveIdsSafely: false
     explosionChance: 0.10 # Goobstation
-    temperatureUpperThreshold: 435.32 # Goobstation
+    temperatureUpperThreshold: 480.32 # Goobstation
   - type: Sprite
     sprite: Structures/Machines/microwave_syndie.rsi
     drawdepth: SmallObjects
