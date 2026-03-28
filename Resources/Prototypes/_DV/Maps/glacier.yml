@@ -20,7 +20,7 @@
           !type:NanotrasenNameGenerator
           prefixCreator: 'NY'
       - type: StationEmergencyShuttle
-        emergencyShuttlePath: /Maps/Shuttles/emergency_cluster.yml #jamboree
+        emergencyShuttlePath: /Maps/Shuttles/emergency_cluster.yml #jamboree, port their original evac shuttles when possible
       - type: StationJobs
         availableJobs:
           Captain: [ 1, 1 ]

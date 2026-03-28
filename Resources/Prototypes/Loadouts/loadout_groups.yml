@@ -187,6 +187,10 @@
   - PersonalAI # Goobstation
   - GoldenPersonalAI # Goobstation
   - CrewCassette # Goobstation
+  - HandLabeler #jambo
+  - RubberDuck #jambo
+  - DiceBag #jambo
+  - MagicCrayon #NF, jambo
   - ThreeCandles
   - Lighter
   - CigPackGreen
@@ -270,10 +274,17 @@
   minLimit: 0
   maxLimit: 1
   loadouts:
-  - Squackroach
+  - Hamster #jamboree
   - Mouse
   - Mothroach
+  - Squackroach
+  - Snoth #jamboree
   - Goldfish
+  - Pleebnar #jamboree, imp origin
+  - Homunculus #jamboree, goob origin
+  - Cockroach #jamboree
+  - Bee #jamboree
+  - Rock #jamboree, NF origin
 
 - type: loadoutGroup
   id: GroupTankHarness
