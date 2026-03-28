@@ -9,7 +9,7 @@
   description: Heavy metal bat with an extra kick.
   components:
   - type: Sprite
-    sprite: Textures/_DV/Objects/Weapons/Melee/home_run_bat.rsi #changed since it was wrong
+    sprite: _DV/Objects/Weapons/melee/home_run_bat.rsi #changed since it was wrong
     state: icon
   - type: MeleeWeapon
     damage:
