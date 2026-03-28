@@ -944,3 +944,24 @@ Entries:
       message: HoP's military jumpsuit has been color corrected!
   id: 97
   time: '2026-03-28T00:53:54.0000000+00:00'
+- author: PureBreadBagel
+  changes:
+    - type: Add
+      message: >-
+        NanoTrasen patented some nice designs for the kitchen! Advanced
+        Microwaves can now be researched! It bakes items faster than a normal
+        microwave! Along with being able to store more items inside of it. 
+    - type: Tweak
+      message: >-
+        Donk. Co had researched into more efficent micro-'waves'. The Donk. Co
+        microwave has been buffed to cook items a bit more quickly than the
+        Advanced Microwave, but with lesser storage space.
+    - type: Tweak
+      message: >-
+        Librarians have went through more training! They can now understand the
+        languages of Carps and Goblins, along with Pigs, Kangaroos, Deers and
+        Ducks!
+    - type: Tweak
+      message: Nerfed tendons growth by alot.
+  id: 98
+  time: '2026-03-28T00:56:04.0000000+00:00'
