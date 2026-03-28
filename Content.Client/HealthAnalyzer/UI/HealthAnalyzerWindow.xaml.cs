@@ -69,6 +69,7 @@
 
 using System.Linq;
 using System.Numerics;
+using Content.Client._DV.Traits.Assorted; // DeltaV
 using Content.Shared.Atmos;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Damage;
@@ -111,6 +112,7 @@ namespace Content.Client.HealthAnalyzer.UI
         private readonly SpriteSystem _spriteSystem;
         private readonly IPrototypeManager _prototypes;
         private readonly IResourceCache _cache;
+        private readonly RedshirtSystem _redshirt; // DeltaV
 
         // Shitmed Change Start
         private readonly WoundSystem _wound;
@@ -134,6 +136,7 @@ namespace Content.Client.HealthAnalyzer.UI
             _spriteSystem = _entityManager.System<SpriteSystem>();
             _prototypes = dependencies.Resolve<IPrototypeManager>();
             _cache = dependencies.Resolve<IResourceCache>();
+            _redshirt = _entityManager.System<RedshirtSystem>(); // DeltaV
             // Shitmed Change Start
             _wound = _entityManager.System<WoundSystem>();
             _bodyPartControls = new Dictionary<TargetBodyPart, TextureButton>
@@ -255,6 +258,12 @@ namespace Content.Client.HealthAnalyzer.UI
 
             return true;
         }
+        //Alerts
+
+
+        var redshirt = _redshirt.IsRedshirt(_target.Value) && mobStateComponent?.CurrentState == MobState.Dead; // DeltaV - Redshirt
+            var showAlerts = msg.Unrevivable == true || msg.Bleeding == true || unborgable || redshirt; // DeltaV - Unborgable/Redshirt
+
 
         // All of this shit got fucked with, we're cooked hometh :wilted_rose: shitmod when
         public void Populate(HealthAnalyzerBodyMessage msg)
