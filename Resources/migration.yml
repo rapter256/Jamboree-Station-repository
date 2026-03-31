@@ -990,7 +990,7 @@ LightTree06: LightTree
 # 2024-12-22 # Lavaland Change: Migrations
 VendingMachineRestockSalvageEquipment: null
 ComputerSalvageExpedition: ComputerShuttleMiningLavaland
-SalvageExpeditionsComputerCircuitboard: LavalandShuttleConsoleCircuitboard
+#SalvageExpeditionsComputerCircuitboard: LavalandShuttleConsoleCircuitboard- we want expeds
 
 # 2025-01-06
 BorgModuleRadiationDetection: null

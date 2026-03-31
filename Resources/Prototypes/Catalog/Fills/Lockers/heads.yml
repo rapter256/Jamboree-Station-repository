@@ -175,6 +175,7 @@
     - id: CargoMegaphone # goob - loudspeaker
 #    - id: SlotMachineHighRollerFlatPack # Jamboree - available in gear selector
     - id: QMUndeterminedWeapon # Jamboree - command gear selectors
+    - id: SalvageExpeditionsComputerCircuitboard #jamboree - re-adds expeditions
 
 - type: entity
   id: LockerQuarterMasterFilled
