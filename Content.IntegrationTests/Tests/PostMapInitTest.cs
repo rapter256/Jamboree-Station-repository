@@ -227,7 +227,6 @@ namespace Content.IntegrationTests.Tests
             "OasisHighPop",
             "Barratry", // Goobstation - add Barratry
             "Kettle", // Goobstation - add Kettle
-            "Pebble", //DeltaV
             "Submarine", // Goobstation - add Submarine
             "Lambda", // Goobstation - add Lambda
             "Leonid", // Goobstation - add Leonid
