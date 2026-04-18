@@ -240,6 +240,7 @@ namespace Content.IntegrationTests.Tests
             "Serpentcrest", // Goobstation
             "Chibi", // Jamboree, DV
             "Glacier", // Jamboree, DV
+            "Byoin", // Jamboree, DV
         };
 
         private static readonly ProtoId<EntityCategoryPrototype> DoNotMapCategory = "DoNotMap";
