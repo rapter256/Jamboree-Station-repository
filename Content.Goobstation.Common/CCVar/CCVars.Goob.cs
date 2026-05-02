@@ -618,6 +618,12 @@ public sealed partial class GoobCVars
         CVarDef.Create("ui.auto_focus_search_on_build_menu", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    /// When enabled, action hotbar slots can only be drag-reordered while the actions menu is open.
+    /// </summary>
+    public static readonly CVarDef<bool> LockActionBarDrag =
+        CVarDef.Create("ui.lock_action_bar_drag", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
     /// Whether or not to show detailed examine text.
     /// </summary>
     public static readonly CVarDef<bool> DetailedExamine =
@@ -658,6 +664,18 @@ public sealed partial class GoobCVars
     /// </summary>
     public static readonly CVarDef<float> AdminNotificationVolume =
         CVarDef.Create("admin.notification_volume", 1f, CVar.CLIENT | CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// Whether or not to spawn space whales if the entity is too far away from the station
+    /// </summary>
+    public static readonly CVarDef<bool> SpaceWhaleSpawn =
+        CVarDef.Create("misc.space_whale_spawn", true, CVar.SERVER);
+
+    /// <summary>
+    /// The distance to spawn a space whale from the station
+    /// </summary>
+    public static readonly CVarDef<int> SpaceWhaleSpawnDistance =
+        CVarDef.Create("misc.space_whale_spawn_distance", 1965, CVar.SERVER);
 
     #endregion
     /// <summary>
